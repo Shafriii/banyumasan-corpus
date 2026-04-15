@@ -1,11 +1,14 @@
 {
   "metadata": {
-    "source_file": "korpus_clean_final.xlsx",
-    "sheet_name": "Sheet1",
+    "source_file": "corpus.csv",
     "entry_count": 2000,
     "unique_ngapak": 1996,
     "unique_indonesia": 1444,
-    "duplicate_ngapak_terms": 4
+    "duplicate_ngapak_terms": 4,
+    "contributor_count": 1,
+    "source_types": [
+      "legacy_import"
+    ]
   },
   "entries": [
     {

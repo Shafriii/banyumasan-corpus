@@ -1,7 +1,10 @@
 include LICENSE
 include README.md
-include korpus_clean_final.xlsx
+include CONTRIBUTING.md
+include CODE_OF_CONDUCT.md
 graft docs
+graft data
 graft scripts
 graft tests
+exclude korpus_clean_final.xlsx
 global-exclude __pycache__ *.py[cod]

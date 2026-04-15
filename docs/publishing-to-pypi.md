@@ -1,11 +1,17 @@
 # Publishing `banyumasan-corpus` to PyPI
 
-This guide assumes you are publishing from the project root and that the PyPI
-distribution name will be `banyumasan-corpus`.
+This repository uses a maintainer-controlled release flow:
 
-As of April 15, 2026, `https://pypi.org/project/banyumasan-corpus/` returned
-`404 Not Found`, so the name appeared to be available at that time. Verify it
-again right before your first upload.
+- pull requests run build and test checks only,
+- pushes to `main` run build and test checks only,
+- TestPyPI publishes happen only through a manual GitHub Actions run,
+- production PyPI publishes happen only from `v*` tags.
+
+The workflow lives in:
+
+```text
+.github/workflows/release.yml
+```
 
 ## 1. Fill in the package metadata
 
@@ -18,105 +24,118 @@ Before publishing, update the placeholders in `pyproject.toml` and `LICENSE`:
 Also confirm that the package version is correct. The initial version in this
 project is `0.1.0`.
 
-## 2. Create PyPI and TestPyPI accounts
+## 2. Add the release workflow to GitHub
+
+Commit and push:
+
+```text
+.github/workflows/release.yml
+```
+
+The workflow is configured so that:
+
+- `pull_request` events build and test the project,
+- pushes to `main` build and test the project,
+- `workflow_dispatch` can optionally publish to TestPyPI,
+- tag pushes matching `v*` publish to PyPI,
+- only the publish jobs receive `id-token: write`.
+
+## 3. Create the GitHub environments
+
+In the GitHub repository settings, create these environments:
+
+- `testpypi`
+- `pypi`
+
+Require manual approval for the `pypi` environment. That keeps production
+releases maintainer-controlled even after a tag is pushed.
+
+You can also require manual approval for `testpypi` if you want the same gate
+on pre-release uploads, but it is optional.
+
+## 4. Create PyPI and TestPyPI accounts
 
 You need separate accounts for:
 
 - PyPI: `https://pypi.org/account/register/`
 - TestPyPI: `https://test.pypi.org/account/register/`
 
-TestPyPI is a separate service and may be cleaned periodically, so treat it as
-a disposable testing environment.
+## 5. Configure trusted publishers
 
-## 3. Create API tokens
+Use PyPI Trusted Publishing rather than storing API tokens in GitHub.
 
-Create an API token in each service after logging in:
+### PyPI
 
-- PyPI token page: `https://pypi.org/manage/account/#api-tokens`
-- TestPyPI token page: `https://test.pypi.org/manage/account/#api-tokens`
+Go to:
 
-For the first upload of a new project, create a token that is not restricted to
-an existing project, because the project does not exist there yet.
+```text
+https://pypi.org/manage/account/publishing/
+```
 
-Keep both tokens somewhere safe. PyPI only shows the full token once.
+Register a GitHub publisher with:
 
-## 4. Create and activate a virtual environment
+- PyPI project name: `banyumasan-corpus`
+- owner or organization: your GitHub owner
+- repository name: `banyumasan-corpus`
+- workflow filename: `release.yml`
+- environment name: `pypi`
+
+### TestPyPI
+
+Go to:
+
+```text
+https://test.pypi.org/manage/account/publishing/
+```
+
+Register a GitHub publisher with:
+
+- PyPI project name: `banyumasan-corpus`
+- owner or organization: your GitHub owner
+- repository name: `banyumasan-corpus`
+- workflow filename: `release.yml`
+- environment name: `testpypi`
+
+If the project does not exist yet, create pending publishers in both services.
+
+## 6. Run the local pre-release checks
+
+From the project root:
 
 ```bash
 python3 -m venv .venv
 source .venv/bin/activate
-python3 -m pip install --upgrade pip
-```
-
-## 5. Install release tooling
-
-```bash
-python3 -m pip install --upgrade build twine
-```
-
-## 6. Regenerate the packaged corpus data
-
-Run the build script so the JSON bundled in the wheel matches the spreadsheet:
-
-```bash
+python3 -m pip install --upgrade pip build twine
 python3 scripts/build_corpus.py
-```
-
-This reads `korpus_clean_final.xlsx` and writes:
-
-```text
-src/banyumasan_corpus/data/corpus.json
-```
-
-## 7. Run the test suite
-
-```bash
 python3 -m unittest discover -s tests -v
-```
-
-If the tests fail, fix the issue before building a release.
-
-## 8. Build the distribution files
-
-If you want a clean rebuild, remove any old `dist/`, `build/`, and
-`*.egg-info/` directories first.
-
-Then build both the source distribution and the wheel:
-
-```bash
 python3 -m build
-```
-
-This creates artifacts under `dist/`.
-
-## 9. Validate the package metadata and README
-
-```bash
 python3 -m twine check dist/*
 ```
 
-This checks whether the built distributions have valid metadata and whether the
-Markdown README renders in a PyPI-compatible way.
+This verifies that:
 
-## 10. Upload to TestPyPI first
+- `data/corpus.csv` is valid,
+- the packaged JSON is up to date,
+- the tests pass,
+- both the wheel and sdist build cleanly,
+- the metadata and README render cleanly for PyPI.
 
-Export your TestPyPI token and upload the package:
+## 7. Release TestPyPI manually
 
-```bash
-export TWINE_USERNAME=__token__
-export TWINE_PASSWORD='pypi-your-testpypi-token'
-python3 -m twine upload --repository-url https://test.pypi.org/legacy/ dist/*
-```
+After the release candidate is merged to `main`, go to the GitHub Actions UI
+and run the `CI and Release` workflow manually on the desired ref with:
 
-Notes:
+- `publish_target=testpypi`
 
-- keep the `pypi-` prefix in the token value,
-- `__token__` is the username when using API tokens,
-- `https://test.pypi.org/legacy/` is the upload endpoint to use with Twine.
+That manual run will:
 
-## 11. Smoke-test the TestPyPI release
+1. rebuild `src/banyumasan_corpus/data/corpus.json`,
+2. fail if the generated JSON differs from what is committed,
+3. run the test suite,
+4. build `dist/*`,
+5. upload the distributions to TestPyPI through Trusted Publishing.
 
-Create a fresh environment and install from TestPyPI:
+Then smoke-test the TestPyPI release in a fresh environment:
 
 ```bash
 python3 -m venv /tmp/banyumasan-corpus-test
@@ -134,23 +153,19 @@ PY
 deactivate
 ```
 
-Confirm that:
+## 8. Release production PyPI from a maintainer tag
 
-- the package installs cleanly,
-- `load_entries()` returns `2000`,
-- a sample lookup such as `find_ngapak("dhuwur")` works.
-
-## 12. Upload to production PyPI
-
-Once TestPyPI looks correct, switch to your real PyPI token:
+When TestPyPI looks correct, create and push a version tag:
 
 ```bash
-export TWINE_USERNAME=__token__
-export TWINE_PASSWORD='pypi-your-production-pypi-token'
-python3 -m twine upload dist/*
+git tag v0.1.0
+git push origin v0.1.0
 ```
 
-After a successful upload, verify the package page:
+That triggers the PyPI publish job, which waits for approval on the `pypi`
+environment and then uploads through Trusted Publishing.
+
+After the upload succeeds, verify the package page:
 
 ```text
 https://pypi.org/project/banyumasan-corpus/
@@ -162,40 +177,35 @@ Then test a real install:
 python3 -m pip install banyumasan-corpus
 ```
 
-## 13. Tag the release
-
-If you are using Git, create a matching tag after the upload succeeds:
-
-```bash
-git tag v0.1.0
-git push origin v0.1.0
-```
+## 9. Release checklist for later versions
 
 For later releases:
 
 1. update the version in `pyproject.toml`,
-2. rebuild the corpus JSON if the spreadsheet changed,
-3. rerun tests,
-4. rebuild `dist/*`,
-5. upload the new version.
+2. update `data/corpus.csv` if the dataset changed,
+3. rebuild the packaged JSON,
+4. rerun tests and build checks locally,
+5. merge the release candidate to `main`,
+6. manually publish to TestPyPI,
+7. push the matching `v*` tag for PyPI.
 
 PyPI requires every uploaded release version to be unique. You cannot overwrite
 an existing release by uploading the same version again.
 
-## Optional future improvement: Trusted Publishing
+## Security notes
 
-This project is currently documented for token-based uploads because it is the
-simplest manual workflow.
-
-If you later move releases into GitHub Actions, PyPI Trusted Publishing is worth
-considering so the workflow can mint short-lived tokens instead of storing a
-long-lived API token in CI.
+- do not add `PYPI_API_TOKEN` or `TEST_PYPI_API_TOKEN` repository secrets for
+  this workflow,
+- do not grant publish permissions to PR jobs,
+- keep PyPI publishing tag-based and maintainer-approved,
+- review tag protection so only maintainers can create release tags that match
+  `v*`.
 
 Official references:
 
 - Python Packaging User Guide:
-  `https://packaging.python.org/en/latest/guides/distributing-packages-using-setuptools/`
-- Using TestPyPI:
-  `https://packaging.python.org/en/latest/guides/using-testpypi/`
+  `https://packaging.python.org/en/latest/guides/publishing-package-distribution-releases-using-github-actions-ci-cd-workflows/`
 - PyPI Trusted Publishers:
   `https://docs.pypi.org/trusted-publishers/using-a-publisher/`
+- PyPI pending publishers:
+  `https://docs.pypi.org/trusted-publishers/creating-a-project-through-oidc/`

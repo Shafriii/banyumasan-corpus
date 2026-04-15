@@ -1,64 +1,36 @@
 from __future__ import annotations
 
+import csv
 import json
-import shutil
 import subprocess
 import sys
 import tempfile
 import unittest
 from pathlib import Path
-from xml.etree import ElementTree as ET
-from zipfile import ZipFile
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 BUILD_SCRIPT = PROJECT_ROOT / "scripts" / "build_corpus.py"
-SOURCE_XLSX = PROJECT_ROOT / "korpus_clean_final.xlsx"
-WORKBOOK_NS = "http://schemas.openxmlformats.org/spreadsheetml/2006/main"
-REL_NS = "http://schemas.openxmlformats.org/officeDocument/2006/relationships"
-NS = {"main": WORKBOOK_NS, "rel": REL_NS}
+SOURCE_CSV = PROJECT_ROOT / "data" / "corpus.csv"
+EXPECTED_HEADERS = [
+    "ngapak",
+    "indonesia",
+    "contributor",
+    "source_type",
+    "source_detail",
+    "notes",
+]
 
 
-def _load_shared_strings(path: Path) -> tuple[ET.Element, list[str], int]:
-    with ZipFile(path) as archive:
-        workbook = ET.fromstring(archive.read("xl/workbook.xml"))
-        rels = ET.fromstring(archive.read("xl/_rels/workbook.xml.rels"))
-        rel_map = {rel.attrib["Id"]: rel.attrib["Target"] for rel in rels}
-        sheet = workbook.find("main:sheets", NS)[0]
-        sheet_target = rel_map[sheet.attrib[f"{{{REL_NS}}}id"]]
-        if not sheet_target.startswith("xl/"):
-            sheet_target = f"xl/{sheet_target}"
-        worksheet = ET.fromstring(archive.read(sheet_target))
-        first_row = worksheet.find("main:sheetData", NS)[0]
-        first_cell = first_row.find("main:c", NS)
-        shared_index = int(first_cell.find("main:v", NS).text)
-
-        shared_root = ET.fromstring(archive.read("xl/sharedStrings.xml"))
-        values = [
-            "".join(node.text or "" for node in item.iter(f"{{{WORKBOOK_NS}}}t"))
-            for item in shared_root
-        ]
-        return shared_root, values, shared_index
+def _read_rows(path: Path) -> list[dict[str, str]]:
+    with path.open("r", encoding="utf-8", newline="") as handle:
+        return list(csv.DictReader(handle))
 
 
-def _rewrite_header(path: Path, new_header: str) -> None:
-    shared_root, _, shared_index = _load_shared_strings(path)
-    item = shared_root[shared_index]
-    text_node = next(item.iter(f"{{{WORKBOOK_NS}}}t"))
-    text_node.text = new_header
-
-    with tempfile.NamedTemporaryFile(delete=False) as temp_handle:
-        temp_path = Path(temp_handle.name)
-
-    try:
-        with ZipFile(path) as source, ZipFile(temp_path, "w") as target:
-            for info in source.infolist():
-                data = source.read(info.filename)
-                if info.filename == "xl/sharedStrings.xml":
-                    data = ET.tostring(shared_root, encoding="utf-8", xml_declaration=True)
-                target.writestr(info, data)
-        shutil.move(temp_path, path)
-    finally:
-        temp_path.unlink(missing_ok=True)
+def _write_rows(path: Path, rows: list[dict[str, str]], headers: list[str] | None = None) -> None:
+    with path.open("w", encoding="utf-8", newline="") as handle:
+        writer = csv.DictWriter(handle, fieldnames=headers or EXPECTED_HEADERS)
+        writer.writeheader()
+        writer.writerows(rows)
 
 
 class BuildScriptTests(unittest.TestCase):
@@ -81,12 +53,14 @@ class BuildScriptTests(unittest.TestCase):
     def test_build_script_generates_expected_payload(self) -> None:
         with tempfile.TemporaryDirectory() as temp_dir:
             output_path = Path(temp_dir) / "corpus.json"
-            result = self.run_build(SOURCE_XLSX, output_path)
+            result = self.run_build(SOURCE_CSV, output_path)
             self.assertEqual(result.returncode, 0, msg=result.stderr)
 
             payload = json.loads(output_path.read_text(encoding="utf-8"))
+            self.assertEqual(payload["metadata"]["source_file"], "corpus.csv")
             self.assertEqual(payload["metadata"]["entry_count"], 2000)
-            self.assertEqual(payload["metadata"]["sheet_name"], "Sheet1")
+            self.assertEqual(payload["metadata"]["contributor_count"], 1)
+            self.assertEqual(payload["metadata"]["source_types"], ["legacy_import"])
             self.assertEqual(payload["entries"][0], {"ngapak": "abab", "indonesia": "tiupan napas"})
             self.assertEqual(payload["entries"][-1], {"ngapak": "egot", "indonesia": "kaku"})
             self.assertIn(
@@ -101,14 +75,50 @@ class BuildScriptTests(unittest.TestCase):
     def test_build_script_rejects_unexpected_headers(self) -> None:
         with tempfile.TemporaryDirectory() as temp_dir:
             temp_dir_path = Path(temp_dir)
-            mutated_xlsx = temp_dir_path / "broken.xlsx"
-            shutil.copy2(SOURCE_XLSX, mutated_xlsx)
-            _rewrite_header(mutated_xlsx, "wrong_header")
+            mutated_csv = temp_dir_path / "broken.csv"
+            lines = SOURCE_CSV.read_text(encoding="utf-8").splitlines()
+            lines[0] = ",".join(
+                [
+                    "wrong_header",
+                    "indonesia",
+                    "contributor",
+                    "source_type",
+                    "source_detail",
+                    "notes",
+                ]
+            )
+            mutated_csv.write_text("\n".join(lines) + "\n", encoding="utf-8")
 
             output_path = temp_dir_path / "corpus.json"
-            result = self.run_build(mutated_xlsx, output_path)
+            result = self.run_build(mutated_csv, output_path)
             self.assertNotEqual(result.returncode, 0)
-            self.assertIn("Unexpected workbook headers", result.stderr)
+            self.assertIn("Unexpected CSV headers", result.stderr)
+
+    def test_build_script_requires_contributor_provenance(self) -> None:
+        with tempfile.TemporaryDirectory() as temp_dir:
+            temp_dir_path = Path(temp_dir)
+            mutated_csv = temp_dir_path / "broken.csv"
+            rows = _read_rows(SOURCE_CSV)
+            rows[0]["contributor"] = ""
+            _write_rows(mutated_csv, rows)
+
+            output_path = temp_dir_path / "corpus.json"
+            result = self.run_build(mutated_csv, output_path)
+            self.assertNotEqual(result.returncode, 0)
+            self.assertIn("must include a contributor value", result.stderr)
+
+    def test_build_script_rejects_unknown_source_type(self) -> None:
+        with tempfile.TemporaryDirectory() as temp_dir:
+            temp_dir_path = Path(temp_dir)
+            mutated_csv = temp_dir_path / "broken.csv"
+            rows = _read_rows(SOURCE_CSV)
+            rows[0]["source_type"] = "blog_post"
+            _write_rows(mutated_csv, rows)
+
+            output_path = temp_dir_path / "corpus.json"
+            result = self.run_build(mutated_csv, output_path)
+            self.assertNotEqual(result.returncode, 0)
+            self.assertIn("unsupported source_type", result.stderr)
 
 
 if __name__ == "__main__":

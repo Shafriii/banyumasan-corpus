@@ -15,7 +15,7 @@ python3 -m pip install --upgrade pip build twine
 
 ## 2. Regenerate the packaged corpus data
 
-If the spreadsheet changed, rebuild the packaged JSON:
+If `data/corpus.csv` changed, rebuild the packaged JSON:
 
 ```bash
 python3 scripts/build_corpus.py
@@ -49,7 +49,7 @@ This covers:
 - detailed translation output,
 - intrinsic metrics,
 - batch translation,
-- XLSX-to-JSON build validation.
+- CSV-to-JSON build validation and provenance checks.
 
 ## 5. Try the package in Python
 

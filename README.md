@@ -3,10 +3,10 @@
 `banyumasan-corpus` packages a Banyumasan (Ngapak) to Indonesian corpus as a
 small, dependency-free Python library.
 
-The source of truth is the spreadsheet `korpus_clean_final.xlsx`. During
-development or release preparation, the project converts that workbook into a
-packaged UTF-8 JSON file. At runtime, the library reads the generated JSON, not
-the original Excel file.
+The source of truth is `data/corpus.csv`, a diff-friendly corpus file with
+provenance columns for community contributions. During development or release
+preparation, the project converts that CSV into a packaged UTF-8 JSON file. At
+runtime, the library reads the generated JSON, not the CSV directly.
 
 ## What the corpus contains
 
@@ -19,6 +19,9 @@ the original Excel file.
 This package is intended as a base resource for Banyumasan NLP research. It
 gives you the original row-level pairs, lookup helpers, and a deterministic
 baseline translator for full-text and word-level experiments.
+
+The repository also keeps `korpus_clean_final.xlsx` as a legacy import snapshot,
+but it is no longer the canonical editing surface for contributions.
 
 ## Installation
 
@@ -242,12 +245,13 @@ print(batch.metrics.ambiguity_ratio)
 
 ## How the corpus works
 
-The package preserves the spreadsheet as row-level bilingual pairs:
+The package preserves the canonical CSV as row-level bilingual pairs:
 
 1. the first column is the Banyumasan term,
 2. the second column is the Indonesian gloss,
-3. row order is preserved exactly,
-4. duplicate Banyumasan headwords are preserved rather than merged.
+3. additional columns capture contributor and source provenance,
+4. row order is preserved exactly,
+5. duplicate Banyumasan headwords are preserved rather than merged.
 
 That means the package is useful for:
 
@@ -258,9 +262,36 @@ That means the package is useful for:
 - exporting the data into your own NLP or lexicon pipelines,
 - inspecting ambiguous Banyumasan entries without losing the original rows.
 
+The packaged Python API currently exposes only the bilingual pairs. Provenance
+columns exist to make review, attribution, and future dataset governance more
+tractable.
+
+## Community contributions
+
+Outside contributors should edit `data/corpus.csv`, not the packaged JSON and
+not the legacy workbook. Each row must include:
+
+- `ngapak`
+- `indonesia`
+- `contributor`
+- `source_type`
+- `source_detail`
+- `notes`
+
+Allowed `source_type` values are:
+
+- `legacy_import`
+- `original_submission`
+- `published_reference`
+- `field_collection`
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for the PR workflow and
+[docs/corpus-governance.md](docs/corpus-governance.md) for provenance and
+review policy.
+
 ## Regenerate the packaged JSON
 
-If you update `korpus_clean_final.xlsx`, rebuild the packaged corpus file:
+If you update `data/corpus.csv`, rebuild the packaged corpus file:
 
 ```bash
 python3 scripts/build_corpus.py
@@ -268,9 +299,10 @@ python3 scripts/build_corpus.py
 
 The script validates that:
 
-- the workbook has exactly one sheet,
-- the header is exactly `ngapak`, `indonesia`,
-- every data row has exactly two populated cells.
+- the CSV header matches the canonical schema,
+- every row has non-empty Banyumasan and Indonesian values,
+- every row has contributor and source provenance,
+- every row uses an allowed `source_type`.
 
 The generated JSON is written to:
 
@@ -290,4 +322,8 @@ For a complete local setup and try-out flow, see
 ## Publish to PyPI
 
 See [docs/publishing-to-pypi.md](docs/publishing-to-pypi.md) for the full
-release workflow, including TestPyPI and production PyPI uploads.
+release workflow. In the community model:
+
+- PRs and merges to `main` run build and test checks only,
+- TestPyPI publishes are maintainer-triggered from GitHub Actions,
+- production PyPI publishes happen only from maintainer-created `v*` tags.
