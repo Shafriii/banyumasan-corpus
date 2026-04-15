@@ -6,9 +6,15 @@ import json
 import re
 from functools import lru_cache
 from importlib.resources import files
-from typing import Any, NamedTuple
+from typing import Any, NamedTuple, Sequence
 
-from ._models import CorpusEntry, TranslationChunk, TranslationResult
+from ._models import (
+    CorpusEntry,
+    TranslationBatchResult,
+    TranslationChunk,
+    TranslationMetrics,
+    TranslationResult,
+)
 
 _STATS_KEYS = (
     "entry_count",
@@ -232,6 +238,66 @@ def _translate_with_entries(text: str, entries: tuple[CorpusEntry, ...]) -> Tran
     )
 
 
+def _chunk_token_count(chunk: TranslationChunk) -> int:
+    if chunk.token_start is None or chunk.token_end is None:
+        return 0
+    return (chunk.token_end - chunk.token_start) + 1
+
+
+def _metrics_from_results(results: Sequence[TranslationResult]) -> TranslationMetrics:
+    text_count = len(results)
+    source_token_count = 0
+    translated_token_count = 0
+    untranslated_token_count = 0
+    ambiguous_token_count = 0
+    phrase_chunk_count = 0
+    token_chunk_count = 0
+    untranslated_chunk_count = 0
+    delimiter_chunk_count = 0
+
+    for result in results:
+        for chunk in result.chunks:
+            token_count = _chunk_token_count(chunk)
+            source_token_count += token_count
+
+            if chunk.kind == "phrase":
+                phrase_chunk_count += 1
+                translated_token_count += token_count
+                if chunk.ambiguous:
+                    ambiguous_token_count += token_count
+            elif chunk.kind == "token":
+                token_chunk_count += 1
+                translated_token_count += token_count
+                if chunk.ambiguous:
+                    ambiguous_token_count += token_count
+            elif chunk.kind == "untranslated":
+                untranslated_chunk_count += 1
+                untranslated_token_count += token_count
+            elif chunk.kind == "delimiter":
+                delimiter_chunk_count += 1
+
+    coverage_ratio = (
+        translated_token_count / source_token_count if source_token_count else 0.0
+    )
+    ambiguity_ratio = (
+        ambiguous_token_count / translated_token_count if translated_token_count else 0.0
+    )
+
+    return TranslationMetrics(
+        text_count=text_count,
+        source_token_count=source_token_count,
+        translated_token_count=translated_token_count,
+        untranslated_token_count=untranslated_token_count,
+        ambiguous_token_count=ambiguous_token_count,
+        phrase_chunk_count=phrase_chunk_count,
+        token_chunk_count=token_chunk_count,
+        untranslated_chunk_count=untranslated_chunk_count,
+        delimiter_chunk_count=delimiter_chunk_count,
+        coverage_ratio=coverage_ratio,
+        ambiguity_ratio=ambiguity_ratio,
+    )
+
+
 def find_ngapak(term: str) -> list[CorpusEntry]:
     """Case-insensitive exact lookup on the Banyumasan column."""
     query = term.strip().casefold()
@@ -272,6 +338,18 @@ def translate_ngapak_detailed(text: str) -> TranslationResult:
         return TranslationResult(source_text=text, translated_text=text, chunks=())
 
     return _translate_with_entries(text, load_entries())
+
+
+def analyze_translation(result: TranslationResult) -> TranslationMetrics:
+    """Compute intrinsic metrics for a single translation result."""
+    return _metrics_from_results((result,))
+
+
+def translate_ngapak_batch(texts: Sequence[str]) -> TranslationBatchResult:
+    """Translate a batch of texts and compute aggregate intrinsic metrics."""
+    results = tuple(translate_ngapak_detailed(text) for text in texts)
+    metrics = _metrics_from_results(results)
+    return TranslationBatchResult(results=results, metrics=metrics)
 
 
 def stats() -> dict[str, int]:

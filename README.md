@@ -30,12 +30,16 @@ python3 -m pip install banyumasan-corpus
 
 ```python
 from banyumasan_corpus import (
+    TranslationBatchResult,
+    TranslationMetrics,
     TranslationResult,
+    analyze_translation,
     find_indonesia,
     find_ngapak,
     load_entries,
     stats,
     translate_ngapak,
+    translate_ngapak_batch,
     translate_ngapak_detailed,
 )
 
@@ -69,6 +73,18 @@ print(result.translated_text)
 # "Berat, mencari!"
 print(result.chunks[0])
 # TranslationChunk(...)
+
+metrics = analyze_translation(result)
+print(isinstance(metrics, TranslationMetrics))
+# True
+print(metrics.coverage_ratio)
+# 1.0
+
+batch = translate_ngapak_batch(["Abot, golèk!", "dhuwur xyz"])
+print(isinstance(batch, TranslationBatchResult))
+# True
+print(batch.metrics)
+# TranslationMetrics(...)
 
 print(stats())
 # {
@@ -168,6 +184,62 @@ This is useful for:
 It is still not a grammar-aware sentence translator. Ambiguous words, idioms,
 and unseen multiword expressions still need downstream modeling.
 
+## Research workflow
+
+The package now supports three levels of use:
+
+1. `translate_ngapak(text)` for a quick baseline string
+2. `translate_ngapak_detailed(text)` for chunk-level structured output
+3. `translate_ngapak_batch(texts)` and `analyze_translation(result)` for
+   intrinsic evaluation across experiments
+
+### `analyze_translation(result: TranslationResult) -> TranslationMetrics`
+
+Computes intrinsic metrics from a structured translation result.
+
+Metrics include:
+
+- `text_count`
+- `source_token_count`
+- `translated_token_count`
+- `untranslated_token_count`
+- `ambiguous_token_count`
+- `phrase_chunk_count`
+- `token_chunk_count`
+- `untranslated_chunk_count`
+- `delimiter_chunk_count`
+- `coverage_ratio`
+- `ambiguity_ratio`
+
+Interpretation:
+
+- `coverage_ratio` shows how much of the source lexical content was translated
+  by the current corpus and rules
+- `ambiguity_ratio` shows how much translated content depended on ambiguous
+  corpus matches
+
+### `translate_ngapak_batch(texts: Sequence[str]) -> TranslationBatchResult`
+
+Translates multiple texts in order and returns:
+
+- `results`: one `TranslationResult` per input text
+- `metrics`: aggregate intrinsic metrics across the batch
+
+Example:
+
+```python
+batch = translate_ngapak_batch(["Abot, golèk!", "dhuwur xyz"])
+
+print(batch.results[0].translated_text)
+# "Berat, mencari!"
+
+print(batch.metrics.coverage_ratio)
+# e.g. 0.75
+
+print(batch.metrics.ambiguity_ratio)
+# e.g. 0.33
+```
+
 ## How the corpus works
 
 The package preserves the spreadsheet as row-level bilingual pairs:
@@ -182,6 +254,7 @@ That means the package is useful for:
 - exact term lookup,
 - reverse lookup from Indonesian glosses,
 - deterministic full-text baseline translation,
+- intrinsic translation coverage analysis,
 - exporting the data into your own NLP or lexicon pipelines,
 - inspecting ambiguous Banyumasan entries without losing the original rows.
 
@@ -210,6 +283,9 @@ src/banyumasan_corpus/data/corpus.json
 ```bash
 python3 -m unittest discover -s tests -v
 ```
+
+For a complete local setup and try-out flow, see
+[docs/local-testing.md](docs/local-testing.md).
 
 ## Publish to PyPI
 

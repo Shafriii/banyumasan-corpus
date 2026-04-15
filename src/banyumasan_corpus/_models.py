@@ -1,4 +1,4 @@
-"""Typed models for corpus entries and translation results."""
+"""Typed models for corpus entries, translation results, and research metrics."""
 
 from __future__ import annotations
 
@@ -37,3 +37,28 @@ class TranslationResult:
     source_text: str
     translated_text: str
     chunks: tuple[TranslationChunk, ...]
+
+
+@dataclass(frozen=True, slots=True)
+class TranslationMetrics:
+    """Intrinsic metrics derived from structured translation output."""
+
+    text_count: int
+    source_token_count: int
+    translated_token_count: int
+    untranslated_token_count: int
+    ambiguous_token_count: int
+    phrase_chunk_count: int
+    token_chunk_count: int
+    untranslated_chunk_count: int
+    delimiter_chunk_count: int
+    coverage_ratio: float
+    ambiguity_ratio: float
+
+
+@dataclass(frozen=True, slots=True)
+class TranslationBatchResult:
+    """Batch translation output plus aggregate intrinsic metrics."""
+
+    results: tuple[TranslationResult, ...]
+    metrics: TranslationMetrics

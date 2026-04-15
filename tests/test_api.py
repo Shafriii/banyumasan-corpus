@@ -9,16 +9,20 @@ sys.path.insert(0, str(PROJECT_ROOT / "src"))
 
 from banyumasan_corpus import (
     CorpusEntry,
+    TranslationBatchResult,
     TranslationChunk,
+    TranslationMetrics,
     TranslationResult,
+    analyze_translation,
     find_indonesia,
     find_ngapak,
     load_entries,
     stats,
     translate_ngapak,
+    translate_ngapak_batch,
     translate_ngapak_detailed,
 )
-from banyumasan_corpus._api import _translate_with_entries
+from banyumasan_corpus._api import _metrics_from_results, _translate_with_entries
 
 
 class ApiTests(unittest.TestCase):
@@ -205,6 +209,144 @@ class ApiTests(unittest.TestCase):
         title = _translate_with_entries("Wong apik", entries)
         self.assertEqual(upper.translated_text, "ORANG BAIK")
         self.assertEqual(title.translated_text, "Orang baik")
+
+    def test_analyze_translation_single_translated_token(self) -> None:
+        result = translate_ngapak_detailed("abot")
+        self.assertEqual(
+            analyze_translation(result),
+            TranslationMetrics(
+                text_count=1,
+                source_token_count=1,
+                translated_token_count=1,
+                untranslated_token_count=0,
+                ambiguous_token_count=0,
+                phrase_chunk_count=0,
+                token_chunk_count=1,
+                untranslated_chunk_count=0,
+                delimiter_chunk_count=0,
+                coverage_ratio=1.0,
+                ambiguity_ratio=0.0,
+            ),
+        )
+
+    def test_analyze_translation_ambiguous_token(self) -> None:
+        result = translate_ngapak_detailed("dhuwur")
+        metrics = analyze_translation(result)
+        self.assertEqual(metrics.ambiguous_token_count, 1)
+        self.assertEqual(metrics.translated_token_count, 1)
+        self.assertEqual(metrics.ambiguity_ratio, 1.0)
+
+    def test_analyze_translation_untranslated_token(self) -> None:
+        result = translate_ngapak_detailed("xyz")
+        metrics = analyze_translation(result)
+        self.assertEqual(metrics.source_token_count, 1)
+        self.assertEqual(metrics.translated_token_count, 0)
+        self.assertEqual(metrics.untranslated_token_count, 1)
+        self.assertEqual(metrics.coverage_ratio, 0.0)
+        self.assertEqual(metrics.ambiguity_ratio, 0.0)
+
+    def test_analyze_translation_phrase_chunk_counts_full_span(self) -> None:
+        entries = (CorpusEntry(ngapak="wong apik", indonesia="orang baik"),)
+        result = _translate_with_entries("wong apik", entries)
+        metrics = analyze_translation(result)
+        self.assertEqual(metrics.source_token_count, 2)
+        self.assertEqual(metrics.translated_token_count, 2)
+        self.assertEqual(metrics.phrase_chunk_count, 1)
+        self.assertEqual(metrics.coverage_ratio, 1.0)
+
+    def test_analyze_translation_empty_result_returns_zero_metrics(self) -> None:
+        result = translate_ngapak_detailed("")
+        self.assertEqual(
+            analyze_translation(result),
+            TranslationMetrics(
+                text_count=1,
+                source_token_count=0,
+                translated_token_count=0,
+                untranslated_token_count=0,
+                ambiguous_token_count=0,
+                phrase_chunk_count=0,
+                token_chunk_count=0,
+                untranslated_chunk_count=0,
+                delimiter_chunk_count=0,
+                coverage_ratio=0.0,
+                ambiguity_ratio=0.0,
+            ),
+        )
+
+    def test_translate_ngapak_batch_preserves_input_order(self) -> None:
+        batch = translate_ngapak_batch(("abot", "xyz", "dhuwur"))
+        self.assertIsInstance(batch, TranslationBatchResult)
+        self.assertEqual(
+            tuple(result.source_text for result in batch.results),
+            ("abot", "xyz", "dhuwur"),
+        )
+        self.assertEqual(
+            tuple(result.translated_text for result in batch.results),
+            ("berat", "xyz", "tinggi"),
+        )
+
+    def test_translate_ngapak_batch_aggregates_mixed_metrics(self) -> None:
+        batch = translate_ngapak_batch(("abot", "xyz", "dhuwur"))
+        self.assertEqual(
+            batch.metrics,
+            TranslationMetrics(
+                text_count=3,
+                source_token_count=3,
+                translated_token_count=2,
+                untranslated_token_count=1,
+                ambiguous_token_count=1,
+                phrase_chunk_count=0,
+                token_chunk_count=2,
+                untranslated_chunk_count=1,
+                delimiter_chunk_count=0,
+                coverage_ratio=2 / 3,
+                ambiguity_ratio=1 / 2,
+            ),
+        )
+
+    def test_translate_ngapak_batch_handles_empty_strings(self) -> None:
+        batch = translate_ngapak_batch(("", "abot"))
+        self.assertEqual(len(batch.results), 2)
+        self.assertEqual(batch.results[0].translated_text, "")
+        self.assertEqual(batch.metrics.text_count, 2)
+        self.assertEqual(batch.metrics.source_token_count, 1)
+        self.assertEqual(batch.metrics.coverage_ratio, 1.0)
+
+    def test_translate_ngapak_batch_synthetic_phrase_and_ambiguity_fixture(self) -> None:
+        results = (
+            _translate_with_entries(
+                "wong apik",
+                (
+                    CorpusEntry(ngapak="wong", indonesia="orang"),
+                    CorpusEntry(ngapak="apik", indonesia="bagus"),
+                    CorpusEntry(ngapak="wong apik", indonesia="orang baik"),
+                ),
+            ),
+            _translate_with_entries(
+                "dhuwur xyz",
+                (
+                    CorpusEntry(ngapak="dhuwur", indonesia="tinggi"),
+                    CorpusEntry(ngapak="dhuwur", indonesia="atas"),
+                ),
+            ),
+        )
+        metrics = _metrics_from_results(results)
+        self.assertEqual(
+            metrics,
+            TranslationMetrics(
+                text_count=2,
+                source_token_count=4,
+                translated_token_count=3,
+                untranslated_token_count=1,
+                ambiguous_token_count=1,
+                phrase_chunk_count=1,
+                token_chunk_count=1,
+                untranslated_chunk_count=1,
+                delimiter_chunk_count=1,
+                coverage_ratio=3 / 4,
+                ambiguity_ratio=1 / 3,
+            ),
+        )
 
 
 if __name__ == "__main__":
