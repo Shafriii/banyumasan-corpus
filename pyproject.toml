@@ -10,7 +10,7 @@ readme = "README.md"
 requires-python = ">=3.10"
 license = "MIT"
 authors = [
-  { name = "YOUR NAME", email = "your.email@example.com" },
+  { name = "Shafri", email = "shafrisyamsuddin@gmail.com" },
 ]
 keywords = [
   "banyumasan",
@@ -38,7 +38,7 @@ dependencies = []
 
 [project.urls]
 Homepage = "https://github.com/your-username/banyumasan-corpus"
-Repository = "https://github.com/your-username/banyumasan-corpus"
+Repository = "https://github.com/shafriii/banyumasan-corpus"
 Issues = "https://github.com/your-username/banyumasan-corpus/issues"
 
 [tool.setuptools]
