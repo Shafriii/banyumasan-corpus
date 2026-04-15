@@ -1,0 +1,7 @@
+include LICENSE
+include README.md
+include korpus_clean_final.xlsx
+graft docs
+graft scripts
+graft tests
+global-exclude __pycache__ *.py[cod]

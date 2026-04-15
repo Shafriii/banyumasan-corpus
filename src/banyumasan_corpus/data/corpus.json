@@ -1,0 +1,8012 @@
+{
+  "metadata": {
+    "source_file": "korpus_clean_final.xlsx",
+    "sheet_name": "Sheet1",
+    "entry_count": 2000,
+    "unique_ngapak": 1996,
+    "unique_indonesia": 1444,
+    "duplicate_ngapak_terms": 4
+  },
+  "entries": [
+    {
+      "ngapak": "abab",
+      "indonesia": "tiupan napas"
+    },
+    {
+      "ngapak": "aben",
+      "indonesia": "setiap"
+    },
+    {
+      "ngapak": "abluk",
+      "indonesia": "debu"
+    },
+    {
+      "ngapak": "abot",
+      "indonesia": "berat"
+    },
+    {
+      "ngapak": "abreg",
+      "indonesia": "banyak"
+    },
+    {
+      "ngapak": "abrit",
+      "indonesia": "merah"
+    },
+    {
+      "ngapak": "abrul",
+      "indonesia": "acak"
+    },
+    {
+      "ngapak": "abuh",
+      "indonesia": "bengkak"
+    },
+    {
+      "ngapak": "acan",
+      "indonesia": "belum sama sekali"
+    },
+    {
+      "ngapak": "acap",
+      "indonesia": "sering"
+    },
+    {
+      "ngapak": "adem",
+      "indonesia": "sejuk"
+    },
+    {
+      "ngapak": "adhem",
+      "indonesia": "dingin"
+    },
+    {
+      "ngapak": "adhul",
+      "indonesia": "tidak rapi"
+    },
+    {
+      "ngapak": "adoh",
+      "indonesia": "jauh"
+    },
+    {
+      "ngapak": "adon",
+      "indonesia": "mengaduk adonan"
+    },
+    {
+      "ngapak": "aduk",
+      "indonesia": "mengaduk"
+    },
+    {
+      "ngapak": "adus",
+      "indonesia": "mandi"
+    },
+    {
+      "ngapak": "aeng",
+      "indonesia": "aneh"
+    },
+    {
+      "ngapak": "agak",
+      "indonesia": "agak"
+    },
+    {
+      "ngapak": "agem",
+      "indonesia": "memakai"
+    },
+    {
+      "ngapak": "agen",
+      "indonesia": "perantara"
+    },
+    {
+      "ngapak": "agenan",
+      "indonesia": "pemakaian"
+    },
+    {
+      "ngapak": "aja",
+      "indonesia": "jangan"
+    },
+    {
+      "ngapak": "ajeg",
+      "indonesia": "tetap"
+    },
+    {
+      "ngapak": "ajer",
+      "indonesia": "air"
+    },
+    {
+      "ngapak": "ajrih",
+      "indonesia": "takut"
+    },
+    {
+      "ngapak": "ajug",
+      "indonesia": "mengangkat"
+    },
+    {
+      "ngapak": "ajur",
+      "indonesia": "hancur"
+    },
+    {
+      "ngapak": "ajur-ajur",
+      "indonesia": "hancur lebur"
+    },
+    {
+      "ngapak": "akal",
+      "indonesia": "akal"
+    },
+    {
+      "ngapak": "akeh",
+      "indonesia": "banyak"
+    },
+    {
+      "ngapak": "akuh",
+      "indonesia": "mengaku"
+    },
+    {
+      "ngapak": "alas",
+      "indonesia": "hutan"
+    },
+    {
+      "ngapak": "alat",
+      "indonesia": "alat"
+    },
+    {
+      "ngapak": "alem",
+      "indonesia": "memuji"
+    },
+    {
+      "ngapak": "aleman",
+      "indonesia": "manja"
+    },
+    {
+      "ngapak": "alon",
+      "indonesia": "pelan"
+    },
+    {
+      "ngapak": "alu",
+      "indonesia": "alat penumbuk padi"
+    },
+    {
+      "ngapak": "amba",
+      "indonesia": "luas / lebar"
+    },
+    {
+      "ngapak": "amben",
+      "indonesia": "tempat tidur"
+    },
+    {
+      "ngapak": "ambur",
+      "indonesia": "berserakan"
+    },
+    {
+      "ngapak": "ambyar",
+      "indonesia": "berantakan"
+    },
+    {
+      "ngapak": "amem",
+      "indonesia": "diam"
+    },
+    {
+      "ngapak": "amleh",
+      "indonesia": "sepi / sunyi / diam"
+    },
+    {
+      "ngapak": "amleng",
+      "indonesia": "sepi"
+    },
+    {
+      "ngapak": "amoh",
+      "indonesia": "lunak"
+    },
+    {
+      "ngapak": "ampel",
+      "indonesia": "pohon ampel"
+    },
+    {
+      "ngapak": "amprah",
+      "indonesia": "meminta"
+    },
+    {
+      "ngapak": "ampun",
+      "indonesia": "ampun"
+    },
+    {
+      "ngapak": "ampyas",
+      "indonesia": "terhambur"
+    },
+    {
+      "ngapak": "amuk",
+      "indonesia": "marah"
+    },
+    {
+      "ngapak": "amun",
+      "indonesia": "melamun"
+    },
+    {
+      "ngapak": "ana",
+      "indonesia": "ada"
+    },
+    {
+      "ngapak": "ancak",
+      "indonesia": "bagus"
+    },
+    {
+      "ngapak": "ancur",
+      "indonesia": "hancur"
+    },
+    {
+      "ngapak": "andhap",
+      "indonesia": "rendah"
+    },
+    {
+      "ngapak": "andhol",
+      "indonesia": "menjual"
+    },
+    {
+      "ngapak": "andon",
+      "indonesia": "numpang sebentar"
+    },
+    {
+      "ngapak": "anduk",
+      "indonesia": "handuk"
+    },
+    {
+      "ngapak": "angel",
+      "indonesia": "susah / sukar"
+    },
+    {
+      "ngapak": "anget",
+      "indonesia": "hangat"
+    },
+    {
+      "ngapak": "angger",
+      "indonesia": "kalau"
+    },
+    {
+      "ngapak": "angin",
+      "indonesia": "angin"
+    },
+    {
+      "ngapak": "angler",
+      "indonesia": "diam"
+    },
+    {
+      "ngapak": "angon",
+      "indonesia": "menggembala"
+    },
+    {
+      "ngapak": "angot",
+      "indonesia": "mengantuk"
+    },
+    {
+      "ngapak": "angsu",
+      "indonesia": "minum"
+    },
+    {
+      "ngapak": "angud",
+      "indonesia": "membimbing"
+    },
+    {
+      "ngapak": "angus",
+      "indonesia": "terbakar"
+    },
+    {
+      "ngapak": "angut",
+      "indonesia": "mengangguk"
+    },
+    {
+      "ngapak": "anjlog",
+      "indonesia": "melompat dari atas ke bawah"
+    },
+    {
+      "ngapak": "anjlok",
+      "indonesia": "jatuh"
+    },
+    {
+      "ngapak": "anjog",
+      "indonesia": "sampai"
+    },
+    {
+      "ngapak": "antep",
+      "indonesia": "serius"
+    },
+    {
+      "ngapak": "antob",
+      "indonesia": "sendawa"
+    },
+    {
+      "ngapak": "anyar",
+      "indonesia": "baru"
+    },
+    {
+      "ngapak": "anyut",
+      "indonesia": "hanyut"
+    },
+    {
+      "ngapak": "apah",
+      "indonesia": "apa"
+    },
+    {
+      "ngapak": "apiké",
+      "indonesia": "bagusnya"
+    },
+    {
+      "ngapak": "apuh",
+      "indonesia": "rapuh"
+    },
+    {
+      "ngapak": "apung",
+      "indonesia": "terapung"
+    },
+    {
+      "ngapak": "apuran",
+      "indonesia": "campuran"
+    },
+    {
+      "ngapak": "aran",
+      "indonesia": "nama"
+    },
+    {
+      "ngapak": "arang",
+      "indonesia": "jarang"
+    },
+    {
+      "ngapak": "areng",
+      "indonesia": "arang"
+    },
+    {
+      "ngapak": "arep",
+      "indonesia": "ingin"
+    },
+    {
+      "ngapak": "arepake",
+      "indonesia": "membuat"
+    },
+    {
+      "ngapak": "arepke",
+      "indonesia": "melakukan"
+    },
+    {
+      "ngapak": "arepna",
+      "indonesia": "maunya"
+    },
+    {
+      "ngapak": "aring",
+      "indonesia": "jernih"
+    },
+    {
+      "ngapak": "arip",
+      "indonesia": "ngantuk"
+    },
+    {
+      "ngapak": "arom",
+      "indonesia": "haram"
+    },
+    {
+      "ngapak": "asah",
+      "indonesia": "mengasah"
+    },
+    {
+      "ngapak": "asap",
+      "indonesia": "asap"
+    },
+    {
+      "ngapak": "aseng",
+      "indonesia": "ajak / mengajak"
+    },
+    {
+      "ngapak": "asih",
+      "indonesia": "kasih"
+    },
+    {
+      "ngapak": "asor",
+      "indonesia": "rendah"
+    },
+    {
+      "ngapak": "asrep",
+      "indonesia": "sejuk"
+    },
+    {
+      "ngapak": "asrepan",
+      "indonesia": "sejuk"
+    },
+    {
+      "ngapak": "asring",
+      "indonesia": "sering"
+    },
+    {
+      "ngapak": "asu",
+      "indonesia": "anjing"
+    },
+    {
+      "ngapak": "asung",
+      "indonesia": "memberi"
+    },
+    {
+      "ngapak": "asup",
+      "indonesia": "masuk"
+    },
+    {
+      "ngapak": "ateng",
+      "indonesia": "datang"
+    },
+    {
+      "ngapak": "ater",
+      "indonesia": "naik"
+    },
+    {
+      "ngapak": "ati",
+      "indonesia": "hati"
+    },
+    {
+      "ngapak": "atis",
+      "indonesia": "dingin"
+    },
+    {
+      "ngapak": "atuh",
+      "indonesia": "jatuh"
+    },
+    {
+      "ngapak": "atus",
+      "indonesia": "seratus"
+    },
+    {
+      "ngapak": "atut",
+      "indonesia": "teratur"
+    },
+    {
+      "ngapak": "aub",
+      "indonesia": "teduh"
+    },
+    {
+      "ngapak": "awak",
+      "indonesia": "badan"
+    },
+    {
+      "ngapak": "awan",
+      "indonesia": "siang"
+    },
+    {
+      "ngapak": "aweh",
+      "indonesia": "memberi"
+    },
+    {
+      "ngapak": "awit",
+      "indonesia": "sejak"
+    },
+    {
+      "ngapak": "awon",
+      "indonesia": "buruk"
+    },
+    {
+      "ngapak": "awoné",
+      "indonesia": "buruknya"
+    },
+    {
+      "ngapak": "awor",
+      "indonesia": "campur"
+    },
+    {
+      "ngapak": "awur",
+      "indonesia": "acak"
+    },
+    {
+      "ngapak": "awut",
+      "indonesia": "berantakan"
+    },
+    {
+      "ngapak": "ayem",
+      "indonesia": "tenang"
+    },
+    {
+      "ngapak": "ayid",
+      "indonesia": "licin berlendir"
+    },
+    {
+      "ngapak": "ayu",
+      "indonesia": "cantik"
+    },
+    {
+      "ngapak": "ayuh",
+      "indonesia": "ayo"
+    },
+    {
+      "ngapak": "babak",
+      "indonesia": "tahap"
+    },
+    {
+      "ngapak": "babakan",
+      "indonesia": "awal"
+    },
+    {
+      "ngapak": "babar",
+      "indonesia": "membuka"
+    },
+    {
+      "ngapak": "babar pisan",
+      "indonesia": "sama sekali"
+    },
+    {
+      "ngapak": "babaran",
+      "indonesia": "kelahiran"
+    },
+    {
+      "ngapak": "babat",
+      "indonesia": "membabat"
+    },
+    {
+      "ngapak": "bablas",
+      "indonesia": "terlewat"
+    },
+    {
+      "ngapak": "bablasan",
+      "indonesia": "terlewat jauh"
+    },
+    {
+      "ngapak": "babon",
+      "indonesia": "induk"
+    },
+    {
+      "ngapak": "baboné",
+      "indonesia": "induknya"
+    },
+    {
+      "ngapak": "baca",
+      "indonesia": "membaca"
+    },
+    {
+      "ngapak": "bacem",
+      "indonesia": "masakan manis"
+    },
+    {
+      "ngapak": "baceman",
+      "indonesia": "melahirkan"
+    },
+    {
+      "ngapak": "bacin",
+      "indonesia": "bau tidak sedap"
+    },
+    {
+      "ngapak": "bacok",
+      "indonesia": "membacok"
+    },
+    {
+      "ngapak": "bada-budu",
+      "indonesia": "menggerutu"
+    },
+    {
+      "ngapak": "badar",
+      "indonesia": "berserakan"
+    },
+    {
+      "ngapak": "badeg",
+      "indonesia": "minuman tape"
+    },
+    {
+      "ngapak": "badhe",
+      "indonesia": "akan"
+    },
+    {
+      "ngapak": "badheg",
+      "indonesia": "nira kelapa"
+    },
+    {
+      "ngapak": "badhog",
+      "indonesia": "makan (kasar)"
+    },
+    {
+      "ngapak": "badhut",
+      "indonesia": "badut"
+    },
+    {
+      "ngapak": "bae",
+      "indonesia": "saja"
+    },
+    {
+      "ngapak": "bagas",
+      "indonesia": "kuat"
+    },
+    {
+      "ngapak": "bagel",
+      "indonesia": "lempar"
+    },
+    {
+      "ngapak": "bagol",
+      "indonesia": "kepala bagian belakang menonjol"
+    },
+    {
+      "ngapak": "bagor",
+      "indonesia": "besar"
+    },
+    {
+      "ngapak": "bagoré",
+      "indonesia": "besar"
+    },
+    {
+      "ngapak": "bagus",
+      "indonesia": "bagus"
+    },
+    {
+      "ngapak": "bahu",
+      "indonesia": "bahu"
+    },
+    {
+      "ngapak": "bajang",
+      "indonesia": "anak kecil"
+    },
+    {
+      "ngapak": "bajeg",
+      "indonesia": "minuman jahe"
+    },
+    {
+      "ngapak": "bajul",
+      "indonesia": "buaya"
+    },
+    {
+      "ngapak": "bakal",
+      "indonesia": "akan"
+    },
+    {
+      "ngapak": "bakar",
+      "indonesia": "membakar"
+    },
+    {
+      "ngapak": "bakul",
+      "indonesia": "penjual"
+    },
+    {
+      "ngapak": "bal",
+      "indonesia": "bola"
+    },
+    {
+      "ngapak": "balela",
+      "indonesia": "membelot"
+    },
+    {
+      "ngapak": "balen",
+      "indonesia": "kembali"
+    },
+    {
+      "ngapak": "bali",
+      "indonesia": "pulang"
+    },
+    {
+      "ngapak": "balung",
+      "indonesia": "tulang"
+    },
+    {
+      "ngapak": "balur",
+      "indonesia": "melumuri"
+    },
+    {
+      "ngapak": "bamba",
+      "indonesia": "bara"
+    },
+    {
+      "ngapak": "bambang",
+      "indonesia": "laki-laki"
+    },
+    {
+      "ngapak": "bancik",
+      "indonesia": "tumpu"
+    },
+    {
+      "ngapak": "bandem",
+      "indonesia": "melempar"
+    },
+    {
+      "ngapak": "bandhol",
+      "indonesia": "keras kepala"
+    },
+    {
+      "ngapak": "bandhot",
+      "indonesia": "kambing jantan"
+    },
+    {
+      "ngapak": "bandhung",
+      "indonesia": "membangun"
+    },
+    {
+      "ngapak": "banget",
+      "indonesia": "sangat"
+    },
+    {
+      "ngapak": "bangeté",
+      "indonesia": "sangat"
+    },
+    {
+      "ngapak": "banggen",
+      "indonesia": "bedug terakhir sebelum shalat"
+    },
+    {
+      "ngapak": "bangun",
+      "indonesia": "bangun"
+    },
+    {
+      "ngapak": "banyu",
+      "indonesia": "air"
+    },
+    {
+      "ngapak": "baor",
+      "indonesia": "meraung"
+    },
+    {
+      "ngapak": "barat",
+      "indonesia": "angin badai"
+    },
+    {
+      "ngapak": "bareng",
+      "indonesia": "bersama"
+    },
+    {
+      "ngapak": "barengé",
+      "indonesia": "bersamanya"
+    },
+    {
+      "ngapak": "barep",
+      "indonesia": "anak sulung"
+    },
+    {
+      "ngapak": "barokah",
+      "indonesia": "berkah"
+    },
+    {
+      "ngapak": "basa",
+      "indonesia": "bahasa"
+    },
+    {
+      "ngapak": "basanu",
+      "indonesia": "jangan-jangan"
+    },
+    {
+      "ngapak": "batir",
+      "indonesia": "teman"
+    },
+    {
+      "ngapak": "batur",
+      "indonesia": "pembantu"
+    },
+    {
+      "ngapak": "bawang",
+      "indonesia": "bawang putih"
+    },
+    {
+      "ngapak": "bawon",
+      "indonesia": "bagian"
+    },
+    {
+      "ngapak": "bawor",
+      "indonesia": "tokoh punakawan banyumasan"
+    },
+    {
+      "ngapak": "bawur",
+      "indonesia": "mencampur"
+    },
+    {
+      "ngapak": "bebarengan",
+      "indonesia": "bersama-sama"
+    },
+    {
+      "ngapak": "bebed",
+      "indonesia": "membungkus"
+    },
+    {
+      "ngapak": "bebeh",
+      "indonesia": "malas"
+    },
+    {
+      "ngapak": "bebrayan",
+      "indonesia": "masyarakat"
+    },
+    {
+      "ngapak": "becer",
+      "indonesia": "belanja"
+    },
+    {
+      "ngapak": "becik",
+      "indonesia": "baik"
+    },
+    {
+      "ngapak": "bedhah",
+      "indonesia": "pecah"
+    },
+    {
+      "ngapak": "bedhol",
+      "indonesia": "tercabut"
+    },
+    {
+      "ngapak": "bedhug",
+      "indonesia": "bedug"
+    },
+    {
+      "ngapak": "bedol",
+      "indonesia": "membawa pergi"
+    },
+    {
+      "ngapak": "bedug",
+      "indonesia": "bedug"
+    },
+    {
+      "ngapak": "bedugé",
+      "indonesia": "bedugnya"
+    },
+    {
+      "ngapak": "begal",
+      "indonesia": "perampok"
+    },
+    {
+      "ngapak": "begja",
+      "indonesia": "beruntung"
+    },
+    {
+      "ngapak": "bejog",
+      "indonesia": "jatuh terduduk"
+    },
+    {
+      "ngapak": "bekel",
+      "indonesia": "bekal"
+    },
+    {
+      "ngapak": "bekti",
+      "indonesia": "hormat"
+    },
+    {
+      "ngapak": "belah",
+      "indonesia": "membelah"
+    },
+    {
+      "ngapak": "belang",
+      "indonesia": "bercorak"
+    },
+    {
+      "ngapak": "belar",
+      "indonesia": "melebar"
+    },
+    {
+      "ngapak": "belet",
+      "indonesia": "lumpur"
+    },
+    {
+      "ngapak": "belik",
+      "indonesia": "sumber mata air"
+    },
+    {
+      "ngapak": "belok",
+      "indonesia": "kotor sekali"
+    },
+    {
+      "ngapak": "beluk",
+      "indonesia": "suara nyaring"
+    },
+    {
+      "ngapak": "belung",
+      "indonesia": "kurus"
+    },
+    {
+      "ngapak": "ben",
+      "indonesia": "biar"
+    },
+    {
+      "ngapak": "benang",
+      "indonesia": "benang"
+    },
+    {
+      "ngapak": "bendhu",
+      "indonesia": "murka"
+    },
+    {
+      "ngapak": "bendok",
+      "indonesia": "tuntut"
+    },
+    {
+      "ngapak": "bener",
+      "indonesia": "benar"
+    },
+    {
+      "ngapak": "bengi",
+      "indonesia": "malam"
+    },
+    {
+      "ngapak": "bengok",
+      "indonesia": "berteriak"
+    },
+    {
+      "ngapak": "bentong",
+      "indonesia": "pukul memakai kayu"
+    },
+    {
+      "ngapak": "bentuk",
+      "indonesia": "bengkung"
+    },
+    {
+      "ngapak": "berak",
+      "indonesia": "buang air"
+    },
+    {
+      "ngapak": "beras",
+      "indonesia": "beras"
+    },
+    {
+      "ngapak": "beres",
+      "indonesia": "selesai"
+    },
+    {
+      "ngapak": "berkat",
+      "indonesia": "berkat"
+    },
+    {
+      "ngapak": "besengut",
+      "indonesia": "cemberut"
+    },
+    {
+      "ngapak": "beset",
+      "indonesia": "terpeleset"
+    },
+    {
+      "ngapak": "besuk",
+      "indonesia": "besok"
+    },
+    {
+      "ngapak": "besuké",
+      "indonesia": "besoknya"
+    },
+    {
+      "ngapak": "betah",
+      "indonesia": "betah"
+    },
+    {
+      "ngapak": "bethek",
+      "indonesia": "monyet"
+    },
+    {
+      "ngapak": "betis",
+      "indonesia": "betis"
+    },
+    {
+      "ngapak": "beton",
+      "indonesia": "biji nangka"
+    },
+    {
+      "ngapak": "beyah",
+      "indonesia": "terbelah"
+    },
+    {
+      "ngapak": "biyasa",
+      "indonesia": "biasa"
+    },
+    {
+      "ngapak": "biyen",
+      "indonesia": "dulu"
+    },
+    {
+      "ngapak": "biyung",
+      "indonesia": "ibu"
+    },
+    {
+      "ngapak": "blabag",
+      "indonesia": "papan"
+    },
+    {
+      "ngapak": "blakasuta",
+      "indonesia": "terus terang"
+    },
+    {
+      "ngapak": "blaketaket",
+      "indonesia": "enak sekali"
+    },
+    {
+      "ngapak": "blandong",
+      "indonesia": "penebang kayu"
+    },
+    {
+      "ngapak": "blangsak",
+      "indonesia": "sesat"
+    },
+    {
+      "ngapak": "blarak",
+      "indonesia": "daun kelapa"
+    },
+    {
+      "ngapak": "blas",
+      "indonesia": "sama sekali"
+    },
+    {
+      "ngapak": "bledhug",
+      "indonesia": "membakar"
+    },
+    {
+      "ngapak": "bledug",
+      "indonesia": "debu"
+    },
+    {
+      "ngapak": "bleketaket",
+      "indonesia": "lengket / pulen"
+    },
+    {
+      "ngapak": "blekethir",
+      "indonesia": "kaki tangan"
+    },
+    {
+      "ngapak": "blekok",
+      "indonesia": "burung bangau"
+    },
+    {
+      "ngapak": "blencong",
+      "indonesia": "lampu minyak"
+    },
+    {
+      "ngapak": "blenyah",
+      "indonesia": "basah"
+    },
+    {
+      "ngapak": "blenyik",
+      "indonesia": "licin"
+    },
+    {
+      "ngapak": "blesek",
+      "indonesia": "perosok"
+    },
+    {
+      "ngapak": "blethok",
+      "indonesia": "menonjol"
+    },
+    {
+      "ngapak": "blijeg",
+      "indonesia": "kilat"
+    },
+    {
+      "ngapak": "bling",
+      "indonesia": "telanjang bulat"
+    },
+    {
+      "ngapak": "blithuk",
+      "indonesia": "lumpur"
+    },
+    {
+      "ngapak": "blonyoh",
+      "indonesia": "basah"
+    },
+    {
+      "ngapak": "bludag",
+      "indonesia": "meletus"
+    },
+    {
+      "ngapak": "blukang",
+      "indonesia": "pelepah daun kelapa"
+    },
+    {
+      "ngapak": "bluluk",
+      "indonesia": "kelapa muda"
+    },
+    {
+      "ngapak": "blusuk",
+      "indonesia": "masuk ke pelosok"
+    },
+    {
+      "ngapak": "bobol",
+      "indonesia": "jebol"
+    },
+    {
+      "ngapak": "bobrok",
+      "indonesia": "rusak"
+    },
+    {
+      "ngapak": "bodol",
+      "indonesia": "rusak"
+    },
+    {
+      "ngapak": "bodong",
+      "indonesia": "rewel"
+    },
+    {
+      "ngapak": "bodor",
+      "indonesia": "lucu"
+    },
+    {
+      "ngapak": "bogem",
+      "indonesia": "tinju"
+    },
+    {
+      "ngapak": "bohong",
+      "indonesia": "bohong"
+    },
+    {
+      "ngapak": "bojo",
+      "indonesia": "suami / istri"
+    },
+    {
+      "ngapak": "bolak-balik",
+      "indonesia": "mondar-mandir"
+    },
+    {
+      "ngapak": "boleh",
+      "indonesia": "singkong"
+    },
+    {
+      "ngapak": "boleng",
+      "indonesia": "cacat"
+    },
+    {
+      "ngapak": "bolong",
+      "indonesia": "berlubang"
+    },
+    {
+      "ngapak": "bondhol",
+      "indonesia": "tumpul"
+    },
+    {
+      "ngapak": "bongkar",
+      "indonesia": "membuka"
+    },
+    {
+      "ngapak": "bongkok",
+      "indonesia": "bungkuk"
+    },
+    {
+      "ngapak": "bongkot",
+      "indonesia": "pangkal pohon"
+    },
+    {
+      "ngapak": "bonyok",
+      "indonesia": "lebam"
+    },
+    {
+      "ngapak": "borongan",
+      "indonesia": "partai"
+    },
+    {
+      "ngapak": "bosen",
+      "indonesia": "bosan"
+    },
+    {
+      "ngapak": "bosok",
+      "indonesia": "busuk"
+    },
+    {
+      "ngapak": "boten",
+      "indonesia": "tidak"
+    },
+    {
+      "ngapak": "boyong",
+      "indonesia": "pindah"
+    },
+    {
+      "ngapak": "brak",
+      "indonesia": "jatuh keras"
+    },
+    {
+      "ngapak": "brambang",
+      "indonesia": "bawang merah"
+    },
+    {
+      "ngapak": "brangasan",
+      "indonesia": "kasar"
+    },
+    {
+      "ngapak": "brengkolang",
+      "indonesia": "lempar"
+    },
+    {
+      "ngapak": "brisik",
+      "indonesia": "berisik"
+    },
+    {
+      "ngapak": "bromak",
+      "indonesia": "kotor"
+    },
+    {
+      "ngapak": "brubuh",
+      "indonesia": "runtuh"
+    },
+    {
+      "ngapak": "brudu",
+      "indonesia": "gatal"
+    },
+    {
+      "ngapak": "brug",
+      "indonesia": "jembatan"
+    },
+    {
+      "ngapak": "brukut",
+      "indonesia": "kotoran ayam"
+    },
+    {
+      "ngapak": "bruntak",
+      "indonesia": "marah"
+    },
+    {
+      "ngapak": "bubar",
+      "indonesia": "bubar"
+    },
+    {
+      "ngapak": "budhal",
+      "indonesia": "berangkat"
+    },
+    {
+      "ngapak": "budhalan",
+      "indonesia": "keberangkatan"
+    },
+    {
+      "ngapak": "budheg",
+      "indonesia": "tuli"
+    },
+    {
+      "ngapak": "bujel",
+      "indonesia": "pusar"
+    },
+    {
+      "ngapak": "bujuk",
+      "indonesia": "membujuk"
+    },
+    {
+      "ngapak": "bujur",
+      "indonesia": "kain"
+    },
+    {
+      "ngapak": "bukak",
+      "indonesia": "membuka"
+    },
+    {
+      "ngapak": "bukel",
+      "indonesia": "menggulung"
+    },
+    {
+      "ngapak": "buket",
+      "indonesia": "pulen"
+    },
+    {
+      "ngapak": "bukti",
+      "indonesia": "bukti"
+    },
+    {
+      "ngapak": "bulak",
+      "indonesia": "tanah lapang"
+    },
+    {
+      "ngapak": "bulak-balik",
+      "indonesia": "berulang"
+    },
+    {
+      "ngapak": "bumbung",
+      "indonesia": "pipa"
+    },
+    {
+      "ngapak": "buncit",
+      "indonesia": "buncit"
+    },
+    {
+      "ngapak": "bundel",
+      "indonesia": "ikat"
+    },
+    {
+      "ngapak": "bunder",
+      "indonesia": "bulat"
+    },
+    {
+      "ngapak": "bungah",
+      "indonesia": "senang"
+    },
+    {
+      "ngapak": "buntel",
+      "indonesia": "bungkus"
+    },
+    {
+      "ngapak": "buntet",
+      "indonesia": "tertutup"
+    },
+    {
+      "ngapak": "burik",
+      "indonesia": "berbintik"
+    },
+    {
+      "ngapak": "buron",
+      "indonesia": "buron"
+    },
+    {
+      "ngapak": "buroné",
+      "indonesia": "buronannya"
+    },
+    {
+      "ngapak": "buruh",
+      "indonesia": "pekerja"
+    },
+    {
+      "ngapak": "busek",
+      "indonesia": "hapus"
+    },
+    {
+      "ngapak": "butek",
+      "indonesia": "keruh"
+    },
+    {
+      "ngapak": "butuh",
+      "indonesia": "perlu"
+    },
+    {
+      "ngapak": "cabar",
+      "indonesia": "menantang"
+    },
+    {
+      "ngapak": "cablak",
+      "indonesia": "terus terang"
+    },
+    {
+      "ngapak": "cablek",
+      "indonesia": "terbuka"
+    },
+    {
+      "ngapak": "cacak",
+      "indonesia": "lengkap"
+    },
+    {
+      "ngapak": "cacak-cacak",
+      "indonesia": "acak-acakan"
+    },
+    {
+      "ngapak": "cacing",
+      "indonesia": "cacing"
+    },
+    {
+      "ngapak": "cadhang",
+      "indonesia": "cadangan"
+    },
+    {
+      "ngapak": "cadhong",
+      "indonesia": "menyendok"
+    },
+    {
+      "ngapak": "cagak",
+      "indonesia": "tiang"
+    },
+    {
+      "ngapak": "cagak-cagak",
+      "indonesia": "penyangga"
+    },
+    {
+      "ngapak": "cakar",
+      "indonesia": "mencakar"
+    },
+    {
+      "ngapak": "cakil",
+      "indonesia": "tokoh wayang"
+    },
+    {
+      "ngapak": "cakra",
+      "indonesia": "cakra"
+    },
+    {
+      "ngapak": "cakul",
+      "indonesia": "mencangkul"
+    },
+    {
+      "ngapak": "cakul-cakul",
+      "indonesia": "mencangkul"
+    },
+    {
+      "ngapak": "cambahan",
+      "indonesia": "tambahan"
+    },
+    {
+      "ngapak": "camboran",
+      "indonesia": "campuran"
+    },
+    {
+      "ngapak": "cambuk",
+      "indonesia": "mencambuk"
+    },
+    {
+      "ngapak": "campur",
+      "indonesia": "campur"
+    },
+    {
+      "ngapak": "cangcang",
+      "indonesia": "mengikat"
+    },
+    {
+      "ngapak": "cangkem",
+      "indonesia": "mulut"
+    },
+    {
+      "ngapak": "cangkemé",
+      "indonesia": "mulutnya"
+    },
+    {
+      "ngapak": "cangking",
+      "indonesia": "ketiak"
+    },
+    {
+      "ngapak": "cangkingan",
+      "indonesia": "ketiakan"
+    },
+    {
+      "ngapak": "cangkir",
+      "indonesia": "cangkir"
+    },
+    {
+      "ngapak": "cangkok",
+      "indonesia": "menempel"
+    },
+    {
+      "ngapak": "cangkol",
+      "indonesia": "mencangkul"
+    },
+    {
+      "ngapak": "cangkriman",
+      "indonesia": "teka-teki"
+    },
+    {
+      "ngapak": "cangkring",
+      "indonesia": "duduk santai"
+    },
+    {
+      "ngapak": "cangkruk",
+      "indonesia": "nongkrong"
+    },
+    {
+      "ngapak": "cangkut",
+      "indonesia": "tersangkut"
+    },
+    {
+      "ngapak": "cantug",
+      "indonesia": "sampai"
+    },
+    {
+      "ngapak": "capek",
+      "indonesia": "lelah"
+    },
+    {
+      "ngapak": "caplok",
+      "indonesia": "menyambar"
+    },
+    {
+      "ngapak": "caplokan",
+      "indonesia": "sambaran"
+    },
+    {
+      "ngapak": "carang",
+      "indonesia": "cabang"
+    },
+    {
+      "ngapak": "carang-carang",
+      "indonesia": "bercabang"
+    },
+    {
+      "ngapak": "carub",
+      "indonesia": "campur"
+    },
+    {
+      "ngapak": "cawer",
+      "indonesia": "memberi uang"
+    },
+    {
+      "ngapak": "cawer-cawer",
+      "indonesia": "memberi uang berulang"
+    },
+    {
+      "ngapak": "cawet",
+      "indonesia": "celana dalam"
+    },
+    {
+      "ngapak": "cawis",
+      "indonesia": "siap"
+    },
+    {
+      "ngapak": "cebak",
+      "indonesia": "wadah air"
+    },
+    {
+      "ngapak": "ceblok",
+      "indonesia": "jatuh"
+    },
+    {
+      "ngapak": "ceblos",
+      "indonesia": "jatuh masuk"
+    },
+    {
+      "ngapak": "cebol",
+      "indonesia": "pendek"
+    },
+    {
+      "ngapak": "cebolan",
+      "indonesia": "orang pendek"
+    },
+    {
+      "ngapak": "cebong",
+      "indonesia": "kecebong"
+    },
+    {
+      "ngapak": "cebrik",
+      "indonesia": "becek"
+    },
+    {
+      "ngapak": "ceceg",
+      "indonesia": "tegak"
+    },
+    {
+      "ngapak": "cecekan",
+      "indonesia": "tegakan"
+    },
+    {
+      "ngapak": "cecep",
+      "indonesia": "cepat"
+    },
+    {
+      "ngapak": "ceceplos",
+      "indonesia": "bicara terus terang"
+    },
+    {
+      "ngapak": "cecepuk",
+      "indonesia": "tempat kecil"
+    },
+    {
+      "ngapak": "cecew",
+      "indonesia": "teriak kecil"
+    },
+    {
+      "ngapak": "cecewakan",
+      "indonesia": "teriakan kecil"
+    },
+    {
+      "ngapak": "cedal",
+      "indonesia": "cadel"
+    },
+    {
+      "ngapak": "cegah",
+      "indonesia": "mencegah"
+    },
+    {
+      "ngapak": "cekel",
+      "indonesia": "pegang"
+    },
+    {
+      "ngapak": "cekethem",
+      "indonesia": "menggenggam"
+    },
+    {
+      "ngapak": "celuk",
+      "indonesia": "memanggil"
+    },
+    {
+      "ngapak": "cemplung",
+      "indonesia": "masuk ke air"
+    },
+    {
+      "ngapak": "cempulek",
+      "indonesia": "ternyata"
+    },
+    {
+      "ngapak": "cendhak",
+      "indonesia": "pendek"
+    },
+    {
+      "ngapak": "cengeng",
+      "indonesia": "cengeng"
+    },
+    {
+      "ngapak": "cengis",
+      "indonesia": "cabe rawit"
+    },
+    {
+      "ngapak": "cengklung",
+      "indonesia": "botol kecil"
+    },
+    {
+      "ngapak": "cetha",
+      "indonesia": "jelas"
+    },
+    {
+      "ngapak": "cethak",
+      "indonesia": "mencetak"
+    },
+    {
+      "ngapak": "cethil",
+      "indonesia": "kecil"
+    },
+    {
+      "ngapak": "cethok",
+      "indonesia": "memotong sedikit"
+    },
+    {
+      "ngapak": "cethul",
+      "indonesia": "pendek"
+    },
+    {
+      "ngapak": "cethut",
+      "indonesia": "mencetak"
+    },
+    {
+      "ngapak": "ciblon",
+      "indonesia": "mandi bermain air"
+    },
+    {
+      "ngapak": "cilaka",
+      "indonesia": "celaka"
+    },
+    {
+      "ngapak": "cilik",
+      "indonesia": "kecil"
+    },
+    {
+      "ngapak": "cindil",
+      "indonesia": "anak tikus"
+    },
+    {
+      "ngapak": "ciprat",
+      "indonesia": "terciprat"
+    },
+    {
+      "ngapak": "ciri",
+      "indonesia": "cobek"
+    },
+    {
+      "ngapak": "cithak",
+      "indonesia": "mencetak"
+    },
+    {
+      "ngapak": "ciwel",
+      "indonesia": "ketan"
+    },
+    {
+      "ngapak": "ciwit",
+      "indonesia": "cubit"
+    },
+    {
+      "ngapak": "clamit",
+      "indonesia": "suka meminta"
+    },
+    {
+      "ngapak": "clebek",
+      "indonesia": "kopi"
+    },
+    {
+      "ngapak": "cocot",
+      "indonesia": "mulut (kasar)"
+    },
+    {
+      "ngapak": "codot",
+      "indonesia": "kelelawar"
+    },
+    {
+      "ngapak": "cokan/sokan",
+      "indonesia": "kadang-kadang"
+    },
+    {
+      "ngapak": "cokot",
+      "indonesia": "menggigit"
+    },
+    {
+      "ngapak": "colong",
+      "indonesia": "mencuri"
+    },
+    {
+      "ngapak": "corot",
+      "indonesia": "mengalir"
+    },
+    {
+      "ngapak": "cucluk",
+      "indonesia": "paruh burung"
+    },
+    {
+      "ngapak": "cumbul",
+      "indonesia": "jinak (hewan)"
+    },
+    {
+      "ngapak": "cumplung",
+      "indonesia": "berlubang"
+    },
+    {
+      "ngapak": "cundhuk",
+      "indonesia": "menunduk"
+    },
+    {
+      "ngapak": "cungur",
+      "indonesia": "hidung"
+    },
+    {
+      "ngapak": "cupet",
+      "indonesia": "sedikit"
+    },
+    {
+      "ngapak": "curek",
+      "indonesia": "penyakit telinga"
+    },
+    {
+      "ngapak": "cuwek",
+      "indonesia": "buta / tidak melihat jelas"
+    },
+    {
+      "ngapak": "dablongan",
+      "indonesia": "guyonan berlebihan"
+    },
+    {
+      "ngapak": "dadi",
+      "indonesia": "jadi"
+    },
+    {
+      "ngapak": "dadung",
+      "indonesia": "tali mengikat sapi/kerbau"
+    },
+    {
+      "ngapak": "dawa",
+      "indonesia": "panjang"
+    },
+    {
+      "ngapak": "dayoh",
+      "indonesia": "tamu"
+    },
+    {
+      "ngapak": "degan",
+      "indonesia": "kelapa muda"
+    },
+    {
+      "ngapak": "deleg-deleg",
+      "indonesia": "terpaku / tertegun"
+    },
+    {
+      "ngapak": "deleng",
+      "indonesia": "lihat"
+    },
+    {
+      "ngapak": "deyan",
+      "indonesia": "mungkin"
+    },
+    {
+      "ngapak": "dhangkrak",
+      "indonesia": "terbengkalai"
+    },
+    {
+      "ngapak": "dhengklang",
+      "indonesia": "pincang"
+    },
+    {
+      "ngapak": "dhepak",
+      "indonesia": "mengukur dengan rentang tangan"
+    },
+    {
+      "ngapak": "dhewek",
+      "indonesia": "sendiri"
+    },
+    {
+      "ngapak": "dhisit",
+      "indonesia": "dulu"
+    },
+    {
+      "ngapak": "dholok",
+      "indonesia": "pelan"
+    },
+    {
+      "ngapak": "dhong",
+      "indonesia": "kadang"
+    },
+    {
+      "ngapak": "dhupak",
+      "indonesia": "tendang"
+    },
+    {
+      "ngapak": "dhuwur",
+      "indonesia": "tinggi"
+    },
+    {
+      "ngapak": "didis",
+      "indonesia": "mencari kutu"
+    },
+    {
+      "ngapak": "dikep",
+      "indonesia": "menangkap"
+    },
+    {
+      "ngapak": "dina",
+      "indonesia": "hari"
+    },
+    {
+      "ngapak": "dingin",
+      "indonesia": "nanti dulu"
+    },
+    {
+      "ngapak": "dingklik",
+      "indonesia": "kursi kecil"
+    },
+    {
+      "ngapak": "dir",
+      "indonesia": "gundul"
+    },
+    {
+      "ngapak": "disit",
+      "indonesia": "duluan"
+    },
+    {
+      "ngapak": "dodog",
+      "indonesia": "ketok pintu"
+    },
+    {
+      "ngapak": "dol",
+      "indonesia": "jual"
+    },
+    {
+      "ngapak": "dolan",
+      "indonesia": "main / jalan"
+    },
+    {
+      "ngapak": "dolog",
+      "indonesia": "pelan"
+    },
+    {
+      "ngapak": "dopok",
+      "indonesia": "gosip"
+    },
+    {
+      "ngapak": "drememel",
+      "indonesia": "bicara terus"
+    },
+    {
+      "ngapak": "dudu",
+      "indonesia": "bukan"
+    },
+    {
+      "ngapak": "dunya",
+      "indonesia": "harta benda"
+    },
+    {
+      "ngapak": "durung",
+      "indonesia": "belum"
+    },
+    {
+      "ngapak": "duwe",
+      "indonesia": "punya"
+    },
+    {
+      "ngapak": "dénéng",
+      "indonesia": "di sana"
+    },
+    {
+      "ngapak": "edan",
+      "indonesia": "gila"
+    },
+    {
+      "ngapak": "eling",
+      "indonesia": "ingat"
+    },
+    {
+      "ngapak": "eman",
+      "indonesia": "sayang"
+    },
+    {
+      "ngapak": "emoh",
+      "indonesia": "tidak mau"
+    },
+    {
+      "ngapak": "emut/kemutan",
+      "indonesia": "ingat"
+    },
+    {
+      "ngapak": "endhas",
+      "indonesia": "kepala"
+    },
+    {
+      "ngapak": "endhep",
+      "indonesia": "rendah"
+    },
+    {
+      "ngapak": "endhong",
+      "indonesia": "mampir"
+    },
+    {
+      "ngapak": "endi",
+      "indonesia": "mana"
+    },
+    {
+      "ngapak": "engan",
+      "indonesia": "kaget"
+    },
+    {
+      "ngapak": "enggal",
+      "indonesia": "sebentar lagi"
+    },
+    {
+      "ngapak": "engkrek",
+      "indonesia": "berjalan semangat"
+    },
+    {
+      "ngapak": "enteni",
+      "indonesia": "tunggu"
+    },
+    {
+      "ngapak": "entong",
+      "indonesia": "habis"
+    },
+    {
+      "ngapak": "ereg/pereg",
+      "indonesia": "dekat"
+    },
+    {
+      "ngapak": "eri",
+      "indonesia": "duri"
+    },
+    {
+      "ngapak": "esat",
+      "indonesia": "surut"
+    },
+    {
+      "ngapak": "esih",
+      "indonesia": "masih"
+    },
+    {
+      "ngapak": "esog",
+      "indonesia": "meletakkan"
+    },
+    {
+      "ngapak": "gaba",
+      "indonesia": "batang padi"
+    },
+    {
+      "ngapak": "gabal",
+      "indonesia": "gumpalan"
+    },
+    {
+      "ngapak": "gableg",
+      "indonesia": "punya / mampu"
+    },
+    {
+      "ngapak": "gabrug",
+      "indonesia": "jatuh keras"
+    },
+    {
+      "ngapak": "gacuk",
+      "indonesia": "cocok"
+    },
+    {
+      "ngapak": "gadhang",
+      "indonesia": "memegang"
+    },
+    {
+      "ngapak": "gadhuh",
+      "indonesia": "memelihara"
+    },
+    {
+      "ngapak": "gagas",
+      "indonesia": "memikirkan"
+    },
+    {
+      "ngapak": "gage",
+      "indonesia": "cepat"
+    },
+    {
+      "ngapak": "gagrag",
+      "indonesia": "gaya"
+    },
+    {
+      "ngapak": "gagrag anyar",
+      "indonesia": "gaya baru"
+    },
+    {
+      "ngapak": "gajih",
+      "indonesia": "lemak"
+    },
+    {
+      "ngapak": "gajul",
+      "indonesia": "menendang ujung kaki"
+    },
+    {
+      "ngapak": "galar",
+      "indonesia": "alas bambu"
+    },
+    {
+      "ngapak": "galek",
+      "indonesia": "mencari"
+    },
+    {
+      "ngapak": "galeng",
+      "indonesia": "pematang sawah"
+    },
+    {
+      "ngapak": "galing",
+      "indonesia": "miring"
+    },
+    {
+      "ngapak": "galo",
+      "indonesia": "campur"
+    },
+    {
+      "ngapak": "galur",
+      "indonesia": "garis keturunan"
+    },
+    {
+      "ngapak": "gaman",
+      "indonesia": "senjata"
+    },
+    {
+      "ngapak": "gamblok",
+      "indonesia": "menempel"
+    },
+    {
+      "ngapak": "gamet",
+      "indonesia": "alat musik"
+    },
+    {
+      "ngapak": "gampeng",
+      "indonesia": "gampang"
+    },
+    {
+      "ngapak": "gampil",
+      "indonesia": "mudah"
+    },
+    {
+      "ngapak": "gampol",
+      "indonesia": "memukul"
+    },
+    {
+      "ngapak": "gancet",
+      "indonesia": "tersangkut"
+    },
+    {
+      "ngapak": "gandar",
+      "indonesia": "poros roda"
+    },
+    {
+      "ngapak": "gandeng",
+      "indonesia": "menggandeng"
+    },
+    {
+      "ngapak": "gandheng",
+      "indonesia": "berkaitan"
+    },
+    {
+      "ngapak": "gandhul",
+      "indonesia": "pepaya"
+    },
+    {
+      "ngapak": "gandrung",
+      "indonesia": "sangat suka"
+    },
+    {
+      "ngapak": "gandul",
+      "indonesia": "buah kecil"
+    },
+    {
+      "ngapak": "ganep",
+      "indonesia": "genap"
+    },
+    {
+      "ngapak": "ganggu",
+      "indonesia": "mengganggu"
+    },
+    {
+      "ngapak": "gangsir",
+      "indonesia": "serangga"
+    },
+    {
+      "ngapak": "ganjel",
+      "indonesia": "mengganjal"
+    },
+    {
+      "ngapak": "gantheng",
+      "indonesia": "tampan"
+    },
+    {
+      "ngapak": "ganthil",
+      "indonesia": "terkait"
+    },
+    {
+      "ngapak": "gantung",
+      "indonesia": "tergantung"
+    },
+    {
+      "ngapak": "ganu",
+      "indonesia": "dulu"
+    },
+    {
+      "ngapak": "ganyong",
+      "indonesia": "umbi"
+    },
+    {
+      "ngapak": "gapyuk",
+      "indonesia": "bertemu"
+    },
+    {
+      "ngapak": "garan",
+      "indonesia": "gagang"
+    },
+    {
+      "ngapak": "garang",
+      "indonesia": "galak"
+    },
+    {
+      "ngapak": "garap",
+      "indonesia": "mengerjakan"
+    },
+    {
+      "ngapak": "gareng",
+      "indonesia": "tokoh wayang"
+    },
+    {
+      "ngapak": "garing",
+      "indonesia": "tinggal sedikit"
+    },
+    {
+      "ngapak": "garis",
+      "indonesia": "garis"
+    },
+    {
+      "ngapak": "garuk",
+      "indonesia": "menggaruk"
+    },
+    {
+      "ngapak": "gasak",
+      "indonesia": "mengambil paksa"
+    },
+    {
+      "ngapak": "gasik",
+      "indonesia": "pagi"
+    },
+    {
+      "ngapak": "gathuk",
+      "indonesia": "cocok"
+    },
+    {
+      "ngapak": "gatra",
+      "indonesia": "baris puisi"
+    },
+    {
+      "ngapak": "gawe",
+      "indonesia": "membuat"
+    },
+    {
+      "ngapak": "gayeng",
+      "indonesia": "ramai"
+    },
+    {
+      "ngapak": "gayuh",
+      "indonesia": "meraih"
+    },
+    {
+      "ngapak": "gayung",
+      "indonesia": "alat air"
+    },
+    {
+      "ngapak": "geblag",
+      "indonesia": "jatuh"
+    },
+    {
+      "ngapak": "geblak",
+      "indonesia": "memukul keras"
+    },
+    {
+      "ngapak": "gebug",
+      "indonesia": "memukul"
+    },
+    {
+      "ngapak": "gebyar",
+      "indonesia": "ramai sekali"
+    },
+    {
+      "ngapak": "gebyur",
+      "indonesia": "menciprat air"
+    },
+    {
+      "ngapak": "gecek",
+      "indonesia": "menghitung uang"
+    },
+    {
+      "ngapak": "gecok",
+      "indonesia": "cekcok"
+    },
+    {
+      "ngapak": "gedang",
+      "indonesia": "pisang"
+    },
+    {
+      "ngapak": "gedebuk",
+      "indonesia": "jatuh keras"
+    },
+    {
+      "ngapak": "gedeg",
+      "indonesia": "dinding bambu"
+    },
+    {
+      "ngapak": "gedhagar-dhagar",
+      "indonesia": "terburu-buru"
+    },
+    {
+      "ngapak": "gedig",
+      "indonesia": "pukul"
+    },
+    {
+      "ngapak": "gedrug",
+      "indonesia": "bunyi keras"
+    },
+    {
+      "ngapak": "gedug",
+      "indonesia": "memukul keras"
+    },
+    {
+      "ngapak": "geger",
+      "indonesia": "ramai ribut"
+    },
+    {
+      "ngapak": "gegeran",
+      "indonesia": "keributan"
+    },
+    {
+      "ngapak": "geguyu",
+      "indonesia": "tertawa"
+    },
+    {
+      "ngapak": "gejig",
+      "indonesia": "linggis"
+    },
+    {
+      "ngapak": "gejlig",
+      "indonesia": "jatuh mendadak"
+    },
+    {
+      "ngapak": "gejlok",
+      "indonesia": "turun drastis"
+    },
+    {
+      "ngapak": "gejog",
+      "indonesia": "memukul"
+    },
+    {
+      "ngapak": "gejret",
+      "indonesia": "bunyi petikan"
+    },
+    {
+      "ngapak": "gela",
+      "indonesia": "kesal"
+    },
+    {
+      "ngapak": "gelagapan",
+      "indonesia": "kebingungan"
+    },
+    {
+      "ngapak": "geleser",
+      "indonesia": "bergeser"
+    },
+    {
+      "ngapak": "gelis",
+      "indonesia": "cepat"
+    },
+    {
+      "ngapak": "gelut",
+      "indonesia": "berkelahi"
+    },
+    {
+      "ngapak": "gemagus",
+      "indonesia": "sok ganteng"
+    },
+    {
+      "ngapak": "gembel",
+      "indonesia": "kumuh"
+    },
+    {
+      "ngapak": "gembeleng",
+      "indonesia": "sombong"
+    },
+    {
+      "ngapak": "gembira",
+      "indonesia": "senang"
+    },
+    {
+      "ngapak": "gemblung",
+      "indonesia": "gila"
+    },
+    {
+      "ngapak": "gembol",
+      "indonesia": "membawa"
+    },
+    {
+      "ngapak": "gembong",
+      "indonesia": "pemimpin"
+    },
+    {
+      "ngapak": "gembor",
+      "indonesia": "ember besar"
+    },
+    {
+      "ngapak": "gembridig",
+      "indonesia": "berduyun-duyun"
+    },
+    {
+      "ngapak": "gembrot",
+      "indonesia": "gemuk"
+    },
+    {
+      "ngapak": "gembulung",
+      "indonesia": "gila"
+    },
+    {
+      "ngapak": "gembus",
+      "indonesia": "donat singkong"
+    },
+    {
+      "ngapak": "gemedhe",
+      "indonesia": "sombong"
+    },
+    {
+      "ngapak": "gemilang",
+      "indonesia": "cerah"
+    },
+    {
+      "ngapak": "geming",
+      "indonesia": "diam"
+    },
+    {
+      "ngapak": "gemiyen",
+      "indonesia": "dulu"
+    },
+    {
+      "ngapak": "gemoy",
+      "indonesia": "lucu"
+    },
+    {
+      "ngapak": "gempal",
+      "indonesia": "padat"
+    },
+    {
+      "ngapak": "gempur",
+      "indonesia": "menyerang"
+    },
+    {
+      "ngapak": "genah",
+      "indonesia": "jelas"
+    },
+    {
+      "ngapak": "genap",
+      "indonesia": "genap"
+    },
+    {
+      "ngapak": "gencar",
+      "indonesia": "intens"
+    },
+    {
+      "ngapak": "gencet",
+      "indonesia": "menekan"
+    },
+    {
+      "ngapak": "gencok",
+      "indonesia": "benturan"
+    },
+    {
+      "ngapak": "gendhul rasa",
+      "indonesia": "berbagi cerita"
+    },
+    {
+      "ngapak": "gendul",
+      "indonesia": "botol"
+    },
+    {
+      "ngapak": "genggam",
+      "indonesia": "memegang"
+    },
+    {
+      "ngapak": "gengsi",
+      "indonesia": "malu"
+    },
+    {
+      "ngapak": "geni",
+      "indonesia": "api"
+    },
+    {
+      "ngapak": "genjer",
+      "indonesia": "tumbuhan air"
+    },
+    {
+      "ngapak": "genjot",
+      "indonesia": "menginjak"
+    },
+    {
+      "ngapak": "genuk",
+      "indonesia": "gendut"
+    },
+    {
+      "ngapak": "genyem",
+      "indonesia": "makan ringan"
+    },
+    {
+      "ngapak": "gepok",
+      "indonesia": "memukul"
+    },
+    {
+      "ngapak": "gerah",
+      "indonesia": "sakit"
+    },
+    {
+      "ngapak": "geredeg",
+      "indonesia": "berdebar"
+    },
+    {
+      "ngapak": "gerem",
+      "indonesia": "mengerem"
+    },
+    {
+      "ngapak": "gereng",
+      "indonesia": "mengerang"
+    },
+    {
+      "ngapak": "geret",
+      "indonesia": "menarik"
+    },
+    {
+      "ngapak": "gerombol",
+      "indonesia": "berkumpul"
+    },
+    {
+      "ngapak": "gerot",
+      "indonesia": "menggerogoti"
+    },
+    {
+      "ngapak": "gersang",
+      "indonesia": "kering"
+    },
+    {
+      "ngapak": "geruduk",
+      "indonesia": "mendatangi"
+    },
+    {
+      "ngapak": "gesang",
+      "indonesia": "hidup"
+    },
+    {
+      "ngapak": "gesek",
+      "indonesia": "ikan asin"
+    },
+    {
+      "ngapak": "geseng",
+      "indonesia": "gosong"
+    },
+    {
+      "ngapak": "geser",
+      "indonesia": "bergeser"
+    },
+    {
+      "ngapak": "gesit",
+      "indonesia": "lincah"
+    },
+    {
+      "ngapak": "gesrek",
+      "indonesia": "gesekan"
+    },
+    {
+      "ngapak": "getak",
+      "indonesia": "ketukan"
+    },
+    {
+      "ngapak": "getar",
+      "indonesia": "bergetar"
+    },
+    {
+      "ngapak": "getas",
+      "indonesia": "rapuh"
+    },
+    {
+      "ngapak": "gethak",
+      "indonesia": "jitak"
+    },
+    {
+      "ngapak": "gething",
+      "indonesia": "tidak suka"
+    },
+    {
+      "ngapak": "getok",
+      "indonesia": "memukul"
+    },
+    {
+      "ngapak": "getol",
+      "indonesia": "rajin"
+    },
+    {
+      "ngapak": "getun",
+      "indonesia": "menyesal"
+    },
+    {
+      "ngapak": "gigal",
+      "indonesia": "jatuh"
+    },
+    {
+      "ngapak": "gigu",
+      "indonesia": "jijik"
+    },
+    {
+      "ngapak": "gili",
+      "indonesia": "jalan"
+    },
+    {
+      "ngapak": "gilig",
+      "indonesia": "bulat"
+    },
+    {
+      "ngapak": "giling",
+      "indonesia": "menggiling"
+    },
+    {
+      "ngapak": "gilut",
+      "indonesia": "mengunyah"
+    },
+    {
+      "ngapak": "gimbal",
+      "indonesia": "rambut kusut"
+    },
+    {
+      "ngapak": "gimbleh",
+      "indonesia": "berantakan"
+    },
+    {
+      "ngapak": "gincu",
+      "indonesia": "lipstik"
+    },
+    {
+      "ngapak": "ginding",
+      "indonesia": "tembok"
+    },
+    {
+      "ngapak": "ginuk",
+      "indonesia": "gemuk"
+    },
+    {
+      "ngapak": "gipis",
+      "indonesia": "tipis"
+    },
+    {
+      "ngapak": "girang",
+      "indonesia": "senang"
+    },
+    {
+      "ngapak": "giri-giri",
+      "indonesia": "terburu-buru"
+    },
+    {
+      "ngapak": "giring",
+      "indonesia": "mengarahkan"
+    },
+    {
+      "ngapak": "girip",
+      "indonesia": "takut"
+    },
+    {
+      "ngapak": "gisik",
+      "indonesia": "pantai"
+    },
+    {
+      "ngapak": "githir",
+      "indonesia": "cepat"
+    },
+    {
+      "ngapak": "githok",
+      "indonesia": "tengkuk"
+    },
+    {
+      "ngapak": "githu",
+      "indonesia": "begitu"
+    },
+    {
+      "ngapak": "giwing",
+      "indonesia": "dataran tinggi"
+    },
+    {
+      "ngapak": "giyeng",
+      "indonesia": "ramai"
+    },
+    {
+      "ngapak": "gladak",
+      "indonesia": "lantai kayu"
+    },
+    {
+      "ngapak": "glagah",
+      "indonesia": "rumput"
+    },
+    {
+      "ngapak": "glali",
+      "indonesia": "keliling"
+    },
+    {
+      "ngapak": "glathak",
+      "indonesia": "pagar bambu"
+    },
+    {
+      "ngapak": "glebag",
+      "indonesia": "jatuh"
+    },
+    {
+      "ngapak": "gleber",
+      "indonesia": "terbuka"
+    },
+    {
+      "ngapak": "gledek",
+      "indonesia": "petir"
+    },
+    {
+      "ngapak": "glembung",
+      "indonesia": "gelembung"
+    },
+    {
+      "ngapak": "glepung",
+      "indonesia": "tepung beras"
+    },
+    {
+      "ngapak": "glidhig",
+      "indonesia": "pembawa makanan hajatan"
+    },
+    {
+      "ngapak": "glimpang",
+      "indonesia": "jatuh"
+    },
+    {
+      "ngapak": "glinding",
+      "indonesia": "menggelinding"
+    },
+    {
+      "ngapak": "gludug",
+      "indonesia": "petir"
+    },
+    {
+      "ngapak": "glugu",
+      "indonesia": "pohon kelapa"
+    },
+    {
+      "ngapak": "glundhung",
+      "indonesia": "berguling"
+    },
+    {
+      "ngapak": "glundung",
+      "indonesia": "bundar"
+    },
+    {
+      "ngapak": "gluyu",
+      "indonesia": "licin"
+    },
+    {
+      "ngapak": "godhong",
+      "indonesia": "daun"
+    },
+    {
+      "ngapak": "gogrok",
+      "indonesia": "jatuh"
+    },
+    {
+      "ngapak": "golak",
+      "indonesia": "nyelentik"
+    },
+    {
+      "ngapak": "golet",
+      "indonesia": "cari"
+    },
+    {
+      "ngapak": "golong",
+      "indonesia": "jalan kecil"
+    },
+    {
+      "ngapak": "golèk",
+      "indonesia": "mencari"
+    },
+    {
+      "ngapak": "gombal",
+      "indonesia": "kain bekas"
+    },
+    {
+      "ngapak": "gombel",
+      "indonesia": "hantu"
+    },
+    {
+      "ngapak": "gombloh",
+      "indonesia": "bodoh"
+    },
+    {
+      "ngapak": "gombong",
+      "indonesia": "bohong"
+    },
+    {
+      "ngapak": "gombyok",
+      "indonesia": "terurai"
+    },
+    {
+      "ngapak": "gondhel",
+      "indonesia": "memegang"
+    },
+    {
+      "ngapak": "gondok",
+      "indonesia": "leher bengkak"
+    },
+    {
+      "ngapak": "gondrong",
+      "indonesia": "rambut panjang"
+    },
+    {
+      "ngapak": "gonjang",
+      "indonesia": "guncang"
+    },
+    {
+      "ngapak": "gonjrang",
+      "indonesia": "ramai"
+    },
+    {
+      "ngapak": "gori",
+      "indonesia": "bakal buah nangka"
+    },
+    {
+      "ngapak": "goroh",
+      "indonesia": "bohong"
+    },
+    {
+      "ngapak": "gotek",
+      "indonesia": "melamar"
+    },
+    {
+      "ngapak": "gotong",
+      "indonesia": "angkat"
+    },
+    {
+      "ngapak": "grabag-grubug",
+      "indonesia": "tergesa-gesa"
+    },
+    {
+      "ngapak": "gragas",
+      "indonesia": "rakus"
+    },
+    {
+      "ngapak": "grajih",
+      "indonesia": "gergaji"
+    },
+    {
+      "ngapak": "grapyak",
+      "indonesia": "ramah"
+    },
+    {
+      "ngapak": "greget",
+      "indonesia": "semangat"
+    },
+    {
+      "ngapak": "gremet",
+      "indonesia": "gemetar"
+    },
+    {
+      "ngapak": "grengseng",
+      "indonesia": "kering"
+    },
+    {
+      "ngapak": "grimis",
+      "indonesia": "hujan ringan"
+    },
+    {
+      "ngapak": "grobak",
+      "indonesia": "gerobak"
+    },
+    {
+      "ngapak": "grobyok",
+      "indonesia": "ramai"
+    },
+    {
+      "ngapak": "grogol",
+      "indonesia": "batuk"
+    },
+    {
+      "ngapak": "grombol",
+      "indonesia": "berkumpul"
+    },
+    {
+      "ngapak": "grombyang",
+      "indonesia": "berantakan"
+    },
+    {
+      "ngapak": "grompol",
+      "indonesia": "berkelompok"
+    },
+    {
+      "ngapak": "gronjal",
+      "indonesia": "berlubang"
+    },
+    {
+      "ngapak": "gropyok",
+      "indonesia": "menggerebek"
+    },
+    {
+      "ngapak": "gudel",
+      "indonesia": "anak kerbau"
+    },
+    {
+      "ngapak": "gugah",
+      "indonesia": "membangunkan"
+    },
+    {
+      "ngapak": "gujih",
+      "indonesia": "cerewet"
+    },
+    {
+      "ngapak": "gulung",
+      "indonesia": "menggulung"
+    },
+    {
+      "ngapak": "gumbrang",
+      "indonesia": "jatuh"
+    },
+    {
+      "ngapak": "gumelar",
+      "indonesia": "terbuka"
+    },
+    {
+      "ngapak": "gumregah",
+      "indonesia": "semangat"
+    },
+    {
+      "ngapak": "gumregut",
+      "indonesia": "bergerak"
+    },
+    {
+      "ngapak": "gumun",
+      "indonesia": "heran"
+    },
+    {
+      "ngapak": "guncang",
+      "indonesia": "bergoyang"
+    },
+    {
+      "ngapak": "gundhuk",
+      "indonesia": "bukit kecil"
+    },
+    {
+      "ngapak": "gundhul",
+      "indonesia": "botak"
+    },
+    {
+      "ngapak": "gunem",
+      "indonesia": "bicara"
+    },
+    {
+      "ngapak": "gupak",
+      "indonesia": "kotor"
+    },
+    {
+      "ngapak": "gupit",
+      "indonesia": "sempit"
+    },
+    {
+      "ngapak": "gupuh",
+      "indonesia": "terburu"
+    },
+    {
+      "ngapak": "gurat",
+      "indonesia": "goresan"
+    },
+    {
+      "ngapak": "gurem",
+      "indonesia": "kutu kecil"
+    },
+    {
+      "ngapak": "guring",
+      "indonesia": "tidur"
+    },
+    {
+      "ngapak": "gurit",
+      "indonesia": "gores"
+    },
+    {
+      "ngapak": "guruh",
+      "indonesia": "gemuruh"
+    },
+    {
+      "ngapak": "gusur",
+      "indonesia": "memindahkan"
+    },
+    {
+      "ngapak": "gutul",
+      "indonesia": "sampai"
+    },
+    {
+      "ngapak": "guyon",
+      "indonesia": "bercanda"
+    },
+    {
+      "ngapak": "guyub",
+      "indonesia": "rukun"
+    },
+    {
+      "ngapak": "guyur",
+      "indonesia": "mengguyur"
+    },
+    {
+      "ngapak": "habotan",
+      "indonesia": "kesulitan"
+    },
+    {
+      "ngapak": "halah",
+      "indonesia": "kata seru"
+    },
+    {
+      "ngapak": "halaholo",
+      "indonesia": "bingung"
+    },
+    {
+      "ngapak": "hesek",
+      "indonesia": "gesek"
+    },
+    {
+      "ngapak": "hiyeng",
+      "indonesia": "ramai"
+    },
+    {
+      "ngapak": "hodo",
+      "indonesia": "makan banyak"
+    },
+    {
+      "ngapak": "hodog",
+      "indonesia": "merebus"
+    },
+    {
+      "ngapak": "hogan",
+      "indonesia": "santai"
+    },
+    {
+      "ngapak": "holong",
+      "indonesia": "sayang"
+    },
+    {
+      "ngapak": "hurip",
+      "indonesia": "hidup"
+    },
+    {
+      "ngapak": "huru-hara",
+      "indonesia": "kacau"
+    },
+    {
+      "ngapak": "husus",
+      "indonesia": "khusus"
+    },
+    {
+      "ngapak": "hutan",
+      "indonesia": "hutan"
+    },
+    {
+      "ngapak": "huwis",
+      "indonesia": "sudah"
+    },
+    {
+      "ngapak": "hyang",
+      "indonesia": "tuhan"
+    },
+    {
+      "ngapak": "ibing",
+      "indonesia": "menari"
+    },
+    {
+      "ngapak": "ibrah",
+      "indonesia": "pelajaran"
+    },
+    {
+      "ngapak": "idang",
+      "indonesia": "hidangan"
+    },
+    {
+      "ngapak": "idek/pidek",
+      "indonesia": "injak"
+    },
+    {
+      "ngapak": "ider",
+      "indonesia": "berkeliling"
+    },
+    {
+      "ngapak": "ider-ider",
+      "indonesia": "berkeliling terus"
+    },
+    {
+      "ngapak": "idhak",
+      "indonesia": "mendekat"
+    },
+    {
+      "ngapak": "idhuk",
+      "indonesia": "mengaduk"
+    },
+    {
+      "ngapak": "idhup",
+      "indonesia": "hidup"
+    },
+    {
+      "ngapak": "iku",
+      "indonesia": "ini"
+    },
+    {
+      "ngapak": "ilang",
+      "indonesia": "hilang"
+    },
+    {
+      "ngapak": "ilek",
+      "indonesia": "ikut"
+    },
+    {
+      "ngapak": "ileng-ileng",
+      "indonesia": "memperhatikan"
+    },
+    {
+      "ngapak": "ilok",
+      "indonesia": "bagus"
+    },
+    {
+      "ngapak": "impen",
+      "indonesia": "mimpi"
+    },
+    {
+      "ngapak": "impit",
+      "indonesia": "menjepit"
+    },
+    {
+      "ngapak": "indhung",
+      "indonesia": "berlindung"
+    },
+    {
+      "ngapak": "indit",
+      "indonesia": "pergi"
+    },
+    {
+      "ngapak": "indong",
+      "indonesia": "menggendong"
+    },
+    {
+      "ngapak": "induk",
+      "indonesia": "induk"
+    },
+    {
+      "ngapak": "ingah",
+      "indonesia": "tingkah"
+    },
+    {
+      "ngapak": "ingah-ingih",
+      "indonesia": "kekanak-kanakan"
+    },
+    {
+      "ngapak": "inget",
+      "indonesia": "ingat"
+    },
+    {
+      "ngapak": "inggil",
+      "indonesia": "tinggi"
+    },
+    {
+      "ngapak": "ingon",
+      "indonesia": "memelihara"
+    },
+    {
+      "ngapak": "inguh",
+      "indonesia": "ramai"
+    },
+    {
+      "ngapak": "inyong",
+      "indonesia": "saya"
+    },
+    {
+      "ngapak": "ireng",
+      "indonesia": "hitam"
+    },
+    {
+      "ngapak": "irid",
+      "indonesia": "iris"
+    },
+    {
+      "ngapak": "irit",
+      "indonesia": "hemat"
+    },
+    {
+      "ngapak": "isih",
+      "indonesia": "masih"
+    },
+    {
+      "ngapak": "isin",
+      "indonesia": "malu"
+    },
+    {
+      "ngapak": "isis",
+      "indonesia": "santai"
+    },
+    {
+      "ngapak": "isuk",
+      "indonesia": "pagi"
+    },
+    {
+      "ngapak": "iwak",
+      "indonesia": "ikan/daging"
+    },
+    {
+      "ngapak": "jaba",
+      "indonesia": "luar"
+    },
+    {
+      "ngapak": "jagong",
+      "indonesia": "duduk"
+    },
+    {
+      "ngapak": "jajal",
+      "indonesia": "coba"
+    },
+    {
+      "ngapak": "jajan",
+      "indonesia": "membeli makanan"
+    },
+    {
+      "ngapak": "jajar",
+      "indonesia": "berbaris"
+    },
+    {
+      "ngapak": "jaka",
+      "indonesia": "pemuda"
+    },
+    {
+      "ngapak": "jaluk",
+      "indonesia": "meminta"
+    },
+    {
+      "ngapak": "jamak",
+      "indonesia": "banyak"
+    },
+    {
+      "ngapak": "jambak",
+      "indonesia": "menarik rambut"
+    },
+    {
+      "ngapak": "jambal",
+      "indonesia": "makan lauk"
+    },
+    {
+      "ngapak": "jancuk",
+      "indonesia": "kata kasar"
+    },
+    {
+      "ngapak": "jane",
+      "indonesia": "sebenarnya"
+    },
+    {
+      "ngapak": "janggel",
+      "indonesia": "berdiri"
+    },
+    {
+      "ngapak": "jangka",
+      "indonesia": "perkiraan"
+    },
+    {
+      "ngapak": "jangkar",
+      "indonesia": "penahan kapal"
+    },
+    {
+      "ngapak": "jangkep",
+      "indonesia": "lengkap"
+    },
+    {
+      "ngapak": "jaran",
+      "indonesia": "kuda"
+    },
+    {
+      "ngapak": "jare",
+      "indonesia": "katanya"
+    },
+    {
+      "ngapak": "jarit",
+      "indonesia": "kain"
+    },
+    {
+      "ngapak": "jarkoni",
+      "indonesia": "bisa mengajar tidak bisa melakukan"
+    },
+    {
+      "ngapak": "jatmika",
+      "indonesia": "sopan"
+    },
+    {
+      "ngapak": "jatuh",
+      "indonesia": "jatuh"
+    },
+    {
+      "ngapak": "jawa",
+      "indonesia": "jawa"
+    },
+    {
+      "ngapak": "jawil",
+      "indonesia": "colek"
+    },
+    {
+      "ngapak": "jeblos",
+      "indonesia": "jatuh masuk"
+    },
+    {
+      "ngapak": "jeblug",
+      "indonesia": "meledak"
+    },
+    {
+      "ngapak": "jebol",
+      "indonesia": "rusak"
+    },
+    {
+      "ngapak": "jebul",
+      "indonesia": "ternyata"
+    },
+    {
+      "ngapak": "jeder",
+      "indonesia": "bunyi keras"
+    },
+    {
+      "ngapak": "jeglong",
+      "indonesia": "jatuh"
+    },
+    {
+      "ngapak": "jegur",
+      "indonesia": "menjatuhkan"
+    },
+    {
+      "ngapak": "jejeg",
+      "indonesia": "tegak"
+    },
+    {
+      "ngapak": "jejek",
+      "indonesia": "menginjak"
+    },
+    {
+      "ngapak": "jejel",
+      "indonesia": "penuh sesak"
+    },
+    {
+      "ngapak": "jejer",
+      "indonesia": "berderet"
+    },
+    {
+      "ngapak": "jekek",
+      "indonesia": "kaku"
+    },
+    {
+      "ngapak": "jembangan",
+      "indonesia": "bak air"
+    },
+    {
+      "ngapak": "jembar",
+      "indonesia": "luas"
+    },
+    {
+      "ngapak": "jembatan",
+      "indonesia": "jembatan"
+    },
+    {
+      "ngapak": "jempol",
+      "indonesia": "ibu jari"
+    },
+    {
+      "ngapak": "jenang",
+      "indonesia": "dodol banyumas"
+    },
+    {
+      "ngapak": "jenat",
+      "indonesia": "almarhum"
+    },
+    {
+      "ngapak": "jendhela",
+      "indonesia": "jendela"
+    },
+    {
+      "ngapak": "jeneng",
+      "indonesia": "nama"
+    },
+    {
+      "ngapak": "jengat",
+      "indonesia": "mencuat"
+    },
+    {
+      "ngapak": "jenggot",
+      "indonesia": "kumis dagu"
+    },
+    {
+      "ngapak": "jengkel",
+      "indonesia": "kesal"
+    },
+    {
+      "ngapak": "jengkok",
+      "indonesia": "kursi kecil"
+    },
+    {
+      "ngapak": "jenguk",
+      "indonesia": "menjenguk"
+    },
+    {
+      "ngapak": "jenthik",
+      "indonesia": "jari"
+    },
+    {
+      "ngapak": "jentik",
+      "indonesia": "jari"
+    },
+    {
+      "ngapak": "jepit",
+      "indonesia": "menjepit"
+    },
+    {
+      "ngapak": "jere",
+      "indonesia": "katanya"
+    },
+    {
+      "ngapak": "jero",
+      "indonesia": "dalam"
+    },
+    {
+      "ngapak": "jijih",
+      "indonesia": "jijik"
+    },
+    {
+      "ngapak": "jimot",
+      "indonesia": "mengambil"
+    },
+    {
+      "ngapak": "jinggleng",
+      "indonesia": "menunggu"
+    },
+    {
+      "ngapak": "jiret",
+      "indonesia": "ikat"
+    },
+    {
+      "ngapak": "jiret-jiret",
+      "indonesia": "tarik-tarik"
+    },
+    {
+      "ngapak": "jiyot",
+      "indonesia": "mengambil"
+    },
+    {
+      "ngapak": "joged",
+      "indonesia": "menari"
+    },
+    {
+      "ngapak": "joglo",
+      "indonesia": "rumah adat"
+    },
+    {
+      "ngapak": "jogrok",
+      "indonesia": "jongkok"
+    },
+    {
+      "ngapak": "jok",
+      "indonesia": "duduk"
+    },
+    {
+      "ngapak": "jor",
+      "indonesia": "biar"
+    },
+    {
+      "ngapak": "jotos",
+      "indonesia": "memukul"
+    },
+    {
+      "ngapak": "jujug",
+      "indonesia": "mengantar"
+    },
+    {
+      "ngapak": "jujul",
+      "indonesia": "uang kembali"
+    },
+    {
+      "ngapak": "jukuk",
+      "indonesia": "mengambil"
+    },
+    {
+      "ngapak": "jukut",
+      "indonesia": "mengambil"
+    },
+    {
+      "ngapak": "juling",
+      "indonesia": "mata tidak lurus"
+    },
+    {
+      "ngapak": "jumput",
+      "indonesia": "mengambil sedikit"
+    },
+    {
+      "ngapak": "jungkat",
+      "indonesia": "sisir"
+    },
+    {
+      "ngapak": "jungut",
+      "indonesia": "ambil"
+    },
+    {
+      "ngapak": "juntrung",
+      "indonesia": "ujung"
+    },
+    {
+      "ngapak": "jurang",
+      "indonesia": "lembah"
+    },
+    {
+      "ngapak": "jurem",
+      "indonesia": "bau amis"
+    },
+    {
+      "ngapak": "jurit",
+      "indonesia": "prajurit"
+    },
+    {
+      "ngapak": "juru",
+      "indonesia": "orang ahli"
+    },
+    {
+      "ngapak": "jutek",
+      "indonesia": "dingin sikap"
+    },
+    {
+      "ngapak": "juyu",
+      "indonesia": "ludah"
+    },
+    {
+      "ngapak": "kabeh",
+      "indonesia": "semua"
+    },
+    {
+      "ngapak": "kacek",
+      "indonesia": "berbeda"
+    },
+    {
+      "ngapak": "kadhang",
+      "indonesia": "kadang"
+    },
+    {
+      "ngapak": "kadhung",
+      "indonesia": "terlanjur"
+    },
+    {
+      "ngapak": "kae",
+      "indonesia": "itu"
+    },
+    {
+      "ngapak": "kagetan",
+      "indonesia": "mudah kaget"
+    },
+    {
+      "ngapak": "kagol",
+      "indonesia": "kikuk"
+    },
+    {
+      "ngapak": "kakaen",
+      "indonesia": "kebanyakan"
+    },
+    {
+      "ngapak": "kakean",
+      "indonesia": "terlalu banyak"
+    },
+    {
+      "ngapak": "kakus",
+      "indonesia": "wc"
+    },
+    {
+      "ngapak": "kalem",
+      "indonesia": "tenang"
+    },
+    {
+      "ngapak": "kali",
+      "indonesia": "sungai kecil"
+    },
+    {
+      "ngapak": "kalih",
+      "indonesia": "dua"
+    },
+    {
+      "ngapak": "kambi",
+      "indonesia": "dengan"
+    },
+    {
+      "ngapak": "kampil",
+      "indonesia": "bantal"
+    },
+    {
+      "ngapak": "kanca",
+      "indonesia": "teman"
+    },
+    {
+      "ngapak": "kandha",
+      "indonesia": "bicara"
+    },
+    {
+      "ngapak": "kangen",
+      "indonesia": "rindu"
+    },
+    {
+      "ngapak": "kanthong",
+      "indonesia": "kantong"
+    },
+    {
+      "ngapak": "kaping",
+      "indonesia": "ke-"
+    },
+    {
+      "ngapak": "kapok",
+      "indonesia": "jera"
+    },
+    {
+      "ngapak": "karag",
+      "indonesia": "kerupuk nasi"
+    },
+    {
+      "ngapak": "karangan",
+      "indonesia": "karangan"
+    },
+    {
+      "ngapak": "karep",
+      "indonesia": "mau"
+    },
+    {
+      "ngapak": "karepku",
+      "indonesia": "kemauanku"
+    },
+    {
+      "ngapak": "karo",
+      "indonesia": "dengan"
+    },
+    {
+      "ngapak": "karus",
+      "indonesia": "terlanjur"
+    },
+    {
+      "ngapak": "kasut",
+      "indonesia": "kaos kaki"
+    },
+    {
+      "ngapak": "kathok",
+      "indonesia": "celana"
+    },
+    {
+      "ngapak": "katon",
+      "indonesia": "terlihat"
+    },
+    {
+      "ngapak": "kawit",
+      "indonesia": "sejak"
+    },
+    {
+      "ngapak": "kawula",
+      "indonesia": "saya"
+    },
+    {
+      "ngapak": "kawus",
+      "indonesia": "jerawat"
+    },
+    {
+      "ngapak": "kaya",
+      "indonesia": "seperti"
+    },
+    {
+      "ngapak": "kayak",
+      "indonesia": "seperti"
+    },
+    {
+      "ngapak": "kayange",
+      "indonesia": "kayaknya"
+    },
+    {
+      "ngapak": "kebak",
+      "indonesia": "penuh"
+    },
+    {
+      "ngapak": "kebat",
+      "indonesia": "cepat"
+    },
+    {
+      "ngapak": "kebek",
+      "indonesia": "penuh"
+    },
+    {
+      "ngapak": "kebo",
+      "indonesia": "kerbau"
+    },
+    {
+      "ngapak": "kebon",
+      "indonesia": "kebun"
+    },
+    {
+      "ngapak": "kecanthol",
+      "indonesia": "tersangkut"
+    },
+    {
+      "ngapak": "kecing",
+      "indonesia": "penakut"
+    },
+    {
+      "ngapak": "kedadeyan",
+      "indonesia": "kejadian"
+    },
+    {
+      "ngapak": "kedhangkrakan",
+      "indonesia": "terbengkalai"
+    },
+    {
+      "ngapak": "kedhep",
+      "indonesia": "berkedip"
+    },
+    {
+      "ngapak": "kedhul",
+      "indonesia": "menyembul"
+    },
+    {
+      "ngapak": "keduman",
+      "indonesia": "dapat bagian"
+    },
+    {
+      "ngapak": "kejem",
+      "indonesia": "kejam"
+    },
+    {
+      "ngapak": "kekeh",
+      "indonesia": "bersikeras"
+    },
+    {
+      "ngapak": "kelakon",
+      "indonesia": "tercapai"
+    },
+    {
+      "ngapak": "kelalen",
+      "indonesia": "lupa"
+    },
+    {
+      "ngapak": "kelangan",
+      "indonesia": "kehilangan"
+    },
+    {
+      "ngapak": "kelar",
+      "indonesia": "selesai"
+    },
+    {
+      "ngapak": "keleleb",
+      "indonesia": "tenggelam"
+    },
+    {
+      "ngapak": "kelingan",
+      "indonesia": "teringat"
+    },
+    {
+      "ngapak": "kelip",
+      "indonesia": "kedip"
+    },
+    {
+      "ngapak": "keliru",
+      "indonesia": "salah"
+    },
+    {
+      "ngapak": "kelon",
+      "indonesia": "peluk"
+    },
+    {
+      "ngapak": "kemaki",
+      "indonesia": "sombong"
+    },
+    {
+      "ngapak": "kembul",
+      "indonesia": "berkumpul"
+    },
+    {
+      "ngapak": "kemel",
+      "indonesia": "menggigit"
+    },
+    {
+      "ngapak": "kemlakaren",
+      "indonesia": "sakit perut"
+    },
+    {
+      "ngapak": "kemlelet",
+      "indonesia": "tertawa"
+    },
+    {
+      "ngapak": "kemringet",
+      "indonesia": "berkeringat"
+    },
+    {
+      "ngapak": "kemruwuk",
+      "indonesia": "kriuk"
+    },
+    {
+      "ngapak": "kemrêwèk",
+      "indonesia": "cerewet"
+    },
+    {
+      "ngapak": "kemutan",
+      "indonesia": "ingat"
+    },
+    {
+      "ngapak": "kenceng",
+      "indonesia": "kencang"
+    },
+    {
+      "ngapak": "kencot",
+      "indonesia": "lapar"
+    },
+    {
+      "ngapak": "kendel",
+      "indonesia": "berani"
+    },
+    {
+      "ngapak": "kendho",
+      "indonesia": "kendur"
+    },
+    {
+      "ngapak": "kene",
+      "indonesia": "sini"
+    },
+    {
+      "ngapak": "kepingin",
+      "indonesia": "ingin"
+    },
+    {
+      "ngapak": "kepriwe",
+      "indonesia": "bagaimana"
+    },
+    {
+      "ngapak": "kepungkur",
+      "indonesia": "yang lalu"
+    },
+    {
+      "ngapak": "kerasa",
+      "indonesia": "terasa"
+    },
+    {
+      "ngapak": "kering",
+      "indonesia": "kering"
+    },
+    {
+      "ngapak": "kerok",
+      "indonesia": "menggaruk"
+    },
+    {
+      "ngapak": "keron",
+      "indonesia": "kerupuk"
+    },
+    {
+      "ngapak": "kertas",
+      "indonesia": "kertas"
+    },
+    {
+      "ngapak": "kertu",
+      "indonesia": "kartu"
+    },
+    {
+      "ngapak": "kesambat",
+      "indonesia": "gotong royong"
+    },
+    {
+      "ngapak": "kesel",
+      "indonesia": "capek"
+    },
+    {
+      "ngapak": "kesuh",
+      "indonesia": "marah"
+    },
+    {
+      "ngapak": "kesuwun",
+      "indonesia": "terima kasih"
+    },
+    {
+      "ngapak": "ketemu",
+      "indonesia": "bertemu"
+    },
+    {
+      "ngapak": "kethok",
+      "indonesia": "terlihat"
+    },
+    {
+      "ngapak": "kethul",
+      "indonesia": "tumpul"
+    },
+    {
+      "ngapak": "kethèk",
+      "indonesia": "monyet"
+    },
+    {
+      "ngapak": "ketilem",
+      "indonesia": "tenggelam"
+    },
+    {
+      "ngapak": "ketok",
+      "indonesia": "memukul"
+    },
+    {
+      "ngapak": "keton",
+      "indonesia": "terlihat"
+    },
+    {
+      "ngapak": "ketul",
+      "indonesia": "gumpalan"
+    },
+    {
+      "ngapak": "ketungkul",
+      "indonesia": "terlalu asyik"
+    },
+    {
+      "ngapak": "keweden",
+      "indonesia": "takut"
+    },
+    {
+      "ngapak": "kewut",
+      "indonesia": "kusut"
+    },
+    {
+      "ngapak": "kibul",
+      "indonesia": "bohong"
+    },
+    {
+      "ngapak": "kidul",
+      "indonesia": "selatan"
+    },
+    {
+      "ngapak": "kie",
+      "indonesia": "ini"
+    },
+    {
+      "ngapak": "kiler",
+      "indonesia": "gelisah"
+    },
+    {
+      "ngapak": "kisruh",
+      "indonesia": "ribut"
+    },
+    {
+      "ngapak": "kiter-kiter",
+      "indonesia": "putar-putar"
+    },
+    {
+      "ngapak": "kiting",
+      "indonesia": "kepiting kecil"
+    },
+    {
+      "ngapak": "kiwa",
+      "indonesia": "kiri"
+    },
+    {
+      "ngapak": "kiye",
+      "indonesia": "ini"
+    },
+    {
+      "ngapak": "klamben",
+      "indonesia": "pakaian"
+    },
+    {
+      "ngapak": "klambi",
+      "indonesia": "baju"
+    },
+    {
+      "ngapak": "klamit",
+      "indonesia": "salam"
+    },
+    {
+      "ngapak": "klari",
+      "indonesia": "daun kelapa kering"
+    },
+    {
+      "ngapak": "klayaban",
+      "indonesia": "keluar rumah"
+    },
+    {
+      "ngapak": "klenger",
+      "indonesia": "pusing"
+    },
+    {
+      "ngapak": "klinong",
+      "indonesia": "jalan-jalan"
+    },
+    {
+      "ngapak": "kliru",
+      "indonesia": "salah"
+    },
+    {
+      "ngapak": "klise",
+      "indonesia": "biasa"
+    },
+    {
+      "ngapak": "klonthong",
+      "indonesia": "bunyi lonceng"
+    },
+    {
+      "ngapak": "klowor",
+      "indonesia": "tidak rapi"
+    },
+    {
+      "ngapak": "klumpuh",
+      "indonesia": "jatuh telentang"
+    },
+    {
+      "ngapak": "klutuk",
+      "indonesia": "bunyi"
+    },
+    {
+      "ngapak": "ko",
+      "indonesia": "kamu"
+    },
+    {
+      "ngapak": "kobar",
+      "indonesia": "terbakar"
+    },
+    {
+      "ngapak": "kobaran",
+      "indonesia": "terbakar"
+    },
+    {
+      "ngapak": "kober",
+      "indonesia": "sempat"
+    },
+    {
+      "ngapak": "kobong",
+      "indonesia": "terbakar"
+    },
+    {
+      "ngapak": "kocak",
+      "indonesia": "lucu"
+    },
+    {
+      "ngapak": "kocor",
+      "indonesia": "mengalir"
+    },
+    {
+      "ngapak": "kodhok",
+      "indonesia": "katak"
+    },
+    {
+      "ngapak": "kodol",
+      "indonesia": "menggeliat"
+    },
+    {
+      "ngapak": "koh",
+      "indonesia": "kakak"
+    },
+    {
+      "ngapak": "kok",
+      "indonesia": "kenapa"
+    },
+    {
+      "ngapak": "kolek",
+      "indonesia": "makanan pisang santan"
+    },
+    {
+      "ngapak": "kolong",
+      "indonesia": "bawah tempat tidur"
+    },
+    {
+      "ngapak": "kompak",
+      "indonesia": "kompak"
+    },
+    {
+      "ngapak": "konco",
+      "indonesia": "teman"
+    },
+    {
+      "ngapak": "kondhang",
+      "indonesia": "terkenal"
+    },
+    {
+      "ngapak": "kongkon",
+      "indonesia": "menyuruh"
+    },
+    {
+      "ngapak": "kosod",
+      "indonesia": "membersihkan sepatu"
+    },
+    {
+      "ngapak": "kowe",
+      "indonesia": "kamu"
+    },
+    {
+      "ngapak": "kraca",
+      "indonesia": "keong sawah"
+    },
+    {
+      "ngapak": "krasa",
+      "indonesia": "terasa"
+    },
+    {
+      "ngapak": "krikil",
+      "indonesia": "kerikil"
+    },
+    {
+      "ngapak": "krungkep",
+      "indonesia": "jatuh tersungkur"
+    },
+    {
+      "ngapak": "krungu",
+      "indonesia": "mendengar"
+    },
+    {
+      "ngapak": "kucluk",
+      "indonesia": "bodoh"
+    },
+    {
+      "ngapak": "kudu",
+      "indonesia": "harus"
+    },
+    {
+      "ngapak": "kula",
+      "indonesia": "saya"
+    },
+    {
+      "ngapak": "kulon",
+      "indonesia": "barat"
+    },
+    {
+      "ngapak": "kuluh-kuluh",
+      "indonesia": "sangat kotor"
+    },
+    {
+      "ngapak": "kuna",
+      "indonesia": "zaman dulu"
+    },
+    {
+      "ngapak": "kungkum",
+      "indonesia": "berendam"
+    },
+    {
+      "ngapak": "kur",
+      "indonesia": "hanya"
+    },
+    {
+      "ngapak": "kutha",
+      "indonesia": "kota"
+    },
+    {
+      "ngapak": "kuwe",
+      "indonesia": "itu"
+    },
+    {
+      "ngapak": "labuh",
+      "indonesia": "mulai"
+    },
+    {
+      "ngapak": "ladak",
+      "indonesia": "galak"
+    },
+    {
+      "ngapak": "laga",
+      "indonesia": "bertanding"
+    },
+    {
+      "ngapak": "lair",
+      "indonesia": "lahir, lairan–kelahiran"
+    },
+    {
+      "ngapak": "lakon",
+      "indonesia": "judul"
+    },
+    {
+      "ngapak": "laler",
+      "indonesia": "lalat"
+    },
+    {
+      "ngapak": "lambé",
+      "indonesia": "bibir"
+    },
+    {
+      "ngapak": "lamod",
+      "indonesia": "menjilat"
+    },
+    {
+      "ngapak": "lan",
+      "indonesia": "dan"
+    },
+    {
+      "ngapak": "lanang",
+      "indonesia": "laki-laki"
+    },
+    {
+      "ngapak": "landhep",
+      "indonesia": "tajam"
+    },
+    {
+      "ngapak": "landhung",
+      "indonesia": "menjulur"
+    },
+    {
+      "ngapak": "langa",
+      "indonesia": "jarang"
+    },
+    {
+      "ngapak": "langka",
+      "indonesia": "tidak ada"
+    },
+    {
+      "ngapak": "lanting",
+      "indonesia": "makanan kecil/camilan dari singkong khas banyumas"
+    },
+    {
+      "ngapak": "lara",
+      "indonesia": "sakit"
+    },
+    {
+      "ngapak": "lare",
+      "indonesia": "anak"
+    },
+    {
+      "ngapak": "laris",
+      "indonesia": "laku"
+    },
+    {
+      "ngapak": "larut",
+      "indonesia": "larut"
+    },
+    {
+      "ngapak": "latar",
+      "indonesia": "halaman"
+    },
+    {
+      "ngapak": "laut",
+      "indonesia": "selesai kerja, pulang kerja"
+    },
+    {
+      "ngapak": "lawang",
+      "indonesia": "pintu"
+    },
+    {
+      "ngapak": "lawas",
+      "indonesia": "lama"
+    },
+    {
+      "ngapak": "layak",
+      "indonesia": "pantas"
+    },
+    {
+      "ngapak": "layu",
+      "indonesia": "layu"
+    },
+    {
+      "ngapak": "lebu",
+      "indonesia": "debu"
+    },
+    {
+      "ngapak": "lebur",
+      "indonesia": "hancur"
+    },
+    {
+      "ngapak": "ledig",
+      "indonesia": "kering"
+    },
+    {
+      "ngapak": "leg",
+      "indonesia": "telan"
+    },
+    {
+      "ngapak": "legan",
+      "indonesia": "lega"
+    },
+    {
+      "ngapak": "legit",
+      "indonesia": "manis"
+    },
+    {
+      "ngapak": "lejed",
+      "indonesia": "sangat"
+    },
+    {
+      "ngapak": "lejèg",
+      "indonesia": "sudah longgar"
+    },
+    {
+      "ngapak": "leleb",
+      "indonesia": "seimbang / tidak goyang"
+    },
+    {
+      "ngapak": "lelet",
+      "indonesia": "putaran kencang"
+    },
+    {
+      "ngapak": "lempog",
+      "indonesia": "lelah"
+    },
+    {
+      "ngapak": "lempogen",
+      "indonesia": "lelah, capek"
+    },
+    {
+      "ngapak": "lemu",
+      "indonesia": "gemuk"
+    },
+    {
+      "ngapak": "lemud",
+      "indonesia": "nyamuk"
+    },
+    {
+      "ngapak": "lenga",
+      "indonesia": "minyak goreng"
+    },
+    {
+      "ngapak": "lenggah",
+      "indonesia": "duduk"
+    },
+    {
+      "ngapak": "lengket",
+      "indonesia": "melekat"
+    },
+    {
+      "ngapak": "lengo",
+      "indonesia": "minyak"
+    },
+    {
+      "ngapak": "lengob",
+      "indonesia": "bodoh"
+    },
+    {
+      "ngapak": "lengser",
+      "indonesia": "turun"
+    },
+    {
+      "ngapak": "lereng",
+      "indonesia": "sangat"
+    },
+    {
+      "ngapak": "leres",
+      "indonesia": "benar"
+    },
+    {
+      "ngapak": "leret",
+      "indonesia": "deret"
+    },
+    {
+      "ngapak": "lesu",
+      "indonesia": "lemah"
+    },
+    {
+      "ngapak": "lesung",
+      "indonesia": "alat tradisional pengolahan padi/gabah"
+    },
+    {
+      "ngapak": "letak",
+      "indonesia": "posisi"
+    },
+    {
+      "ngapak": "lewat",
+      "indonesia": "melalui"
+    },
+    {
+      "ngapak": "leweh",
+      "indonesia": "lebih"
+    },
+    {
+      "ngapak": "lewih",
+      "indonesia": "sisa"
+    },
+    {
+      "ngapak": "lincah",
+      "indonesia": "lincah"
+    },
+    {
+      "ngapak": "lindung",
+      "indonesia": "melindungi"
+    },
+    {
+      "ngapak": "lingir",
+      "indonesia": "pinggir"
+    },
+    {
+      "ngapak": "lingkar",
+      "indonesia": "melingkar"
+    },
+    {
+      "ngapak": "lingsir",
+      "indonesia": "tengah hari (siang/malam)"
+    },
+    {
+      "ngapak": "lintang",
+      "indonesia": "bintang"
+    },
+    {
+      "ngapak": "lipat",
+      "indonesia": "melipat"
+    },
+    {
+      "ngapak": "lirih",
+      "indonesia": "lembut"
+    },
+    {
+      "ngapak": "liwang-liwung",
+      "indonesia": "tidak jelas"
+    },
+    {
+      "ngapak": "liwat",
+      "indonesia": "lewat"
+    },
+    {
+      "ngapak": "liya",
+      "indonesia": "lain"
+    },
+    {
+      "ngapak": "liyane",
+      "indonesia": "lainnya"
+    },
+    {
+      "ngapak": "lobok",
+      "indonesia": "longgar / kebesaran"
+    },
+    {
+      "ngapak": "lodhong",
+      "indonesia": "wadah bambu"
+    },
+    {
+      "ngapak": "lodong",
+      "indonesia": "mencret"
+    },
+    {
+      "ngapak": "lodrog",
+      "indonesia": "memasak benda padat sampai hancur/larut"
+    },
+    {
+      "ngapak": "lombo",
+      "indonesia": "bohong"
+    },
+    {
+      "ngapak": "lombok",
+      "indonesia": "cabai"
+    },
+    {
+      "ngapak": "londohog",
+      "indonesia": "jalannya pelan"
+    },
+    {
+      "ngapak": "longan",
+      "indonesia": "kolong (biasanya tempat tidur)"
+    },
+    {
+      "ngapak": "longo",
+      "indonesia": "melongo"
+    },
+    {
+      "ngapak": "longok",
+      "indonesia": "menjenguk"
+    },
+    {
+      "ngapak": "lonjak",
+      "indonesia": "melonjak"
+    },
+    {
+      "ngapak": "lor",
+      "indonesia": "utara"
+    },
+    {
+      "ngapak": "loro",
+      "indonesia": "dua"
+    },
+    {
+      "ngapak": "lorot",
+      "indonesia": "jatuh"
+    },
+    {
+      "ngapak": "los",
+      "indonesia": "bebas"
+    },
+    {
+      "ngapak": "luber",
+      "indonesia": "meluap"
+    },
+    {
+      "ngapak": "luged",
+      "indonesia": "mantap"
+    },
+    {
+      "ngapak": "lunga",
+      "indonesia": "pergi"
+    },
+    {
+      "ngapak": "lungguh",
+      "indonesia": "duduk"
+    },
+    {
+      "ngapak": "lungsur",
+      "indonesia": "bekas"
+    },
+    {
+      "ngapak": "luput",
+      "indonesia": "salah"
+    },
+    {
+      "ngapak": "lurus",
+      "indonesia": "lurus"
+    },
+    {
+      "ngapak": "luyu",
+      "indonesia": "sesuai"
+    },
+    {
+      "ngapak": "lènggèr",
+      "indonesia": "tarian tradisional khas banyumas"
+    },
+    {
+      "ngapak": "lènjèh",
+      "indonesia": "centil"
+    },
+    {
+      "ngapak": "lèpot",
+      "indonesia": "sangat kotor"
+    },
+    {
+      "ngapak": "lèrèn",
+      "indonesia": "berhenti"
+    },
+    {
+      "ngapak": "mabur",
+      "indonesia": "terbang"
+    },
+    {
+      "ngapak": "maca",
+      "indonesia": "membaca"
+    },
+    {
+      "ngapak": "macem",
+      "indonesia": "macam"
+    },
+    {
+      "ngapak": "macul",
+      "indonesia": "mencangkul sawah/ladang"
+    },
+    {
+      "ngapak": "madan",
+      "indonesia": "agak"
+    },
+    {
+      "ngapak": "madan/mandan",
+      "indonesia": "agak"
+    },
+    {
+      "ngapak": "madang",
+      "indonesia": "makan"
+    },
+    {
+      "ngapak": "madani",
+      "indonesia": "diomelin"
+    },
+    {
+      "ngapak": "madhang",
+      "indonesia": "makan"
+    },
+    {
+      "ngapak": "madhangi",
+      "indonesia": "menerangi"
+    },
+    {
+      "ngapak": "madhep",
+      "indonesia": "menghadap"
+    },
+    {
+      "ngapak": "madhul",
+      "indonesia": "tidak rapi"
+    },
+    {
+      "ngapak": "madèlih",
+      "indonesia": "nyebelin"
+    },
+    {
+      "ngapak": "maen",
+      "indonesia": "bagus"
+    },
+    {
+      "ngapak": "mager",
+      "indonesia": "malas gerak"
+    },
+    {
+      "ngapak": "magè",
+      "indonesia": "ayo, mari (ajakan)"
+    },
+    {
+      "ngapak": "maju",
+      "indonesia": "maju"
+    },
+    {
+      "ngapak": "makaryo",
+      "indonesia": "bekerja"
+    },
+    {
+      "ngapak": "maling",
+      "indonesia": "pencuri"
+    },
+    {
+      "ngapak": "mamang",
+      "indonesia": "ragu"
+    },
+    {
+      "ngapak": "mambrah-mambrah",
+      "indonesia": "berantakan, berserakan"
+    },
+    {
+      "ngapak": "mambu",
+      "indonesia": "bau"
+    },
+    {
+      "ngapak": "mampir",
+      "indonesia": "singgah"
+    },
+    {
+      "ngapak": "mampu",
+      "indonesia": "bisa"
+    },
+    {
+      "ngapak": "mandan",
+      "indonesia": "agak"
+    },
+    {
+      "ngapak": "mandeg",
+      "indonesia": "berhenti"
+    },
+    {
+      "ngapak": "manga",
+      "indonesia": "membuka mulut"
+    },
+    {
+      "ngapak": "mangan",
+      "indonesia": "makan"
+    },
+    {
+      "ngapak": "mangga",
+      "indonesia": "mari, silakan"
+    },
+    {
+      "ngapak": "mangkat",
+      "indonesia": "berangkat"
+    },
+    {
+      "ngapak": "mangsan",
+      "indonesia": "musim"
+    },
+    {
+      "ngapak": "mangslup",
+      "indonesia": "masuk"
+    },
+    {
+      "ngapak": "maning",
+      "indonesia": "lagi"
+    },
+    {
+      "ngapak": "manis",
+      "indonesia": "manis"
+    },
+    {
+      "ngapak": "manjat",
+      "indonesia": "naik (untuk ketinggian, naik pohon dll)"
+    },
+    {
+      "ngapak": "manuk",
+      "indonesia": "burung"
+    },
+    {
+      "ngapak": "manut",
+      "indonesia": "nurut"
+    },
+    {
+      "ngapak": "mapan",
+      "indonesia": "mapan"
+    },
+    {
+      "ngapak": "mara",
+      "indonesia": "datang"
+    },
+    {
+      "ngapak": "marahi",
+      "indonesia": "memarahi"
+    },
+    {
+      "ngapak": "marem",
+      "indonesia": "puas"
+    },
+    {
+      "ngapak": "mareng",
+      "indonesia": "kepada"
+    },
+    {
+      "ngapak": "maring",
+      "indonesia": "ke"
+    },
+    {
+      "ngapak": "masak",
+      "indonesia": "memasak"
+    },
+    {
+      "ngapak": "masrah",
+      "indonesia": "pasrah"
+    },
+    {
+      "ngapak": "mateng",
+      "indonesia": "matang"
+    },
+    {
+      "ngapak": "mathak",
+      "indonesia": "melempar"
+    },
+    {
+      "ngapak": "mati",
+      "indonesia": "mati"
+    },
+    {
+      "ngapak": "maton",
+      "indonesia": "pasti"
+    },
+    {
+      "ngapak": "mau",
+      "indonesia": "mau"
+    },
+    {
+      "ngapak": "mawa",
+      "indonesia": "membawa"
+    },
+    {
+      "ngapak": "mawur",
+      "indonesia": "berserakan"
+    },
+    {
+      "ngapak": "mayar",
+      "indonesia": "membayar"
+    },
+    {
+      "ngapak": "mayeng",
+      "indonesia": "pergi"
+    },
+    {
+      "ngapak": "mayeng-mayeng",
+      "indonesia": "sering bepergian"
+    },
+    {
+      "ngapak": "mayuh",
+      "indonesia": "ayo"
+    },
+    {
+      "ngapak": "mbajug",
+      "indonesia": "nakal"
+    },
+    {
+      "ngapak": "mbalela",
+      "indonesia": "membelot"
+    },
+    {
+      "ngapak": "mbandreng",
+      "indonesia": "ingin sekali"
+    },
+    {
+      "ngapak": "mbaor",
+      "indonesia": "meraung"
+    },
+    {
+      "ngapak": "mbejujag",
+      "indonesia": "kurang ajar, tidak sopan"
+    },
+    {
+      "ngapak": "mbejut",
+      "indonesia": "nakal"
+    },
+    {
+      "ngapak": "mbekatek",
+      "indonesia": "kental, lengket, enak rasanya"
+    },
+    {
+      "ngapak": "mbekayu",
+      "indonesia": "kakak (perempuan)"
+    },
+    {
+      "ngapak": "mbethil",
+      "indonesia": "pelit banget"
+    },
+    {
+      "ngapak": "mbledug",
+      "indonesia": "meledak"
+    },
+    {
+      "ngapak": "mboké",
+      "indonesia": "ibunya"
+    },
+    {
+      "ngapak": "medhot",
+      "indonesia": "membatalkan puasa wajib/sunnah"
+    },
+    {
+      "ngapak": "medèni",
+      "indonesia": "menakutkan"
+    },
+    {
+      "ngapak": "megat",
+      "indonesia": "berpisah"
+    },
+    {
+      "ngapak": "mekar",
+      "indonesia": "mekar"
+    },
+    {
+      "ngapak": "melas",
+      "indonesia": "kasihan"
+    },
+    {
+      "ngapak": "melu",
+      "indonesia": "ikut"
+    },
+    {
+      "ngapak": "meléd",
+      "indonesia": "lidah keluar/menjulur"
+    },
+    {
+      "ngapak": "menangi",
+      "indonesia": "ketemu, mengalami"
+    },
+    {
+      "ngapak": "mendem",
+      "indonesia": "mabuk"
+    },
+    {
+      "ngapak": "mendhak",
+      "indonesia": "naik"
+    },
+    {
+      "ngapak": "mendhem",
+      "indonesia": "menanam"
+    },
+    {
+      "ngapak": "mendhoan",
+      "indonesia": "tempe goreng"
+    },
+    {
+      "ngapak": "meneh",
+      "indonesia": "lagi"
+    },
+    {
+      "ngapak": "meneng",
+      "indonesia": "diam"
+    },
+    {
+      "ngapak": "mengko",
+      "indonesia": "nanti"
+    },
+    {
+      "ngapak": "menyak",
+      "indonesia": "menginjak"
+    },
+    {
+      "ngapak": "menyat",
+      "indonesia": "bangun dari duduk"
+    },
+    {
+      "ngapak": "mercon",
+      "indonesia": "petasan"
+    },
+    {
+      "ngapak": "merem",
+      "indonesia": "menutup mata"
+    },
+    {
+      "ngapak": "merguyokan",
+      "indonesia": "mengguyokan/menguyokkan (lucu, membuat tertawa)"
+    },
+    {
+      "ngapak": "meriang",
+      "indonesia": "sakit"
+    },
+    {
+      "ngapak": "merti",
+      "indonesia": "membersihkan desa"
+    },
+    {
+      "ngapak": "methakil",
+      "indonesia": "nakal"
+    },
+    {
+      "ngapak": "methuk",
+      "indonesia": "menjemput"
+    },
+    {
+      "ngapak": "metu",
+      "indonesia": "keluar"
+    },
+    {
+      "ngapak": "midun",
+      "indonesia": "turun"
+    },
+    {
+      "ngapak": "miki",
+      "indonesia": "barusan"
+    },
+    {
+      "ngapak": "mikir",
+      "indonesia": "berpikir"
+    },
+    {
+      "ngapak": "mili",
+      "indonesia": "mengalir"
+    },
+    {
+      "ngapak": "milu",
+      "indonesia": "ikut"
+    },
+    {
+      "ngapak": "mimik",
+      "indonesia": "minum"
+    },
+    {
+      "ngapak": "mino",
+      "indonesia": "mini nopia"
+    },
+    {
+      "ngapak": "miring",
+      "indonesia": "miring"
+    },
+    {
+      "ngapak": "mlaku",
+      "indonesia": "berjalan"
+    },
+    {
+      "ngapak": "mlayu",
+      "indonesia": "lari"
+    },
+    {
+      "ngapak": "mlebu",
+      "indonesia": "masuk"
+    },
+    {
+      "ngapak": "mlempem",
+      "indonesia": "lemas"
+    },
+    {
+      "ngapak": "mlengos",
+      "indonesia": "menghindar"
+    },
+    {
+      "ngapak": "mlipir",
+      "indonesia": "menepi"
+    },
+    {
+      "ngapak": "mlumah",
+      "indonesia": "terlentang"
+    },
+    {
+      "ngapak": "mlumahke",
+      "indonesia": "menidurkan"
+    },
+    {
+      "ngapak": "mlumpat",
+      "indonesia": "melompat"
+    },
+    {
+      "ngapak": "moco",
+      "indonesia": "membaca"
+    },
+    {
+      "ngapak": "modar",
+      "indonesia": "mati"
+    },
+    {
+      "ngapak": "mogok",
+      "indonesia": "berhenti"
+    },
+    {
+      "ngapak": "molor",
+      "indonesia": "tidur"
+    },
+    {
+      "ngapak": "momong",
+      "indonesia": "mengasuh"
+    },
+    {
+      "ngapak": "mopoh",
+      "indonesia": "tidak mampu"
+    },
+    {
+      "ngapak": "morat-marit",
+      "indonesia": "berantakan"
+    },
+    {
+      "ngapak": "mringis",
+      "indonesia": "tersenyum terlihat gigi"
+    },
+    {
+      "ngapak": "mrono",
+      "indonesia": "ke sana"
+    },
+    {
+      "ngapak": "mrotol",
+      "indonesia": "jatuh satu-satu"
+    },
+    {
+      "ngapak": "mudhun",
+      "indonesia": "turun"
+    },
+    {
+      "ngapak": "mudun",
+      "indonesia": "turun"
+    },
+    {
+      "ngapak": "mugi",
+      "indonesia": "semoga"
+    },
+    {
+      "ngapak": "mukti",
+      "indonesia": "harga diri / kebanggaan"
+    },
+    {
+      "ngapak": "mulih",
+      "indonesia": "pulang"
+    },
+    {
+      "ngapak": "muluk",
+      "indonesia": "tinggi harapan"
+    },
+    {
+      "ngapak": "mumet",
+      "indonesia": "pusing"
+    },
+    {
+      "ngapak": "mumpung",
+      "indonesia": "selagi"
+    },
+    {
+      "ngapak": "mundhak",
+      "indonesia": "naik"
+    },
+    {
+      "ngapak": "mundur",
+      "indonesia": "mundur"
+    },
+    {
+      "ngapak": "mung",
+      "indonesia": "hanya"
+    },
+    {
+      "ngapak": "muni",
+      "indonesia": "berbunyi"
+    },
+    {
+      "ngapak": "munthu",
+      "indonesia": "alat pelumat tradisional"
+    },
+    {
+      "ngapak": "munthul",
+      "indonesia": "ketela rambat"
+    },
+    {
+      "ngapak": "murah",
+      "indonesia": "murah"
+    },
+    {
+      "ngapak": "murid",
+      "indonesia": "murid"
+    },
+    {
+      "ngapak": "mursid",
+      "indonesia": "pembimbing"
+    },
+    {
+      "ngapak": "murub",
+      "indonesia": "menyala"
+    },
+    {
+      "ngapak": "musim",
+      "indonesia": "musim"
+    },
+    {
+      "ngapak": "muter",
+      "indonesia": "berputar"
+    },
+    {
+      "ngapak": "mutih",
+      "indonesia": "puasa putih"
+    },
+    {
+      "ngapak": "mutu",
+      "indonesia": "mutu"
+    },
+    {
+      "ngapak": "muwah",
+      "indonesia": "lagi"
+    },
+    {
+      "ngapak": "muwun",
+      "indonesia": "meminta"
+    },
+    {
+      "ngapak": "mérad",
+      "indonesia": "pergi"
+    },
+    {
+      "ngapak": "méwek",
+      "indonesia": "menangis tersedu"
+    },
+    {
+      "ngapak": "nabuh",
+      "indonesia": "memukul alat musik"
+    },
+    {
+      "ngapak": "nangis",
+      "indonesia": "menangis"
+    },
+    {
+      "ngapak": "napa",
+      "indonesia": "apa"
+    },
+    {
+      "ngapak": "ndelok",
+      "indonesia": "lihat"
+    },
+    {
+      "ngapak": "ndeplak",
+      "indonesia": "asal bunyi"
+    },
+    {
+      "ngapak": "ndeyan",
+      "indonesia": "mungkin"
+    },
+    {
+      "ngapak": "ndhisik",
+      "indonesia": "dulu"
+    },
+    {
+      "ngapak": "ndhuwur",
+      "indonesia": "atas"
+    },
+    {
+      "ngapak": "ndilalah",
+      "indonesia": "kebetulan"
+    },
+    {
+      "ngapak": "ndonga",
+      "indonesia": "berdoa"
+    },
+    {
+      "ngapak": "ndopok",
+      "indonesia": "berbohong"
+    },
+    {
+      "ngapak": "ndudut",
+      "indonesia": "menghisap"
+    },
+    {
+      "ngapak": "nduk",
+      "indonesia": "panggilan anak"
+    },
+    {
+      "ngapak": "nduweni",
+      "indonesia": "memiliki"
+    },
+    {
+      "ngapak": "negara",
+      "indonesia": "negara"
+    },
+    {
+      "ngapak": "nek",
+      "indonesia": "kalau"
+    },
+    {
+      "ngapak": "nelangsa",
+      "indonesia": "kasihan"
+    },
+    {
+      "ngapak": "neng",
+      "indonesia": "di"
+    },
+    {
+      "ngapak": "ngabekti",
+      "indonesia": "berbakti"
+    },
+    {
+      "ngapak": "ngabur",
+      "indonesia": "melarikan diri"
+    },
+    {
+      "ngapak": "ngadeg",
+      "indonesia": "berdiri"
+    },
+    {
+      "ngapak": "ngadek",
+      "indonesia": "menghadap"
+    },
+    {
+      "ngapak": "ngadus",
+      "indonesia": "mandi"
+    },
+    {
+      "ngapak": "ngaeng",
+      "indonesia": "aneh"
+    },
+    {
+      "ngapak": "ngagir",
+      "indonesia": "telungkup"
+    },
+    {
+      "ngapak": "ngajak",
+      "indonesia": "mengajak"
+    },
+    {
+      "ngapak": "ngajog",
+      "indonesia": "menyesal"
+    },
+    {
+      "ngapak": "ngalap",
+      "indonesia": "mengambil"
+    },
+    {
+      "ngapak": "ngalor",
+      "indonesia": "ke utara"
+    },
+    {
+      "ngapak": "ngalor-ngidul",
+      "indonesia": "tidak jelas"
+    },
+    {
+      "ngapak": "ngamuk",
+      "indonesia": "mengamuk"
+    },
+    {
+      "ngapak": "nganah",
+      "indonesia": "ke sana"
+    },
+    {
+      "ngapak": "ngandel",
+      "indonesia": "percaya"
+    },
+    {
+      "ngapak": "ngandhut",
+      "indonesia": "mengandung"
+    },
+    {
+      "ngapak": "ngandul",
+      "indonesia": "hamil"
+    },
+    {
+      "ngapak": "nganggur",
+      "indonesia": "tidak bekerja"
+    },
+    {
+      "ngapak": "nganggut",
+      "indonesia": "mengangguk"
+    },
+    {
+      "ngapak": "ngangkat",
+      "indonesia": "mengangkat"
+    },
+    {
+      "ngapak": "ngangsu",
+      "indonesia": "mengambil air sumur"
+    },
+    {
+      "ngapak": "ngantem",
+      "indonesia": "memukul"
+    },
+    {
+      "ngapak": "nganter",
+      "indonesia": "mengantar"
+    },
+    {
+      "ngapak": "nganti",
+      "indonesia": "sampai"
+    },
+    {
+      "ngapak": "ngantuk",
+      "indonesia": "mengantuk"
+    },
+    {
+      "ngapak": "ngapa",
+      "indonesia": "kenapa"
+    },
+    {
+      "ngapak": "ngapain",
+      "indonesia": "melakukan apa"
+    },
+    {
+      "ngapak": "ngapusi",
+      "indonesia": "membohongi"
+    },
+    {
+      "ngapak": "ngarah",
+      "indonesia": "mencari"
+    },
+    {
+      "ngapak": "ngarep",
+      "indonesia": "depan"
+    },
+    {
+      "ngapak": "ngaso",
+      "indonesia": "istirahat"
+    },
+    {
+      "ngapak": "ngatur",
+      "indonesia": "mengatur"
+    },
+    {
+      "ngapak": "ngawag",
+      "indonesia": "besok"
+    },
+    {
+      "ngapak": "ngawula",
+      "indonesia": "mengabdi"
+    },
+    {
+      "ngapak": "ngawur",
+      "indonesia": "sembarangan"
+    },
+    {
+      "ngapak": "ngayawara",
+      "indonesia": "ngomong bebas"
+    },
+    {
+      "ngapak": "ngayomi",
+      "indonesia": "melindungi"
+    },
+    {
+      "ngapak": "ngayuh",
+      "indonesia": "mengayuh"
+    },
+    {
+      "ngapak": "ngedol",
+      "indonesia": "menjual"
+    },
+    {
+      "ngapak": "ngedong",
+      "indonesia": "tangan menadah"
+    },
+    {
+      "ngapak": "ngejak",
+      "indonesia": "mengajak"
+    },
+    {
+      "ngapak": "ngelak",
+      "indonesia": "haus"
+    },
+    {
+      "ngapak": "ngeli",
+      "indonesia": "terbawa arus"
+    },
+    {
+      "ngapak": "ngelmu",
+      "indonesia": "ilmu"
+    },
+    {
+      "ngapak": "ngemil",
+      "indonesia": "makan ringan"
+    },
+    {
+      "ngapak": "ngempani",
+      "indonesia": "memberi makan"
+    },
+    {
+      "ngapak": "ngendhog",
+      "indonesia": "bertelur"
+    },
+    {
+      "ngapak": "ngendog",
+      "indonesia": "bertelur"
+    },
+    {
+      "ngapak": "ngenger",
+      "indonesia": "menginap"
+    },
+    {
+      "ngapak": "ngenteni",
+      "indonesia": "menunggu"
+    },
+    {
+      "ngapak": "ngentup",
+      "indonesia": "tertutup"
+    },
+    {
+      "ngapak": "ngenèh",
+      "indonesia": "ke sini"
+    },
+    {
+      "ngapak": "ngerasa",
+      "indonesia": "merasa"
+    },
+    {
+      "ngapak": "ngerti",
+      "indonesia": "tahu"
+    },
+    {
+      "ngapak": "ngesel",
+      "indonesia": "kesal"
+    },
+    {
+      "ngapak": "ngesot",
+      "indonesia": "merayap"
+    },
+    {
+      "ngapak": "ngesuk",
+      "indonesia": "besok"
+    },
+    {
+      "ngapak": "nggawa",
+      "indonesia": "membawa"
+    },
+    {
+      "ngapak": "nggon",
+      "indonesia": "tempat"
+    },
+    {
+      "ngapak": "ngguyu",
+      "indonesia": "tertawa"
+    },
+    {
+      "ngapak": "ngidul",
+      "indonesia": "ke selatan"
+    },
+    {
+      "ngapak": "ngilang",
+      "indonesia": "menghilang"
+    },
+    {
+      "ngapak": "ngimpi",
+      "indonesia": "bermimpi"
+    },
+    {
+      "ngapak": "ngindar",
+      "indonesia": "menghindar"
+    },
+    {
+      "ngapak": "nginum",
+      "indonesia": "minum"
+    },
+    {
+      "ngapak": "ngiras",
+      "indonesia": "mengerjakan dua pekerjaan"
+    },
+    {
+      "ngapak": "ngising",
+      "indonesia": "buang air besar"
+    },
+    {
+      "ngapak": "ngisis",
+      "indonesia": "santai"
+    },
+    {
+      "ngapak": "ngisor",
+      "indonesia": "bawah"
+    },
+    {
+      "ngapak": "ngitung",
+      "indonesia": "menghitung"
+    },
+    {
+      "ngapak": "nglakoni",
+      "indonesia": "menjalani"
+    },
+    {
+      "ngapak": "nglaku",
+      "indonesia": "melakukan"
+    },
+    {
+      "ngapak": "nglalu",
+      "indonesia": "tidak peduli"
+    },
+    {
+      "ngapak": "nglanggar",
+      "indonesia": "melanggar"
+    },
+    {
+      "ngapak": "nglayani",
+      "indonesia": "melayani"
+    },
+    {
+      "ngapak": "nglekar",
+      "indonesia": "telentang"
+    },
+    {
+      "ngapak": "ngliker",
+      "indonesia": "tidur miring"
+    },
+    {
+      "ngapak": "nglilir",
+      "indonesia": "bangun tidur"
+    },
+    {
+      "ngapak": "nglindur",
+      "indonesia": "mengigau"
+    },
+    {
+      "ngapak": "nglirwakake",
+      "indonesia": "mengabaikan"
+    },
+    {
+      "ngapak": "nglogog",
+      "indonesia": "melamun"
+    },
+    {
+      "ngapak": "nglokro",
+      "indonesia": "loyo"
+    },
+    {
+      "ngapak": "ngobar-ngobar",
+      "indonesia": "memanas-manasi"
+    },
+    {
+      "ngapak": "ngobati",
+      "indonesia": "memberi obat"
+    },
+    {
+      "ngapak": "ngobrol",
+      "indonesia": "berbicara"
+    },
+    {
+      "ngapak": "ngocèh",
+      "indonesia": "berkicau"
+    },
+    {
+      "ngapak": "ngode",
+      "indonesia": "kerja"
+    },
+    {
+      "ngapak": "ngogrok",
+      "indonesia": "mengorek sesuatu"
+    },
+    {
+      "ngapak": "ngolah",
+      "indonesia": "memasak"
+    },
+    {
+      "ngapak": "ngombe",
+      "indonesia": "minum"
+    },
+    {
+      "ngapak": "ngomong",
+      "indonesia": "bicara"
+    },
+    {
+      "ngapak": "ngonoh",
+      "indonesia": "kesitu"
+    },
+    {
+      "ngapak": "ngopeni",
+      "indonesia": "merawat"
+    },
+    {
+      "ngapak": "ngorok",
+      "indonesia": "mendengkur"
+    },
+    {
+      "ngapak": "ngorong",
+      "indonesia": "teriak"
+    },
+    {
+      "ngapak": "ngoyak",
+      "indonesia": "mengejar"
+    },
+    {
+      "ngapak": "ngresiki",
+      "indonesia": "membersihkan"
+    },
+    {
+      "ngapak": "ngresula",
+      "indonesia": "ngomongin orang"
+    },
+    {
+      "ngapak": "ngrokok",
+      "indonesia": "merokok"
+    },
+    {
+      "ngapak": "ngromed",
+      "indonesia": "meracau"
+    },
+    {
+      "ngapak": "ngrusak",
+      "indonesia": "merusak"
+    },
+    {
+      "ngapak": "ngudang",
+      "indonesia": "undang"
+    },
+    {
+      "ngapak": "nguja",
+      "indonesia": "sengaja"
+    },
+    {
+      "ngapak": "ngumpul",
+      "indonesia": "berkumpul"
+    },
+    {
+      "ngapak": "ngundang",
+      "indonesia": "mengundang"
+    },
+    {
+      "ngapak": "ngunggah",
+      "indonesia": "mengunggah"
+    },
+    {
+      "ngapak": "nguripke",
+      "indonesia": "menyalakan"
+    },
+    {
+      "ngapak": "ngurusi",
+      "indonesia": "mengurus"
+    },
+    {
+      "ngapak": "niliki",
+      "indonesia": "menengok"
+    },
+    {
+      "ngapak": "ning",
+      "indonesia": "tetapi"
+    },
+    {
+      "ngapak": "nini",
+      "indonesia": "nenek"
+    },
+    {
+      "ngapak": "njaluk",
+      "indonesia": "minta"
+    },
+    {
+      "ngapak": "njanggleng",
+      "indonesia": "berdiri"
+    },
+    {
+      "ngapak": "njeblug",
+      "indonesia": "meledak"
+    },
+    {
+      "ngapak": "njepat",
+      "indonesia": "terlepas"
+    },
+    {
+      "ngapak": "njinggleng",
+      "indonesia": "menunggu"
+    },
+    {
+      "ngapak": "nopia",
+      "indonesia": "kue khas banyumas"
+    },
+    {
+      "ngapak": "nopja",
+      "indonesia": "banyak sekali"
+    },
+    {
+      "ngapak": "nunut",
+      "indonesia": "menumpang"
+    },
+    {
+      "ngapak": "nyambut",
+      "indonesia": "bekerja"
+    },
+    {
+      "ngapak": "nyapu",
+      "indonesia": "menyapu"
+    },
+    {
+      "ngapak": "nyekel",
+      "indonesia": "memegang"
+    },
+    {
+      "ngapak": "nyelang",
+      "indonesia": "meminjam"
+    },
+    {
+      "ngapak": "nyigit",
+      "indonesia": "makan cabai mentah"
+    },
+    {
+      "ngapak": "nyilih",
+      "indonesia": "meminjam"
+    },
+    {
+      "ngapak": "nyimpen",
+      "indonesia": "menyimpan"
+    },
+    {
+      "ngapak": "nyiram",
+      "indonesia": "menyiram"
+    },
+    {
+      "ngapak": "nylekamin",
+      "indonesia": "enak sekali"
+    },
+    {
+      "ngapak": "nyoba",
+      "indonesia": "mencoba"
+    },
+    {
+      "ngapak": "nyopot",
+      "indonesia": "melepas"
+    },
+    {
+      "ngapak": "nyore",
+      "indonesia": "makan malam"
+    },
+    {
+      "ngapak": "nyrandu",
+      "indonesia": "mengganggu"
+    },
+    {
+      "ngapak": "nyuci",
+      "indonesia": "mencuci"
+    },
+    {
+      "ngapak": "nyuwun",
+      "indonesia": "meminta"
+    },
+    {
+      "ngapak": "obah",
+      "indonesia": "bergerak"
+    },
+    {
+      "ngapak": "obal-obel",
+      "indonesia": "bergerak ke kiri kanan"
+    },
+    {
+      "ngapak": "obar",
+      "indonesia": "nyala api / membakar"
+    },
+    {
+      "ngapak": "obat",
+      "indonesia": "obat"
+    },
+    {
+      "ngapak": "obat-abit",
+      "indonesia": "mengayun-ayunkan sesuatu"
+    },
+    {
+      "ngapak": "oblag",
+      "indonesia": "kendor / tidak kencang"
+    },
+    {
+      "ngapak": "oblok-oblok",
+      "indonesia": "sayur berkuah santan"
+    },
+    {
+      "ngapak": "obong",
+      "indonesia": "membakar"
+    },
+    {
+      "ngapak": "obrak-abrik",
+      "indonesia": "acak-acakan"
+    },
+    {
+      "ngapak": "obyag",
+      "indonesia": "bergetar"
+    },
+    {
+      "ngapak": "obél",
+      "indonesia": "lenggang-lenggok"
+    },
+    {
+      "ngapak": "obêng",
+      "indonesia": "perkakas pemutar baut"
+    },
+    {
+      "ngapak": "ocèh",
+      "indonesia": "berkicau"
+    },
+    {
+      "ngapak": "odhak-adhil",
+      "indonesia": "kacau / acak-acakan"
+    },
+    {
+      "ngapak": "odol",
+      "indonesia": "usus lambung"
+    },
+    {
+      "ngapak": "ogah",
+      "indonesia": "tidak mau"
+    },
+    {
+      "ngapak": "ogah-agèh",
+      "indonesia": "malas"
+    },
+    {
+      "ngapak": "ogak-agèk",
+      "indonesia": "menggeleng"
+    },
+    {
+      "ngapak": "ogal-agil",
+      "indonesia": "anak tunggal"
+    },
+    {
+      "ngapak": "oglas-aglis",
+      "indonesia": "mau lepas / goyang"
+    },
+    {
+      "ngapak": "ogleng-oglong",
+      "indonesia": "berjalan limbung"
+    },
+    {
+      "ngapak": "oglig",
+      "indonesia": "oleng"
+    },
+    {
+      "ngapak": "ogrok",
+      "indonesia": "korek"
+    },
+    {
+      "ngapak": "ogèl",
+      "indonesia": "goyang"
+    },
+    {
+      "ngapak": "oh",
+      "indonesia": "kata seru"
+    },
+    {
+      "ngapak": "ojlog-ojlog",
+      "indonesia": "kocok"
+    },
+    {
+      "ngapak": "ojok-ojok",
+      "indonesia": "mengajak / mempengaruhi"
+    },
+    {
+      "ngapak": "ojèl",
+      "indonesia": "jual"
+    },
+    {
+      "ngapak": "oklok-oklok",
+      "indonesia": "rusak / longgar"
+    },
+    {
+      "ngapak": "okol",
+      "indonesia": "bersikukuh"
+    },
+    {
+      "ngapak": "okol-okolan",
+      "indonesia": "berkelahi"
+    },
+    {
+      "ngapak": "olah",
+      "indonesia": "memasak"
+    },
+    {
+      "ngapak": "olah-olah",
+      "indonesia": "memasak-memasak"
+    },
+    {
+      "ngapak": "olak-alik",
+      "indonesia": "bolak-balik"
+    },
+    {
+      "ngapak": "olèg",
+      "indonesia": "goyang / tidak stabil"
+    },
+    {
+      "ngapak": "omber",
+      "indonesia": "lapang"
+    },
+    {
+      "ngapak": "omong",
+      "indonesia": "bicara"
+    },
+    {
+      "ngapak": "oncat",
+      "indonesia": "meloncat"
+    },
+    {
+      "ngapak": "ondel",
+      "indonesia": "goyang"
+    },
+    {
+      "ngapak": "oneng",
+      "indonesia": "bodoh"
+    },
+    {
+      "ngapak": "open",
+      "indonesia": "rawat"
+    },
+    {
+      "ngapak": "oplos",
+      "indonesia": "campur"
+    },
+    {
+      "ngapak": "orag",
+      "indonesia": "guncang"
+    },
+    {
+      "ngapak": "orak",
+      "indonesia": "tidak"
+    },
+    {
+      "ngapak": "orok",
+      "indonesia": "bayi"
+    },
+    {
+      "ngapak": "osik",
+      "indonesia": "bersih-bersih"
+    },
+    {
+      "ngapak": "otak",
+      "indonesia": "otak"
+    },
+    {
+      "ngapak": "owah",
+      "indonesia": "berubah"
+    },
+    {
+      "ngapak": "oyak",
+      "indonesia": "mengusik"
+    },
+    {
+      "ngapak": "oyod",
+      "indonesia": "akar"
+    },
+    {
+      "ngapak": "oyok",
+      "indonesia": "mengejar"
+    },
+    {
+      "ngapak": "oyot",
+      "indonesia": "akar"
+    },
+    {
+      "ngapak": "pacak",
+      "indonesia": "bisa"
+    },
+    {
+      "ngapak": "pacul",
+      "indonesia": "cangkul"
+    },
+    {
+      "ngapak": "padasan",
+      "indonesia": "tempat wudlu"
+    },
+    {
+      "ngapak": "padha",
+      "indonesia": "sama"
+    },
+    {
+      "ngapak": "padhang",
+      "indonesia": "terang"
+    },
+    {
+      "ngapak": "padon",
+      "indonesia": "pojok"
+    },
+    {
+      "ngapak": "padu",
+      "indonesia": "bertengkar"
+    },
+    {
+      "ngapak": "padune",
+      "indonesia": "bermaksud tersembunyi"
+    },
+    {
+      "ngapak": "pagel",
+      "indonesia": "lelah"
+    },
+    {
+      "ngapak": "pager",
+      "indonesia": "pagar"
+    },
+    {
+      "ngapak": "pagi",
+      "indonesia": "pagi"
+    },
+    {
+      "ngapak": "pahak",
+      "indonesia": "kerja"
+    },
+    {
+      "ngapak": "pahit",
+      "indonesia": "pahit"
+    },
+    {
+      "ngapak": "pakel",
+      "indonesia": "memakai"
+    },
+    {
+      "ngapak": "palangapa",
+      "indonesia": "tidak masalah"
+    },
+    {
+      "ngapak": "paling",
+      "indonesia": "paling"
+    },
+    {
+      "ngapak": "palu",
+      "indonesia": "palu"
+    },
+    {
+      "ngapak": "panas",
+      "indonesia": "panas"
+    },
+    {
+      "ngapak": "pancen",
+      "indonesia": "memang"
+    },
+    {
+      "ngapak": "panci",
+      "indonesia": "panci"
+    },
+    {
+      "ngapak": "pandeng",
+      "indonesia": "menatap"
+    },
+    {
+      "ngapak": "pangan",
+      "indonesia": "makan"
+    },
+    {
+      "ngapak": "panggang",
+      "indonesia": "memanggang"
+    },
+    {
+      "ngapak": "panggon",
+      "indonesia": "tempat"
+    },
+    {
+      "ngapak": "pangkat",
+      "indonesia": "jabatan"
+    },
+    {
+      "ngapak": "panjang",
+      "indonesia": "panjang"
+    },
+    {
+      "ngapak": "panjer",
+      "indonesia": "uang muka"
+    },
+    {
+      "ngapak": "papung",
+      "indonesia": "mamin anak kecil"
+    },
+    {
+      "ngapak": "parab",
+      "indonesia": "alias"
+    },
+    {
+      "ngapak": "paraban",
+      "indonesia": "nama panggilan"
+    },
+    {
+      "ngapak": "parani",
+      "indonesia": "mendatangi"
+    },
+    {
+      "ngapak": "pari",
+      "indonesia": "padi"
+    },
+    {
+      "ngapak": "paribasan",
+      "indonesia": "peribahasa"
+    },
+    {
+      "ngapak": "parut",
+      "indonesia": "memarut"
+    },
+    {
+      "ngapak": "pasang",
+      "indonesia": "memasang"
+    },
+    {
+      "ngapak": "pasar",
+      "indonesia": "pasar"
+    },
+    {
+      "ngapak": "pasrah",
+      "indonesia": "berserah"
+    },
+    {
+      "ngapak": "patia",
+      "indonesia": "begitu"
+    },
+    {
+      "ngapak": "patut",
+      "indonesia": "pantas"
+    },
+    {
+      "ngapak": "pawon",
+      "indonesia": "dapur"
+    },
+    {
+      "ngapak": "payu",
+      "indonesia": "laku"
+    },
+    {
+      "ngapak": "pe",
+      "indonesia": "jemur"
+    },
+    {
+      "ngapak": "pecah",
+      "indonesia": "pecah"
+    },
+    {
+      "ngapak": "pecel",
+      "indonesia": "pecel"
+    },
+    {
+      "ngapak": "pecicilan",
+      "indonesia": "tidak karuan"
+    },
+    {
+      "ngapak": "pecoh",
+      "indonesia": "saling patuk"
+    },
+    {
+      "ngapak": "pedaringan",
+      "indonesia": "tempat beras"
+    },
+    {
+      "ngapak": "pedhot",
+      "indonesia": "putus"
+    },
+    {
+      "ngapak": "pegang",
+      "indonesia": "memegang"
+    },
+    {
+      "ngapak": "pegat",
+      "indonesia": "berpisah"
+    },
+    {
+      "ngapak": "pegel",
+      "indonesia": "pegal"
+    },
+    {
+      "ngapak": "pejet",
+      "indonesia": "memijat"
+    },
+    {
+      "ngapak": "pekarangan",
+      "indonesia": "kebun rumah"
+    },
+    {
+      "ngapak": "pelan",
+      "indonesia": "pelan"
+    },
+    {
+      "ngapak": "pelem",
+      "indonesia": "mangga"
+    },
+    {
+      "ngapak": "peluk",
+      "indonesia": "memeluk"
+    },
+    {
+      "ngapak": "pencil",
+      "indonesia": "menyendiri"
+    },
+    {
+      "ngapak": "pendhek",
+      "indonesia": "pendek"
+    },
+    {
+      "ngapak": "penek",
+      "indonesia": "memanjat"
+    },
+    {
+      "ngapak": "penjorangan",
+      "indonesia": "guyonan"
+    },
+    {
+      "ngapak": "penthed",
+      "indonesia": "kerdil"
+    },
+    {
+      "ngapak": "penuh",
+      "indonesia": "penuh"
+    },
+    {
+      "ngapak": "pepet",
+      "indonesia": "mendekat"
+    },
+    {
+      "ngapak": "perang",
+      "indonesia": "perang"
+    },
+    {
+      "ngapak": "perek",
+      "indonesia": "dekat"
+    },
+    {
+      "ngapak": "peres",
+      "indonesia": "memeras"
+    },
+    {
+      "ngapak": "perih",
+      "indonesia": "perih"
+    },
+    {
+      "ngapak": "peros",
+      "indonesia": "licin"
+    },
+    {
+      "ngapak": "perut",
+      "indonesia": "perut"
+    },
+    {
+      "ngapak": "peso",
+      "indonesia": "pisau"
+    },
+    {
+      "ngapak": "pethak",
+      "indonesia": "putih"
+    },
+    {
+      "ngapak": "pethakilan",
+      "indonesia": "banyak tingkah"
+    },
+    {
+      "ngapak": "pethil",
+      "indonesia": "memetik"
+    },
+    {
+      "ngapak": "pethok",
+      "indonesia": "memotong"
+    },
+    {
+      "ngapak": "pethuk",
+      "indonesia": "bertemu"
+    },
+    {
+      "ngapak": "petung",
+      "indonesia": "hitung"
+    },
+    {
+      "ngapak": "pikir",
+      "indonesia": "berpikir"
+    },
+    {
+      "ngapak": "pilih",
+      "indonesia": "memilih"
+    },
+    {
+      "ngapak": "pindhah",
+      "indonesia": "pindah"
+    },
+    {
+      "ngapak": "pira",
+      "indonesia": "berapa"
+    },
+    {
+      "ngapak": "pit",
+      "indonesia": "sepeda"
+    },
+    {
+      "ngapak": "pithi",
+      "indonesia": "keranjang bambu"
+    },
+    {
+      "ngapak": "pitik",
+      "indonesia": "anak ayam"
+    },
+    {
+      "ngapak": "pitu",
+      "indonesia": "tujuh"
+    },
+    {
+      "ngapak": "piyambak",
+      "indonesia": "sendiri"
+    },
+    {
+      "ngapak": "playon",
+      "indonesia": "berlari"
+    },
+    {
+      "ngapak": "plintir",
+      "indonesia": "memutar"
+    },
+    {
+      "ngapak": "plonga",
+      "indonesia": "terbuka"
+    },
+    {
+      "ngapak": "plontos",
+      "indonesia": "botak"
+    },
+    {
+      "ngapak": "plorot",
+      "indonesia": "jatuh"
+    },
+    {
+      "ngapak": "plung",
+      "indonesia": "jatuh ke air"
+    },
+    {
+      "ngapak": "pojok",
+      "indonesia": "pojok"
+    },
+    {
+      "ngapak": "polah",
+      "indonesia": "tingkah"
+    },
+    {
+      "ngapak": "polos",
+      "indonesia": "lurus"
+    },
+    {
+      "ngapak": "pompa",
+      "indonesia": "pompa"
+    },
+    {
+      "ngapak": "pondok",
+      "indonesia": "pondok"
+    },
+    {
+      "ngapak": "popok",
+      "indonesia": "popok"
+    },
+    {
+      "ngapak": "poran",
+      "indonesia": "biarkan"
+    },
+    {
+      "ngapak": "poso",
+      "indonesia": "puasa"
+    },
+    {
+      "ngapak": "pothol",
+      "indonesia": "putus"
+    },
+    {
+      "ngapak": "potong",
+      "indonesia": "memotong"
+    },
+    {
+      "ngapak": "powotan",
+      "indonesia": "jembatan bambu"
+    },
+    {
+      "ngapak": "prapatan",
+      "indonesia": "perempatan"
+    },
+    {
+      "ngapak": "prei",
+      "indonesia": "libur"
+    },
+    {
+      "ngapak": "prepeg",
+      "indonesia": "ramai"
+    },
+    {
+      "ngapak": "prepegan",
+      "indonesia": "ramai"
+    },
+    {
+      "ngapak": "priben",
+      "indonesia": "bagaimana"
+    },
+    {
+      "ngapak": "prihatin",
+      "indonesia": "sedih"
+    },
+    {
+      "ngapak": "priksa",
+      "indonesia": "memeriksa"
+    },
+    {
+      "ngapak": "pring",
+      "indonesia": "bambu"
+    },
+    {
+      "ngapak": "priwe",
+      "indonesia": "bagaimana"
+    },
+    {
+      "ngapak": "prungu",
+      "indonesia": "mendengar"
+    },
+    {
+      "ngapak": "pulih",
+      "indonesia": "sembuh"
+    },
+    {
+      "ngapak": "pulo",
+      "indonesia": "pulau"
+    },
+    {
+      "ngapak": "puluh",
+      "indonesia": "puluh"
+    },
+    {
+      "ngapak": "pundhak",
+      "indonesia": "bahu"
+    },
+    {
+      "ngapak": "punggung",
+      "indonesia": "punggung"
+    },
+    {
+      "ngapak": "pungkasan",
+      "indonesia": "terakhir"
+    },
+    {
+      "ngapak": "punjul",
+      "indonesia": "unggul"
+    },
+    {
+      "ngapak": "pupus",
+      "indonesia": "hilang"
+    },
+    {
+      "ngapak": "pusat",
+      "indonesia": "pusat"
+    },
+    {
+      "ngapak": "puter",
+      "indonesia": "berputar"
+    },
+    {
+      "ngapak": "putih",
+      "indonesia": "putih"
+    },
+    {
+      "ngapak": "putra",
+      "indonesia": "anak"
+    },
+    {
+      "ngapak": "putren",
+      "indonesia": "jagung muda"
+    },
+    {
+      "ngapak": "putri",
+      "indonesia": "anak perempuan"
+    },
+    {
+      "ngapak": "putu",
+      "indonesia": "cucu"
+    },
+    {
+      "ngapak": "puyeng",
+      "indonesia": "pusing"
+    },
+    {
+      "ngapak": "rabi",
+      "indonesia": "menikah"
+    },
+    {
+      "ngapak": "rada",
+      "indonesia": "agak"
+    },
+    {
+      "ngapak": "rajang",
+      "indonesia": "iris"
+    },
+    {
+      "ngapak": "rama",
+      "indonesia": "bapak"
+    },
+    {
+      "ngapak": "rames",
+      "indonesia": "nasi campur"
+    },
+    {
+      "ngapak": "rampung",
+      "indonesia": "selesai"
+    },
+    {
+      "ngapak": "rancak",
+      "indonesia": "bagus"
+    },
+    {
+      "ngapak": "randa",
+      "indonesia": "janda"
+    },
+    {
+      "ngapak": "randha",
+      "indonesia": "janda"
+    },
+    {
+      "ngapak": "rangu",
+      "indonesia": "bingung"
+    },
+    {
+      "ngapak": "rasa",
+      "indonesia": "rasa"
+    },
+    {
+      "ngapak": "rasan-rasan",
+      "indonesia": "bergosip"
+    },
+    {
+      "ngapak": "rata",
+      "indonesia": "rata"
+    },
+    {
+      "ngapak": "raup",
+      "indonesia": "cuci muka"
+    },
+    {
+      "ngapak": "rawa",
+      "indonesia": "rawa"
+    },
+    {
+      "ngapak": "rawun",
+      "indonesia": "kukus"
+    },
+    {
+      "ngapak": "reang",
+      "indonesia": "ramai"
+    },
+    {
+      "ngapak": "rebah",
+      "indonesia": "panen"
+    },
+    {
+      "ngapak": "rebo",
+      "indonesia": "rabu"
+    },
+    {
+      "ngapak": "rebut",
+      "indonesia": "merebut"
+    },
+    {
+      "ngapak": "rebyeg",
+      "indonesia": "repot"
+    },
+    {
+      "ngapak": "rega",
+      "indonesia": "harga"
+    },
+    {
+      "ngapak": "reget",
+      "indonesia": "kotor"
+    },
+    {
+      "ngapak": "rekasa",
+      "indonesia": "sengsara"
+    },
+    {
+      "ngapak": "rembel",
+      "indonesia": "lebat"
+    },
+    {
+      "ngapak": "rembug",
+      "indonesia": "berunding"
+    },
+    {
+      "ngapak": "remuk",
+      "indonesia": "hancur"
+    },
+    {
+      "ngapak": "rendeng",
+      "indonesia": "musim hujan"
+    },
+    {
+      "ngapak": "renggang",
+      "indonesia": "jarang"
+    },
+    {
+      "ngapak": "renggut",
+      "indonesia": "menarik paksa"
+    },
+    {
+      "ngapak": "repeg",
+      "indonesia": "mencari kayu bakar"
+    },
+    {
+      "ngapak": "resep",
+      "indonesia": "resep"
+    },
+    {
+      "ngapak": "resik",
+      "indonesia": "bersih"
+    },
+    {
+      "ngapak": "rewang",
+      "indonesia": "membantu"
+    },
+    {
+      "ngapak": "rewang-rewang",
+      "indonesia": "bantu-bantu"
+    },
+    {
+      "ngapak": "rewel",
+      "indonesia": "banyak bicara"
+    },
+    {
+      "ngapak": "reyang",
+      "indonesia": "bising"
+    },
+    {
+      "ngapak": "reyot",
+      "indonesia": "rapuh"
+    },
+    {
+      "ngapak": "ribut",
+      "indonesia": "ribut"
+    },
+    {
+      "ngapak": "rika",
+      "indonesia": "kamu"
+    },
+    {
+      "ngapak": "ringkes",
+      "indonesia": "ringkas"
+    },
+    {
+      "ngapak": "ringkih",
+      "indonesia": "lemah"
+    },
+    {
+      "ngapak": "ripat",
+      "indonesia": "lipat"
+    },
+    {
+      "ngapak": "riri",
+      "indonesia": "iri"
+    },
+    {
+      "ngapak": "risak",
+      "indonesia": "rusak"
+    },
+    {
+      "ngapak": "risban",
+      "indonesia": "kursi panjang"
+    },
+    {
+      "ngapak": "risi",
+      "indonesia": "jijik"
+    },
+    {
+      "ngapak": "rogol",
+      "indonesia": "jatuh"
+    },
+    {
+      "ngapak": "romed",
+      "indonesia": "meracau"
+    },
+    {
+      "ngapak": "ronda",
+      "indonesia": "jaga malam"
+    },
+    {
+      "ngapak": "rosa",
+      "indonesia": "kuat"
+    },
+    {
+      "ngapak": "roso",
+      "indonesia": "rasa"
+    },
+    {
+      "ngapak": "rosok",
+      "indonesia": "barang bekas"
+    },
+    {
+      "ngapak": "rowas-rawes",
+      "indonesia": "berantakan"
+    },
+    {
+      "ngapak": "ruag",
+      "indonesia": "rusak"
+    },
+    {
+      "ngapak": "rubés",
+      "indonesia": "licik"
+    },
+    {
+      "ngapak": "rukun",
+      "indonesia": "harmonis"
+    },
+    {
+      "ngapak": "rumangsa",
+      "indonesia": "merasa"
+    },
+    {
+      "ngapak": "rumiyin",
+      "indonesia": "dahulu"
+    },
+    {
+      "ngapak": "rumpek",
+      "indonesia": "sempit"
+    },
+    {
+      "ngapak": "rungkad",
+      "indonesia": "rimbun"
+    },
+    {
+      "ngapak": "rungu",
+      "indonesia": "mendengar"
+    },
+    {
+      "ngapak": "runtah",
+      "indonesia": "sampah"
+    },
+    {
+      "ngapak": "runyam",
+      "indonesia": "rumit"
+    },
+    {
+      "ngapak": "ruwag",
+      "indonesia": "rusak"
+    },
+    {
+      "ngapak": "saben",
+      "indonesia": "setiap"
+    },
+    {
+      "ngapak": "sabit",
+      "indonesia": "sabit"
+    },
+    {
+      "ngapak": "sadhingan",
+      "indonesia": "terserah"
+    },
+    {
+      "ngapak": "saged",
+      "indonesia": "bisa"
+    },
+    {
+      "ngapak": "saka",
+      "indonesia": "dari"
+    },
+    {
+      "ngapak": "salah",
+      "indonesia": "salah"
+    },
+    {
+      "ngapak": "salin",
+      "indonesia": "ganti"
+    },
+    {
+      "ngapak": "sambat",
+      "indonesia": "mengeluh"
+    },
+    {
+      "ngapak": "sambung",
+      "indonesia": "menyambung"
+    },
+    {
+      "ngapak": "sampluk",
+      "indonesia": "memukul"
+    },
+    {
+      "ngapak": "sanget",
+      "indonesia": "sangat"
+    },
+    {
+      "ngapak": "sangga",
+      "indonesia": "menopang"
+    },
+    {
+      "ngapak": "sangu",
+      "indonesia": "bekal"
+    },
+    {
+      "ngapak": "santri",
+      "indonesia": "santri"
+    },
+    {
+      "ngapak": "sapa",
+      "indonesia": "siapa"
+    },
+    {
+      "ngapak": "saput",
+      "indonesia": "selimut"
+    },
+    {
+      "ngapak": "sara",
+      "indonesia": "sakit"
+    },
+    {
+      "ngapak": "sare",
+      "indonesia": "tidur"
+    },
+    {
+      "ngapak": "saring",
+      "indonesia": "menyaring"
+    },
+    {
+      "ngapak": "sarta",
+      "indonesia": "serta"
+    },
+    {
+      "ngapak": "saru",
+      "indonesia": "tidak sopan"
+    },
+    {
+      "ngapak": "sat",
+      "indonesia": "kering / airnya kering"
+    },
+    {
+      "ngapak": "satru",
+      "indonesia": "kue kering dari kacang kedelai"
+    },
+    {
+      "ngapak": "satus",
+      "indonesia": "seratus"
+    },
+    {
+      "ngapak": "sayah",
+      "indonesia": "lelah"
+    },
+    {
+      "ngapak": "seboréhé",
+      "indonesia": "sepuas-puasnya sampai bosan"
+    },
+    {
+      "ngapak": "sebut",
+      "indonesia": "menyebut"
+    },
+    {
+      "ngapak": "sedhela",
+      "indonesia": "sebentar"
+    },
+    {
+      "ngapak": "sedhih",
+      "indonesia": "sedih"
+    },
+    {
+      "ngapak": "sedhilit",
+      "indonesia": "sebentar"
+    },
+    {
+      "ngapak": "sedhingah",
+      "indonesia": "terserah"
+    },
+    {
+      "ngapak": "sedulur",
+      "indonesia": "saudara"
+    },
+    {
+      "ngapak": "sedéla",
+      "indonesia": "sebentar"
+    },
+    {
+      "ngapak": "sega",
+      "indonesia": "nasi"
+    },
+    {
+      "ngapak": "seger",
+      "indonesia": "segar"
+    },
+    {
+      "ngapak": "sego",
+      "indonesia": "nasi"
+    },
+    {
+      "ngapak": "sejen",
+      "indonesia": "berbeda"
+    },
+    {
+      "ngapak": "sejiman",
+      "indonesia": "selusin"
+    },
+    {
+      "ngapak": "sején",
+      "indonesia": "lain / beda"
+    },
+    {
+      "ngapak": "sek",
+      "indonesia": "sebentar"
+    },
+    {
+      "ngapak": "sekang",
+      "indonesia": "dari"
+    },
+    {
+      "ngapak": "seket",
+      "indonesia": "lima puluh"
+    },
+    {
+      "ngapak": "selak",
+      "indonesia": "keburu"
+    },
+    {
+      "ngapak": "selamet",
+      "indonesia": "selamat"
+    },
+    {
+      "ngapak": "selang",
+      "indonesia": "meminjam"
+    },
+    {
+      "ngapak": "selaras",
+      "indonesia": "selaras"
+    },
+    {
+      "ngapak": "selawé",
+      "indonesia": "dua puluh lima"
+    },
+    {
+      "ngapak": "selek",
+      "indonesia": "pilih"
+    },
+    {
+      "ngapak": "selip",
+      "indonesia": "menyisipkan"
+    },
+    {
+      "ngapak": "semanger",
+      "indonesia": "ramai, meriah"
+    },
+    {
+      "ngapak": "semaur",
+      "indonesia": "menjawab"
+    },
+    {
+      "ngapak": "semblothongan",
+      "indonesia": "sembarangan"
+    },
+    {
+      "ngapak": "semedi",
+      "indonesia": "bertapa"
+    },
+    {
+      "ngapak": "semendhing",
+      "indonesia": "sedikit"
+    },
+    {
+      "ngapak": "seminggu",
+      "indonesia": "seminggu"
+    },
+    {
+      "ngapak": "semlenger",
+      "indonesia": "kagum, terpesona"
+    },
+    {
+      "ngapak": "semrawut",
+      "indonesia": "berantakan"
+    },
+    {
+      "ngapak": "semriwing",
+      "indonesia": "angin semilir"
+    },
+    {
+      "ngapak": "seneng",
+      "indonesia": "senang"
+    },
+    {
+      "ngapak": "sengaja",
+      "indonesia": "sengaja"
+    },
+    {
+      "ngapak": "sengit",
+      "indonesia": "benci"
+    },
+    {
+      "ngapak": "senthong",
+      "indonesia": "kamar tidur"
+    },
+    {
+      "ngapak": "sepethit",
+      "indonesia": "sedikit"
+    },
+    {
+      "ngapak": "sepisan",
+      "indonesia": "sekali"
+    },
+    {
+      "ngapak": "sepisan maning",
+      "indonesia": "sekali lagi"
+    },
+    {
+      "ngapak": "sepur",
+      "indonesia": "kereta api"
+    },
+    {
+      "ngapak": "sepurané",
+      "indonesia": "minta maaf"
+    },
+    {
+      "ngapak": "seret",
+      "indonesia": "berat"
+    },
+    {
+      "ngapak": "serong",
+      "indonesia": "miring"
+    },
+    {
+      "ngapak": "setengi",
+      "indonesia": "sedikit"
+    },
+    {
+      "ngapak": "sethithik",
+      "indonesia": "sedikit"
+    },
+    {
+      "ngapak": "sewelas",
+      "indonesia": "angka sebelas"
+    },
+    {
+      "ngapak": "sewu",
+      "indonesia": "seribu"
+    },
+    {
+      "ngapak": "siji",
+      "indonesia": "satu"
+    },
+    {
+      "ngapak": "siki",
+      "indonesia": "sekarang"
+    },
+    {
+      "ngapak": "sikil",
+      "indonesia": "kaki"
+    },
+    {
+      "ngapak": "sinau",
+      "indonesia": "belajar"
+    },
+    {
+      "ngapak": "sing",
+      "indonesia": "yang"
+    },
+    {
+      "ngapak": "singkud",
+      "indonesia": "sifat kuping kencang"
+    },
+    {
+      "ngapak": "sira",
+      "indonesia": "kamu (lebih halus)"
+    },
+    {
+      "ngapak": "siwur",
+      "indonesia": "gayung air"
+    },
+    {
+      "ngapak": "slamet",
+      "indonesia": "selamat"
+    },
+    {
+      "ngapak": "slenta",
+      "indonesia": "selingkuh, tidak fokus tujuan"
+    },
+    {
+      "ngapak": "slepa",
+      "indonesia": "tempat rokok racikan"
+    },
+    {
+      "ngapak": "sliramu",
+      "indonesia": "kamu"
+    },
+    {
+      "ngapak": "slonjor",
+      "indonesia": "posisi duduk kaki lurus"
+    },
+    {
+      "ngapak": "sogi",
+      "indonesia": "diberi"
+    },
+    {
+      "ngapak": "soléd",
+      "indonesia": "alat dapur untuk membolak-balik gorengan"
+    },
+    {
+      "ngapak": "sorot",
+      "indonesia": "menyorot"
+    },
+    {
+      "ngapak": "sragen",
+      "indonesia": "tempat menyimpan barang digantung"
+    },
+    {
+      "ngapak": "srawung",
+      "indonesia": "bergaul"
+    },
+    {
+      "ngapak": "sregep",
+      "indonesia": "rajin"
+    },
+    {
+      "ngapak": "sring",
+      "indonesia": "sering"
+    },
+    {
+      "ngapak": "sripilan",
+      "indonesia": "bonus / tambahan penghasilan"
+    },
+    {
+      "ngapak": "sriping",
+      "indonesia": "keripik"
+    },
+    {
+      "ngapak": "sruput",
+      "indonesia": "menyeruput"
+    },
+    {
+      "ngapak": "suda",
+      "indonesia": "berkurang"
+    },
+    {
+      "ngapak": "takon",
+      "indonesia": "bertanya"
+    },
+    {
+      "ngapak": "tandur",
+      "indonesia": "menanam"
+    },
+    {
+      "ngapak": "tangi",
+      "indonesia": "bangun"
+    },
+    {
+      "ngapak": "tangis",
+      "indonesia": "menangis"
+    },
+    {
+      "ngapak": "tangkep",
+      "indonesia": "menangkap"
+    },
+    {
+      "ngapak": "tapa",
+      "indonesia": "bertapa"
+    },
+    {
+      "ngapak": "tata",
+      "indonesia": "menata"
+    },
+    {
+      "ngapak": "tatag",
+      "indonesia": "tegar"
+    },
+    {
+      "ngapak": "tatu",
+      "indonesia": "luka"
+    },
+    {
+      "ngapak": "teken",
+      "indonesia": "tanda tangan"
+    },
+    {
+      "ngapak": "tekun",
+      "indonesia": "rajin"
+    },
+    {
+      "ngapak": "telek",
+      "indonesia": "kotoran"
+    },
+    {
+      "ngapak": "teles",
+      "indonesia": "mudah"
+    },
+    {
+      "ngapak": "telu",
+      "indonesia": "tiga"
+    },
+    {
+      "ngapak": "tembang",
+      "indonesia": "lagu"
+    },
+    {
+      "ngapak": "temen",
+      "indonesia": "sangat, sekali"
+    },
+    {
+      "ngapak": "temenan",
+      "indonesia": "benar / tidak bohong"
+    },
+    {
+      "ngapak": "temu",
+      "indonesia": "bertemu"
+    },
+    {
+      "ngapak": "temurun",
+      "indonesia": "turun"
+    },
+    {
+      "ngapak": "tenan",
+      "indonesia": "benar-benar"
+    },
+    {
+      "ngapak": "tengi",
+      "indonesia": "sedikit"
+    },
+    {
+      "ngapak": "tengu",
+      "indonesia": "binatang kecil merah"
+    },
+    {
+      "ngapak": "tepak",
+      "indonesia": "tepat"
+    },
+    {
+      "ngapak": "tepes",
+      "indonesia": "serabut kelapa"
+    },
+    {
+      "ngapak": "tepi",
+      "indonesia": "tepi"
+    },
+    {
+      "ngapak": "tesih",
+      "indonesia": "masih"
+    },
+    {
+      "ngapak": "tetep",
+      "indonesia": "tetap"
+    },
+    {
+      "ngapak": "teyeng",
+      "indonesia": "bisa"
+    },
+    {
+      "ngapak": "thukul",
+      "indonesia": "tumbuh"
+    },
+    {
+      "ngapak": "tidokna",
+      "indonesia": "menunjukkan / memperlihatkan"
+    },
+    {
+      "ngapak": "tilik",
+      "indonesia": "menjenguk"
+    },
+    {
+      "ngapak": "tindak",
+      "indonesia": "pergi"
+    },
+    {
+      "ngapak": "tindakne",
+      "indonesia": "melakukan"
+    },
+    {
+      "ngapak": "tingkring",
+      "indonesia": "duduk jongkok di atas kursi/benda"
+    },
+    {
+      "ngapak": "titis",
+      "indonesia": "tepat"
+    },
+    {
+      "ngapak": "tlaten",
+      "indonesia": "tekun / ulet"
+    },
+    {
+      "ngapak": "tluthuh",
+      "indonesia": "getah"
+    },
+    {
+      "ngapak": "tok",
+      "indonesia": "saja"
+    },
+    {
+      "ngapak": "tomo",
+      "indonesia": "semangat"
+    },
+    {
+      "ngapak": "tonggo",
+      "indonesia": "tetangga"
+    },
+    {
+      "ngapak": "tonton",
+      "indonesia": "menonton"
+    },
+    {
+      "ngapak": "top bangel",
+      "indonesia": "hati berdebar"
+    },
+    {
+      "ngapak": "topeng",
+      "indonesia": "topeng"
+    },
+    {
+      "ngapak": "trabatan",
+      "indonesia": "tenda"
+    },
+    {
+      "ngapak": "tresna",
+      "indonesia": "cinta"
+    },
+    {
+      "ngapak": "trima",
+      "indonesia": "terima"
+    },
+    {
+      "ngapak": "trukah",
+      "indonesia": "membuka lahan/usaha baru"
+    },
+    {
+      "ngapak": "tudung",
+      "indonesia": "caping petani"
+    },
+    {
+      "ngapak": "tugel",
+      "indonesia": "potong"
+    },
+    {
+      "ngapak": "tuku",
+      "indonesia": "beli"
+    },
+    {
+      "ngapak": "tuli/teli",
+      "indonesia": "partikel penegas"
+    },
+    {
+      "ngapak": "tulis",
+      "indonesia": "menulis"
+    },
+    {
+      "ngapak": "tulung",
+      "indonesia": "tolong"
+    },
+    {
+      "ngapak": "tum",
+      "indonesia": "dibungkus daun pisang"
+    },
+    {
+      "ngapak": "tuma",
+      "indonesia": "kutu kepala"
+    },
+    {
+      "ngapak": "tumpuk",
+      "indonesia": "menumpuk"
+    },
+    {
+      "ngapak": "tuna",
+      "indonesia": "kurang"
+    },
+    {
+      "ngapak": "tunggu",
+      "indonesia": "menunggu"
+    },
+    {
+      "ngapak": "turu",
+      "indonesia": "tidur"
+    },
+    {
+      "ngapak": "turut",
+      "indonesia": "sepanjang"
+    },
+    {
+      "ngapak": "tutup",
+      "indonesia": "menutup"
+    },
+    {
+      "ngapak": "tuwuh",
+      "indonesia": "tumbuh"
+    },
+    {
+      "ngapak": "ubad",
+      "indonesia": "obat"
+    },
+    {
+      "ngapak": "ubah",
+      "indonesia": "berubah"
+    },
+    {
+      "ngapak": "ubak",
+      "indonesia": "rambut pendek"
+    },
+    {
+      "ngapak": "ubang",
+      "indonesia": "berlubang"
+    },
+    {
+      "ngapak": "ubarampe",
+      "indonesia": "perlengkapan"
+    },
+    {
+      "ngapak": "ubed",
+      "indonesia": "memutar"
+    },
+    {
+      "ngapak": "ubeng",
+      "indonesia": "berkeliling"
+    },
+    {
+      "ngapak": "uber",
+      "indonesia": "mengejar"
+    },
+    {
+      "ngapak": "ubin",
+      "indonesia": "ubin / lantai"
+    },
+    {
+      "ngapak": "uble",
+      "indonesia": "meluap kecil"
+    },
+    {
+      "ngapak": "ublek",
+      "indonesia": "mengaduk"
+    },
+    {
+      "ngapak": "ubluk",
+      "indonesia": "jatuh"
+    },
+    {
+      "ngapak": "ubres",
+      "indonesia": "mendesak"
+    },
+    {
+      "ngapak": "ubrung",
+      "indonesia": "berkumpul"
+    },
+    {
+      "ngapak": "ucap",
+      "indonesia": "ucapan"
+    },
+    {
+      "ngapak": "ucek",
+      "indonesia": "menggosok"
+    },
+    {
+      "ngapak": "uceng",
+      "indonesia": "ikan kecil"
+    },
+    {
+      "ngapak": "ucik",
+      "indonesia": "ketus"
+    },
+    {
+      "ngapak": "ucong",
+      "indonesia": "anak kecil"
+    },
+    {
+      "ngapak": "ucul",
+      "indonesia": "lepas"
+    },
+    {
+      "ngapak": "udab",
+      "indonesia": "basah"
+    },
+    {
+      "ngapak": "udag",
+      "indonesia": "mendorong"
+    },
+    {
+      "ngapak": "udakara",
+      "indonesia": "kira-kira"
+    },
+    {
+      "ngapak": "udalan",
+      "indonesia": "perjalanan"
+    },
+    {
+      "ngapak": "udan",
+      "indonesia": "hujan"
+    },
+    {
+      "ngapak": "udang",
+      "indonesia": "udang"
+    },
+    {
+      "ngapak": "udeg",
+      "indonesia": "pusing"
+    },
+    {
+      "ngapak": "udek",
+      "indonesia": "memutar"
+    },
+    {
+      "ngapak": "udel",
+      "indonesia": "pusar"
+    },
+    {
+      "ngapak": "udeng",
+      "indonesia": "ikat kepala"
+    },
+    {
+      "ngapak": "uder",
+      "indonesia": "berputar"
+    },
+    {
+      "ngapak": "udhar",
+      "indonesia": "terurai"
+    },
+    {
+      "ngapak": "udhes",
+      "indonesia": "cepat"
+    },
+    {
+      "ngapak": "udhul",
+      "indonesia": "muncul"
+    },
+    {
+      "ngapak": "udhup",
+      "indonesia": "hidup"
+    },
+    {
+      "ngapak": "udu",
+      "indonesia": "bukan"
+    },
+    {
+      "ngapak": "udud",
+      "indonesia": "merokok"
+    },
+    {
+      "ngapak": "uga",
+      "indonesia": "juga"
+    },
+    {
+      "ngapak": "ujar",
+      "indonesia": "berkata"
+    },
+    {
+      "ngapak": "umah/omah",
+      "indonesia": "rumah"
+    },
+    {
+      "ngapak": "umbah-umbah",
+      "indonesia": "mencuci"
+    },
+    {
+      "ngapak": "umbel",
+      "indonesia": "mendidih"
+    },
+    {
+      "ngapak": "umpet",
+      "indonesia": "sembunyi"
+    },
+    {
+      "ngapak": "umuk",
+      "indonesia": "membual"
+    },
+    {
+      "ngapak": "untu",
+      "indonesia": "gigi"
+    },
+    {
+      "ngapak": "upul-upul",
+      "indonesia": "pagi masih samar"
+    },
+    {
+      "ngapak": "uri-uri",
+      "indonesia": "melestarikan budaya"
+    },
+    {
+      "ngapak": "urip",
+      "indonesia": "hidup"
+    },
+    {
+      "ngapak": "utawa",
+      "indonesia": "atau"
+    },
+    {
+      "ngapak": "uwan",
+      "indonesia": "uban"
+    },
+    {
+      "ngapak": "uyel-uyelan",
+      "indonesia": "desak-desakan"
+    },
+    {
+      "ngapak": "uying-uyingen",
+      "indonesia": "kurus lama"
+    },
+    {
+      "ngapak": "wadhah",
+      "indonesia": "tempat"
+    },
+    {
+      "ngapak": "wadhas",
+      "indonesia": "batu cadas"
+    },
+    {
+      "ngapak": "wadhéh",
+      "indonesia": "kesal"
+    },
+    {
+      "ngapak": "wadon",
+      "indonesia": "wanita"
+    },
+    {
+      "ngapak": "wagu",
+      "indonesia": "tidak pantas"
+    },
+    {
+      "ngapak": "waja",
+      "indonesia": "alat dapur logam"
+    },
+    {
+      "ngapak": "wakul",
+      "indonesia": "tempat nasi"
+    },
+    {
+      "ngapak": "walang",
+      "indonesia": "belalang"
+    },
+    {
+      "ngapak": "walik",
+      "indonesia": "balik"
+    },
+    {
+      "ngapak": "waléh",
+      "indonesia": "mengaku / terus terang"
+    },
+    {
+      "ngapak": "wangsul",
+      "indonesia": "kembali"
+    },
+    {
+      "ngapak": "wani",
+      "indonesia": "berani"
+    },
+    {
+      "ngapak": "wareg",
+      "indonesia": "kenyang"
+    },
+    {
+      "ngapak": "warni",
+      "indonesia": "warna"
+    },
+    {
+      "ngapak": "wasis",
+      "indonesia": "pandai"
+    },
+    {
+      "ngapak": "wasuh",
+      "indonesia": "cuci"
+    },
+    {
+      "ngapak": "wates",
+      "indonesia": "batas"
+    },
+    {
+      "ngapak": "waton",
+      "indonesia": "patokan"
+    },
+    {
+      "ngapak": "watu",
+      "indonesia": "batu"
+    },
+    {
+      "ngapak": "watuk",
+      "indonesia": "batuk"
+    },
+    {
+      "ngapak": "wayah",
+      "indonesia": "waktu"
+    },
+    {
+      "ngapak": "wedang",
+      "indonesia": "minuman"
+    },
+    {
+      "ngapak": "wedhi",
+      "indonesia": "pasir"
+    },
+    {
+      "ngapak": "wedhus",
+      "indonesia": "kambing"
+    },
+    {
+      "ngapak": "wedi",
+      "indonesia": "takut"
+    },
+    {
+      "ngapak": "wegah",
+      "indonesia": "tidak mau"
+    },
+    {
+      "ngapak": "wei",
+      "indonesia": "memberi"
+    },
+    {
+      "ngapak": "weken",
+      "indonesia": "memberi"
+    },
+    {
+      "ngapak": "weleh",
+      "indonesia": "pasrah"
+    },
+    {
+      "ngapak": "weling",
+      "indonesia": "nasihat"
+    },
+    {
+      "ngapak": "welut",
+      "indonesia": "belut"
+    },
+    {
+      "ngapak": "wengi",
+      "indonesia": "malam"
+    },
+    {
+      "ngapak": "werna",
+      "indonesia": "warna"
+    },
+    {
+      "ngapak": "weruh",
+      "indonesia": "melihat"
+    },
+    {
+      "ngapak": "weruhna",
+      "indonesia": "mengetahui"
+    },
+    {
+      "ngapak": "wetan",
+      "indonesia": "timur"
+    },
+    {
+      "ngapak": "weteng",
+      "indonesia": "perut"
+    },
+    {
+      "ngapak": "weton",
+      "indonesia": "hari lahir menurut kalender jawa"
+    },
+    {
+      "ngapak": "wilangan",
+      "indonesia": "bilangan"
+    },
+    {
+      "ngapak": "wilujeng",
+      "indonesia": "selamat"
+    },
+    {
+      "ngapak": "wingi",
+      "indonesia": "kemarin"
+    },
+    {
+      "ngapak": "wingking",
+      "indonesia": "belakang"
+    },
+    {
+      "ngapak": "wirang",
+      "indonesia": "malu"
+    },
+    {
+      "ngapak": "wirid",
+      "indonesia": "doa"
+    },
+    {
+      "ngapak": "wis",
+      "indonesia": "sudah"
+    },
+    {
+      "ngapak": "wisuh",
+      "indonesia": "cuci tangan/kaki"
+    },
+    {
+      "ngapak": "wit",
+      "indonesia": "pohon"
+    },
+    {
+      "ngapak": "witing",
+      "indonesia": "asal"
+    },
+    {
+      "ngapak": "wiwit",
+      "indonesia": "mulai"
+    },
+    {
+      "ngapak": "wiyos",
+      "indonesia": "lahir"
+    },
+    {
+      "ngapak": "woh",
+      "indonesia": "buah"
+    },
+    {
+      "ngapak": "wong",
+      "indonesia": "orang"
+    },
+    {
+      "ngapak": "wuled",
+      "indonesia": "kuat"
+    },
+    {
+      "ngapak": "yayu/ayune",
+      "indonesia": "kakak perempuan / mbak"
+    },
+    {
+      "ngapak": "yen",
+      "indonesia": "jika"
+    },
+    {
+      "ngapak": "yuh",
+      "indonesia": "ayo"
+    },
+    {
+      "ngapak": "yuyu",
+      "indonesia": "kepiting"
+    },
+    {
+      "ngapak": "dableg",
+      "indonesia": "bandel"
+    },
+    {
+      "ngapak": "dadak",
+      "indonesia": "tiba-tiba"
+    },
+    {
+      "ngapak": "dahar",
+      "indonesia": "makan"
+    },
+    {
+      "ngapak": "dalan",
+      "indonesia": "jalan"
+    },
+    {
+      "ngapak": "dalem",
+      "indonesia": "dalam"
+    },
+    {
+      "ngapak": "dalu",
+      "indonesia": "malam"
+    },
+    {
+      "ngapak": "damel",
+      "indonesia": "membuat"
+    },
+    {
+      "ngapak": "dana",
+      "indonesia": "dana"
+    },
+    {
+      "ngapak": "dandang",
+      "indonesia": "periuk besar"
+    },
+    {
+      "ngapak": "dangdut",
+      "indonesia": "musik dangdut"
+    },
+    {
+      "ngapak": "darma",
+      "indonesia": "kewajiban"
+    },
+    {
+      "ngapak": "dasa",
+      "indonesia": "sepuluh"
+    },
+    {
+      "ngapak": "dawuh",
+      "indonesia": "perintah"
+    },
+    {
+      "ngapak": "daya",
+      "indonesia": "kekuatan"
+    },
+    {
+      "ngapak": "degil",
+      "indonesia": "keras kepala"
+    },
+    {
+      "ngapak": "dehem",
+      "indonesia": "batuk kecil"
+    },
+    {
+      "ngapak": "delok",
+      "indonesia": "melihat"
+    },
+    {
+      "ngapak": "demen",
+      "indonesia": "suka"
+    },
+    {
+      "ngapak": "demit",
+      "indonesia": "hantu"
+    },
+    {
+      "ngapak": "dhuwur",
+      "indonesia": "atas"
+    },
+    {
+      "ngapak": "dhuwit",
+      "indonesia": "uang"
+    },
+    {
+      "ngapak": "dinas",
+      "indonesia": "dinas"
+    },
+    {
+      "ngapak": "dindhing",
+      "indonesia": "dinding"
+    },
+    {
+      "ngapak": "dodol",
+      "indonesia": "jual"
+    },
+    {
+      "ngapak": "dolan",
+      "indonesia": "jalan-jalan"
+    },
+    {
+      "ngapak": "donga",
+      "indonesia": "doa"
+    },
+    {
+      "ngapak": "doyan",
+      "indonesia": "suka"
+    },
+    {
+      "ngapak": "drajat",
+      "indonesia": "derajat"
+    },
+    {
+      "ngapak": "drama",
+      "indonesia": "drama"
+    },
+    {
+      "ngapak": "duga",
+      "indonesia": "duga"
+    },
+    {
+      "ngapak": "duh",
+      "indonesia": "aduh"
+    },
+    {
+      "ngapak": "duka",
+      "indonesia": "duka"
+    },
+    {
+      "ngapak": "dukuh",
+      "indonesia": "kampung kecil"
+    },
+    {
+      "ngapak": "dumateng",
+      "indonesia": "kepada"
+    },
+    {
+      "ngapak": "dumugi",
+      "indonesia": "sampai"
+    },
+    {
+      "ngapak": "dumunung",
+      "indonesia": "berada"
+    },
+    {
+      "ngapak": "dumunungi",
+      "indonesia": "ditempati"
+    },
+    {
+      "ngapak": "dumunungke",
+      "indonesia": "menempatkan"
+    },
+    {
+      "ngapak": "dunung",
+      "indonesia": "tempat"
+    },
+    {
+      "ngapak": "dununge",
+      "indonesia": "tempatnya"
+    },
+    {
+      "ngapak": "dunya",
+      "indonesia": "dunia"
+    },
+    {
+      "ngapak": "dusta",
+      "indonesia": "bohong"
+    },
+    {
+      "ngapak": "dutu",
+      "indonesia": "bukan"
+    },
+    {
+      "ngapak": "ebab",
+      "indonesia": "sebab"
+    },
+    {
+      "ngapak": "ebeg",
+      "indonesia": "kuda lumping"
+    },
+    {
+      "ngapak": "eblek",
+      "indonesia": "jatuh"
+    },
+    {
+      "ngapak": "eblok",
+      "indonesia": "terbuka lebar"
+    },
+    {
+      "ngapak": "ebrus",
+      "indonesia": "tergesa"
+    },
+    {
+      "ngapak": "edab",
+      "indonesia": "basah"
+    },
+    {
+      "ngapak": "edeg",
+      "indonesia": "berdiri"
+    },
+    {
+      "ngapak": "edheng",
+      "indonesia": "dingin"
+    },
+    {
+      "ngapak": "edhul",
+      "indonesia": "muncul"
+    },
+    {
+      "ngapak": "eduk",
+      "indonesia": "mengaduk"
+    },
+    {
+      "ngapak": "edum",
+      "indonesia": "membagi"
+    },
+    {
+      "ngapak": "edun",
+      "indonesia": "turun"
+    },
+    {
+      "ngapak": "egas",
+      "indonesia": "tegas"
+    },
+    {
+      "ngapak": "eguh",
+      "indonesia": "kokoh"
+    },
+    {
+      "ngapak": "ejeg",
+      "indonesia": "tetap"
+    },
+    {
+      "ngapak": "ekel",
+      "indonesia": "peluk"
+    },
+    {
+      "ngapak": "eleh",
+      "indonesia": "kalah"
+    },
+    {
+      "ngapak": "elok",
+      "indonesia": "bagus"
+    },
+    {
+      "ngapak": "elus",
+      "indonesia": "mengelus"
+    },
+    {
+      "ngapak": "emban",
+      "indonesia": "mengasuh"
+    },
+    {
+      "ngapak": "embuh",
+      "indonesia": "tidak tahu"
+    },
+    {
+      "ngapak": "embul",
+      "indonesia": "keluar asap"
+    },
+    {
+      "ngapak": "embun",
+      "indonesia": "embun"
+    },
+    {
+      "ngapak": "emut",
+      "indonesia": "mengisap"
+    },
+    {
+      "ngapak": "endhek",
+      "indonesia": "rendah"
+    },
+    {
+      "ngapak": "endhog",
+      "indonesia": "telur"
+    },
+    {
+      "ngapak": "endhogé",
+      "indonesia": "telurnya"
+    },
+    {
+      "ngapak": "endhogna",
+      "indonesia": "bertelur"
+    },
+    {
+      "ngapak": "endhog-endhogan",
+      "indonesia": "telur-teluran"
+    },
+    {
+      "ngapak": "endhut",
+      "indonesia": "mengambil"
+    },
+    {
+      "ngapak": "endog",
+      "indonesia": "telur"
+    },
+    {
+      "ngapak": "enggal",
+      "indonesia": "cepat"
+    },
+    {
+      "ngapak": "enggo",
+      "indonesia": "memakai"
+    },
+    {
+      "ngapak": "engko",
+      "indonesia": "nanti"
+    },
+    {
+      "ngapak": "engsel",
+      "indonesia": "engsel"
+    },
+    {
+      "ngapak": "entek",
+      "indonesia": "habis"
+    },
+    {
+      "ngapak": "entheng",
+      "indonesia": "ringan"
+    },
+    {
+      "ngapak": "entut",
+      "indonesia": "kentut"
+    },
+    {
+      "ngapak": "enyak",
+      "indonesia": "enak"
+    },
+    {
+      "ngapak": "enyuh",
+      "indonesia": "lelah"
+    },
+    {
+      "ngapak": "enyut",
+      "indonesia": "menyedot"
+    },
+    {
+      "ngapak": "ecek",
+      "indonesia": "sepele"
+    },
+    {
+      "ngapak": "ejog",
+      "indonesia": "duduk"
+    },
+    {
+      "ngapak": "embuhke",
+      "indonesia": "membiarkan"
+    },
+    {
+      "ngapak": "enep",
+      "indonesia": "cukup"
+    },
+    {
+      "ngapak": "engker",
+      "indonesia": "mengikat"
+    },
+    {
+      "ngapak": "enthel",
+      "indonesia": "lunak"
+    },
+    {
+      "ngapak": "egot",
+      "indonesia": "kaku"
+    }
+  ]
+}

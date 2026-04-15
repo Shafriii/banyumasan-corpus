@@ -1,0 +1,52 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "banyumasan-corpus"
+version = "0.1.0"
+description = "A Banyumasan (Ngapak) to Indonesian corpus packaged for Python."
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+authors = [
+  { name = "YOUR NAME", email = "your.email@example.com" },
+]
+keywords = [
+  "banyumasan",
+  "ngapak",
+  "indonesian",
+  "corpus",
+  "dictionary",
+  "nlp",
+]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Developers",
+  "Intended Audience :: Science/Research",
+  "Natural Language :: Indonesian",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Topic :: Scientific/Engineering :: Information Analysis",
+  "Topic :: Text Processing :: Linguistic",
+]
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/your-username/banyumasan-corpus"
+Repository = "https://github.com/your-username/banyumasan-corpus"
+Issues = "https://github.com/your-username/banyumasan-corpus/issues"
+
+[tool.setuptools]
+package-dir = { "" = "src" }
+include-package-data = false
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+banyumasan_corpus = ["data/*.json"]
